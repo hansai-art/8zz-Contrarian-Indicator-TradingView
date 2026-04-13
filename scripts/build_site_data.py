@@ -364,8 +364,12 @@ def compute_outcomes_mode_b(events: list[dict], all_prices: dict[str, dict[str, 
             flip["outcome"] = "open"
         elif pnl_pct > 0:
             flip["outcome"] = "win"
-        elif pnl_pct < 0:
+        elif pnl_pct < 0 and flip["direction"] == -1:
+            # Only bearish (short) signals count as a loss when wrong;
+            # bullish (long) signals that fall slightly are treated as flat.
             flip["outcome"] = "loss"
+        elif pnl_pct < 0 and flip["direction"] == 1:
+            flip["outcome"] = "flat"
         else:
             flip["outcome"] = "flat"
 
@@ -449,8 +453,10 @@ def compute_outcomes_mode_a(
 
         if pnl_pct_a > 0:
             flip["outcome_a"] = "win"
-        elif pnl_pct_a < 0:
+        elif pnl_pct_a < 0 and flip["direction"] == -1:
             flip["outcome_a"] = "loss"
+        elif pnl_pct_a < 0 and flip["direction"] == 1:
+            flip["outcome_a"] = "flat"
         else:
             flip["outcome_a"] = "flat"
 
@@ -468,7 +474,9 @@ def _build_mode_stats(
     losses = [f for f in resolved if f[outcome_key] == "loss"]
     open_flips = [f for f in flips if f.get(outcome_key) == "open"]
 
-    win_rate = len(wins) / len(resolved) * 100 if resolved else 0
+    # Denominator: wins + losses + open (flat = 0% or long-side miss, excluded from rate)
+    denom = len(wins) + len(losses) + len(open_flips)
+    win_rate = len(wins) / denom * 100 if denom else 0
     pnls = [f[pnl_key] for f in resolved if f.get(pnl_key) is not None]
     avg_pnl = sum(pnls) / len(pnls) if pnls else 0
 

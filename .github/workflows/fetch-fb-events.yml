@@ -77,5 +77,13 @@ jobs:
           else
             EVENT_COUNT=$(grep -c "array.push(evt_time," 8zz-indicator.pine || echo "?")
             git commit -m "auto: inject new FB events (total events: ${EVENT_COUNT})"
-            git push
+            # Pull --rebase first to avoid non-fast-forward failures caused by
+            # concurrent manual pushes, then push with retry logic.
+            git pull --rebase origin main
+            for attempt in 1 2 3; do
+              git push && break
+              echo "Push attempt ${attempt} failed, retrying in 10s…"
+              sleep 10
+              git pull --rebase origin main
+            done
           fi

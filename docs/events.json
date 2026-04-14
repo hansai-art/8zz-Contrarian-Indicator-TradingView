@@ -1,12 +1,12 @@
 {
   "stats": {
-    "generated_at": "2026-04-13T15:54:44.281006+00:00",
+    "generated_at": "2026-04-14T04:10:20.633843+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
-    "total_events": 65,
-    "total_flips": 44,
+    "total_events": 67,
+    "total_flips": 45,
     "resolved_flips": 0,
-    "open_flips": 0,
+    "open_flips": 1,
     "wins": 0,
     "losses": 0,
     "win_rate": 0.0,
@@ -36,7 +36,7 @@
     },
     "mode_b": {
       "resolved_flips": 0,
-      "open_flips": 0,
+      "open_flips": 1,
       "wins": 0,
       "losses": 0,
       "win_rate": 0.0,
@@ -67,7 +67,7 @@
     },
     "mode_a": {
       "resolved_flips": 0,
-      "open_flips": 44,
+      "open_flips": 45,
       "wins": 0,
       "losses": 0,
       "win_rate": 0.0,
@@ -1382,6 +1382,42 @@
       "ticker": "6139.TW",
       "ticker_is_fallback": false,
       "is_flip": false
+    },
+    {
+      "unix_ms": 1776042564000,
+      "date": "2026-04-13",
+      "time_utc": "2026-04-13T01:09:24+00:00",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 1,
+      "strength_label": "★☆☆",
+      "tooltip": "心態穩\n指標: 偏空 ▼ | 強度: ★☆☆\nFB 04/13 01:09 開低走高不用怕吧 今天的我的心態很穩的 不過局勢不穩，今天不會加倉～  我要開會了，大家收盤後見啦",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1776095943000,
+      "date": "2026-04-13",
+      "time_utc": "2026-04-13T15:59:03+00:00",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "停損\n指標: 偏多 ▲ | 強度: ★★★\nFB 04/13 15:59 這篇沒有名牌 只是因為私訊問我是不是有開群組啊 今天怎麼沒開示啊 為什麼還沒有對帳單啊 的人實在太多了   我也不...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": true,
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "open",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     }
   ],
   "equity_curves": {

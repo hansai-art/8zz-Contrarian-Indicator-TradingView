@@ -153,6 +153,8 @@ _SYSTEM = """你是「8zz 反指標」系統的情緒分析器，專門分析台
 - 發文者明確說「完全沒想法」、「不知道要買什麼」、「隨便」等，代表本人無投資立場 → direction: 0
 - 被動觀察持倉狀態，如「還沒到停損範圍」、「繼續持有看看」，沒有伴隨強烈情緒 → direction: 0
   （注意：「還沒停損」和「已停損」是完全不同的！否定句不算停損訊號）
+- 粉絲/追蹤者「問他要對帳單」、「問他為什麼沒貼對帳單」→ 這是關於粉絲行為的抱怨，發文者沒有自己曬單，一律 direction: 0
+  （判斷方式：誰在問？誰在曬？「別人問我要對帳單」≠「我自己貼出對帳單」）
 
 direction:
   1  = 偏多 ▲（恐慌/痛苦/被套 → 市場可能近底部）
@@ -190,6 +192,8 @@ _EXAMPLES = [
     {"role": "assistant", "content": '{"direction": 0, "strength": 1, "action": "", "ticker": "", "reasoning": "發文者明確說完全沒想法，且提到的是還沒到停損範圍（否定句，代表被動持有非停損動作），屬於閒聊非訊號，跳過"}'},
     {"role": "user",      "content": "今天衝啊啊啊啊！！！今天大回血了❤️ 一定會更好的！！ 突然想到，被動元件好像炒的沒有pcb/abf跟記憶體兇，感覺可以補一下 日月光只是看ADR很猛，掛著買看看好了\n[委托單截圖]\n日月光投控 委託成功\n尖點 全部成交\n尖點 全部取消"},
     {"role": "assistant", "content": '{"direction": -1, "strength": 3, "action": "追買(委托單)", "ticker": "3711.TW", "reasoning": "極度亢奮FOMO追買，更有委托單截圖證明已真實下單，強度強制升為3，強烈偏空訊號"}'},
+    {"role": "user",      "content": "這篇沒有名牌 只是因為私訊問我是不是有開群組啊 今天怎麼沒開示啊 為什麼還沒有對帳單啊 的人實在太多了 我也不..."},
+    {"role": "assistant", "content": '{"direction": 0, "strength": 1, "action": "", "ticker": "", "reasoning": "粉絲在問發文者要對帳單，是關於粉絲行為的抱怨，發文者沒有自己曬單或做任何投資動作，跳過"}'},
 ]
 
 
@@ -380,6 +384,11 @@ def main() -> None:
             strength = boost_strength_if_order_proof(text, direction, strength)
             print(f"  [keyword] dir={direction} str={strength} action='{action}' | {text[:40]}")
 
+        # Always advance the state pointer — even direction=0 posts must not be
+        # re-processed on the next run (otherwise skipped posts loop forever).
+        if unix_ms > latest_unix_ms:
+            latest_unix_ms = unix_ms
+
         if direction == 0:
             print(f"  → direction=0, not investment-related, skipping")
             continue
@@ -392,8 +401,6 @@ def main() -> None:
             "ticker":    ticker,
             "tooltip":   tooltip,
         })
-        if unix_ms > latest_unix_ms:
-            latest_unix_ms = unix_ms
 
     new_events.sort(key=lambda e: e["unix_ms"])
     OUTPUT_FILE.write_text(
@@ -401,11 +408,12 @@ def main() -> None:
         encoding="utf-8",
     )
 
+    # Always save the furthest-seen timestamp so skipped (direction=0) posts
+    # are never re-processed on the next run.
+    save_state(latest_unix_ms)
     if new_events:
-        save_state(latest_unix_ms)
         print(f"✅ {len(new_events)} new event(s) written to {OUTPUT_FILE}")
     else:
-        save_state(last_unix_ms)
         print("ℹ️  No new classifiable events found this run.")
 
 

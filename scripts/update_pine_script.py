@@ -28,9 +28,10 @@ ROOT = Path(__file__).resolve().parent.parent
 PINE_FILE = ROOT / "8zz-indicator.pine"
 EVENTS_FILE = ROOT / "data" / "new_events.json"
 
-# Marker that ends the event-injection block inside `if barstate.isfirst`
-# We look for the first blank line after the last array.push call.
-LAST_PUSH_PATTERN = re.compile(r"^\s+array\.push\(evt_tips,")
+# Marker that ends the event-injection block inside `if barstate.isfirst`.
+# Each event block ends with evt_ticker, so we insert after the last evt_ticker line.
+# (Using evt_tips would insert inside the last event's block, displacing its ticker.)
+LAST_PUSH_PATTERN = re.compile(r"^\s+array\.push\(evt_ticker,")
 
 # Header comment pattern (matches the 事件: NNN筆 line)
 HEADER_COUNT_PATTERN = re.compile(

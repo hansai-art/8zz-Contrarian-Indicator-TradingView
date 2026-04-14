@@ -150,6 +150,9 @@ _SYSTEM = """你是「8zz 反指標」系統的情緒分析器，專門分析台
 - 聊天氣、運動、飲食、旅遊等生活日常
 - 轉貼新聞、評論時事，但沒有明確提到自己的持倉或交易動作
 - 情緒模糊、無法判斷是否與投資有關的貼文
+- 發文者明確說「完全沒想法」、「不知道要買什麼」、「隨便」等，代表本人無投資立場 → direction: 0
+- 被動觀察持倉狀態，如「還沒到停損範圍」、「繼續持有看看」，沒有伴隨強烈情緒 → direction: 0
+  （注意：「還沒停損」和「已停損」是完全不同的！否定句不算停損訊號）
 
 direction:
   1  = 偏多 ▲（恐慌/痛苦/被套 → 市場可能近底部）
@@ -181,6 +184,8 @@ _EXAMPLES = [
     {"role": "assistant", "content": '{"direction": 0, "strength": 1, "action": "", "ticker": "", "reasoning": "抱怨被人跟單當工具，無具體投資動作，跳過"}'},
     {"role": "user",      "content": "yeah~ 來錄影了，如果大家都把我寫成工具…"},
     {"role": "assistant", "content": '{"direction": 0, "strength": 1, "action": "", "ticker": "", "reasoning": "活動通知兼抱怨被跟單，非投資貼文，跳過"}'},
+    {"role": "user",      "content": "花了我250元買的錄面，說什麼都要炫富一下 不要問我明天買啥了… 我完全沒想法😅! 跌的也還沒到停損範圍，就放著"},
+    {"role": "assistant", "content": '{"direction": 0, "strength": 1, "action": "", "ticker": "", "reasoning": "發文者明確說完全沒想法，且提到的是還沒到停損範圍（否定句，代表被動持有非停損動作），屬於閒聊非訊號，跳過"}'},
 ]
 
 
@@ -244,11 +249,27 @@ SENTIMENT_RULES: list[tuple[list[str], int, int]] = [
 ]
 
 
+# Negation prefixes: if any of these appear immediately before a keyword,
+# the keyword match is suppressed (e.g. "還沒停損" should NOT trigger "停損").
+_NEGATION_PREFIXES = ["還沒", "沒有", "沒到", "未到", "不用", "不會", "不必"]
+
+
 def classify_with_keywords(text: str) -> tuple[int, int, str] | None:
+    # Skip posts where the author explicitly states they have no investment idea.
+    no_signal_phrases = ["完全沒想法", "沒有想法", "不知道要買", "不知道買什麼", "完全不知道"]
+    if any(phrase in text for phrase in no_signal_phrases):
+        return None
+
     for keywords, direction, strength in SENTIMENT_RULES:
         for kw in keywords:
-            if kw in text:
-                return direction, strength, kw
+            idx = text.find(kw)
+            if idx == -1:
+                continue
+            # Check if the keyword is preceded by a negation prefix
+            prefix_window = text[max(0, idx - 4):idx]
+            if any(neg in prefix_window for neg in _NEGATION_PREFIXES):
+                continue
+            return direction, strength, kw
     return None
 
 

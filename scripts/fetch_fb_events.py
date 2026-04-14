@@ -161,6 +161,8 @@ direction:
 
 strength（情緒強度）:
   1 = 輕微  2 = 明顯  3 = 極端（爆倉/漲停追買/歡天喜地）
+  ★ 強制規則：如果貼文出現「委託成功」「全部成交」「部分成交」「委託狀態」「掛單成功」等
+    委托單截圖的文字，代表已真金白銀下單，強度一律設為 3（不論其他情緒強弱）
 
 ticker:
 - 貼文明確提到特定標的 → 輸出 yfinance ticker（如 5274.TWO、TSM、0050.TW、GLD、BTCUSDT）
@@ -186,6 +188,8 @@ _EXAMPLES = [
     {"role": "assistant", "content": '{"direction": 0, "strength": 1, "action": "", "ticker": "", "reasoning": "活動通知兼抱怨被跟單，非投資貼文，跳過"}'},
     {"role": "user",      "content": "花了我250元買的錄面，說什麼都要炫富一下 不要問我明天買啥了… 我完全沒想法😅! 跌的也還沒到停損範圍，就放著"},
     {"role": "assistant", "content": '{"direction": 0, "strength": 1, "action": "", "ticker": "", "reasoning": "發文者明確說完全沒想法，且提到的是還沒到停損範圍（否定句，代表被動持有非停損動作），屬於閒聊非訊號，跳過"}'},
+    {"role": "user",      "content": "今天衝啊啊啊啊！！！今天大回血了❤️ 一定會更好的！！ 突然想到，被動元件好像炒的沒有pcb/abf跟記憶體兇，感覺可以補一下 日月光只是看ADR很猛，掛著買看看好了\n[委托單截圖]\n日月光投控 委託成功\n尖點 全部成交\n尖點 全部取消"},
+    {"role": "assistant", "content": '{"direction": -1, "strength": 3, "action": "追買(委托單)", "ticker": "3711.TW", "reasoning": "極度亢奮FOMO追買，更有委托單截圖證明已真實下單，強度強制升為3，強烈偏空訊號"}'},
 ]
 
 
@@ -273,6 +277,26 @@ def classify_with_keywords(text: str) -> tuple[int, int, str] | None:
     return None
 
 
+# ── Order-proof strength booster ─────────────────────────────────────────────
+# When a post contains actual order confirmation text (委托單截圖內文), the person
+# has provably committed real money → strongest contrarian signal regardless of
+# how the AI or keyword rules scored the emotion intensity.
+_ORDER_CONFIRMATION_PHRASES = [
+    "委託成功", "委托成功",
+    "全部成交", "部分成交",
+    "委託狀態", "委托狀態",
+    "掛單成功", "下單成功",
+    "委託單", "委托單",
+]
+
+
+def boost_strength_if_order_proof(text: str, direction: int, strength: int) -> int:
+    """Return strength=3 if the post contains order confirmation phrases and is a signal."""
+    if direction != 0 and any(phrase in text for phrase in _ORDER_CONFIRMATION_PHRASES):
+        return 3
+    return strength
+
+
 # ── Tooltip builder ───────────────────────────────────────────────────────────
 
 def build_tooltip(post_text: str, direction: int, strength: int, action: str, dt: datetime) -> str:
@@ -345,6 +369,7 @@ def main() -> None:
             strength  = ai["strength"]
             action    = ai["action"]
             ticker    = ai["ticker"]
+            strength  = boost_strength_if_order_proof(text, direction, strength)
             print(f"  [Gemini] dir={direction} str={strength} action='{action}' ticker='{ticker or '(0050)'}' | {text[:40]}")
         else:
             kw = classify_with_keywords(text)
@@ -352,6 +377,7 @@ def main() -> None:
                 print(f"  [keyword] no match – skipping | {text[:40]}")
                 continue
             direction, strength, action = kw
+            strength = boost_strength_if_order_proof(text, direction, strength)
             print(f"  [keyword] dir={direction} str={strength} action='{action}' | {text[:40]}")
 
         if direction == 0:

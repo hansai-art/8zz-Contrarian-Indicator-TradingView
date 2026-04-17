@@ -1,9 +1,9 @@
 {
   "stats": {
-    "generated_at": "2026-04-16T16:02:52.330200+00:00",
+    "generated_at": "2026-04-17T04:12:24.957953+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
-    "total_events": 66,
+    "total_events": 67,
     "total_flips": 44,
     "resolved_flips": 0,
     "open_flips": 3,
@@ -1392,6 +1392,19 @@
       "strength": 1,
       "strength_label": "★☆☆",
       "tooltip": "心態穩\n指標: 偏空 ▼ | 強度: ★☆☆\nFB 04/13 01:09 開低走高不用怕吧 今天的我的心態很穩的 不過局勢不穩，今天不會加倉～  我要開會了，大家收盤後見啦",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1776389208000,
+      "date": "2026-04-17",
+      "time_utc": "2026-04-17T01:26:48+00:00",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "漲停買\n指標: 偏空 ▼ | 強度: ★★★\nFB 04/17 01:26 嘿！ 你以為我忘記買聯電了嗎！？ 好啦， 我真的忘記， 我是看到群組在喊才想起來的✌️  今天沒漲停買到了～（雖然...",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false

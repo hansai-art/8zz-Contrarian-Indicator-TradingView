@@ -1,98 +1,98 @@
 {
   "stats": {
-    "generated_at": "2026-04-23T16:16:23.317913+00:00",
+    "generated_at": "2026-04-24T04:17:29.475852+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
     "total_events": 67,
     "total_flips": 44,
-    "resolved_flips": 41,
+    "resolved_flips": 0,
     "open_flips": 3,
-    "wins": 32,
-    "losses": 3,
-    "win_rate": 84.2,
-    "avg_pnl_pct": 3.4,
-    "bullish_flips": 22,
-    "bullish_wins": 18,
-    "bullish_win_rate": 81.8,
-    "bearish_flips": 19,
-    "bearish_wins": 14,
-    "bearish_win_rate": 73.7,
+    "wins": 0,
+    "losses": 0,
+    "win_rate": 0.0,
+    "avg_pnl_pct": 0,
+    "bullish_flips": 0,
+    "bullish_wins": 0,
+    "bullish_win_rate": 0,
+    "bearish_flips": 0,
+    "bearish_wins": 0,
+    "bearish_win_rate": 0,
     "by_strength": {
       "1": {
-        "total": 4,
-        "wins": 3,
-        "win_rate": 75.0
+        "total": 0,
+        "wins": 0,
+        "win_rate": 0
       },
       "2": {
-        "total": 26,
-        "wins": 21,
-        "win_rate": 80.8
+        "total": 0,
+        "wins": 0,
+        "win_rate": 0
       },
       "3": {
-        "total": 11,
-        "wins": 8,
-        "win_rate": 72.7
+        "total": 0,
+        "wins": 0,
+        "win_rate": 0
       }
     },
     "mode_b": {
-      "resolved_flips": 41,
+      "resolved_flips": 0,
       "open_flips": 3,
-      "wins": 32,
-      "losses": 3,
-      "win_rate": 84.2,
-      "avg_pnl_pct": 3.4,
-      "bullish_flips": 22,
-      "bullish_wins": 18,
-      "bullish_win_rate": 81.8,
-      "bearish_flips": 19,
-      "bearish_wins": 14,
-      "bearish_win_rate": 73.7,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "bullish_flips": 0,
+      "bullish_wins": 0,
+      "bullish_win_rate": 0,
+      "bearish_flips": 0,
+      "bearish_wins": 0,
+      "bearish_win_rate": 0,
       "by_strength": {
         "1": {
-          "total": 4,
-          "wins": 3,
-          "win_rate": 75.0
+          "total": 0,
+          "wins": 0,
+          "win_rate": 0
         },
         "2": {
-          "total": 26,
-          "wins": 21,
-          "win_rate": 80.8
+          "total": 0,
+          "wins": 0,
+          "win_rate": 0
         },
         "3": {
-          "total": 11,
-          "wins": 8,
-          "win_rate": 72.7
+          "total": 0,
+          "wins": 0,
+          "win_rate": 0
         }
       }
     },
     "mode_a": {
-      "resolved_flips": 42,
-      "open_flips": 2,
-      "wins": 32,
-      "losses": 8,
-      "win_rate": 76.2,
-      "avg_pnl_pct": 4.13,
-      "bullish_flips": 21,
-      "bullish_wins": 19,
-      "bullish_win_rate": 90.5,
-      "bearish_flips": 21,
-      "bearish_wins": 13,
-      "bearish_win_rate": 61.9,
+      "resolved_flips": 0,
+      "open_flips": 44,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "bullish_flips": 0,
+      "bullish_wins": 0,
+      "bullish_win_rate": 0,
+      "bearish_flips": 0,
+      "bearish_wins": 0,
+      "bearish_win_rate": 0,
       "by_strength": {
         "1": {
-          "total": 4,
-          "wins": 3,
-          "win_rate": 75.0
+          "total": 0,
+          "wins": 0,
+          "win_rate": 0
         },
         "2": {
-          "total": 26,
-          "wins": 19,
-          "win_rate": 73.1
+          "total": 0,
+          "wins": 0,
+          "win_rate": 0
         },
         "3": {
-          "total": 12,
-          "wins": 10,
-          "win_rate": 83.3
+          "total": 0,
+          "wins": 0,
+          "win_rate": 0
         }
       }
     }
@@ -110,16 +110,16 @@
       "ticker": "TSM",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2025-12-03",
-      "entry_price": 292.97,
-      "exit_date": "2025-12-11T20",
-      "exit_price": 304.87,
-      "pnl_pct": 4.06,
-      "outcome": "win",
-      "exit_date_a": "2025-12-29",
-      "exit_price_a": 301.16,
-      "pnl_pct_a": 2.8,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1765162380000,
@@ -146,16 +146,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2025-12-11T02",
-      "entry_price": 62.65,
-      "exit_date": "2025-12-12T01",
-      "exit_price": 63.8,
-      "pnl_pct": 1.84,
-      "outcome": "win",
-      "exit_date_a": "2025-12-11T19",
-      "exit_price_a": 64.18,
-      "pnl_pct_a": 2.45,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1765504200000,
@@ -169,16 +169,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2025-12-12T01",
-      "entry_price": 63.6,
-      "exit_date": "2025-12-15",
-      "exit_price": 62.75,
-      "pnl_pct": 1.34,
-      "outcome": "win",
-      "exit_date_a": "2025-12-17T03",
-      "exit_price_a": 62.4,
-      "pnl_pct_a": 1.89,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1765599000000,
@@ -192,16 +192,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2025-12-12T21",
-      "entry_price": 62.08,
-      "exit_date": "2025-12-21",
-      "exit_price": 67.76,
-      "pnl_pct": 9.15,
-      "outcome": "win",
-      "exit_date_a": "2025-12-15T15",
-      "exit_price_a": 63.85,
-      "pnl_pct_a": 2.85,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1765845780000,
@@ -241,16 +241,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2025-12-22",
-      "entry_price": 63.15,
-      "exit_date": "2026-01-07T01",
-      "exit_price": 69.9,
-      "pnl_pct": -10.69,
-      "outcome": "loss",
-      "exit_date_a": "2026-01-16",
-      "exit_price_a": 71.35,
-      "pnl_pct_a": -12.98,
-      "outcome_a": "loss"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1767316140000,
@@ -277,16 +277,16 @@
       "ticker": "2330.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-01-06",
-      "entry_price": 1670.0,
-      "exit_date": "2026-01-07T01",
-      "exit_price": 1670.0,
-      "pnl_pct": -0.0,
-      "outcome": "flat",
-      "exit_date_a": "2026-01-29",
-      "exit_price_a": 1815.0,
-      "pnl_pct_a": -8.68,
-      "outcome_a": "loss"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1767665760000,
@@ -313,16 +313,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2026-01-07T01",
-      "entry_price": 69.9,
-      "exit_date": "2026-01-12T05",
-      "exit_price": 70.35,
-      "pnl_pct": 0.64,
-      "outcome": "win",
-      "exit_date_a": "2026-01-12T03",
-      "exit_price_a": 70.35,
-      "pnl_pct_a": 0.64,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1768196760000,
@@ -336,16 +336,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-01-12T05",
-      "entry_price": 84.51,
-      "exit_date": "2026-01-13T00",
-      "exit_price": 84.07,
-      "pnl_pct": 0.52,
-      "outcome": "win",
-      "exit_date_a": "2026-01-12T23",
-      "exit_price_a": 84.34,
-      "pnl_pct_a": 0.2,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1768266540000,
@@ -359,16 +359,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-01-13T00",
-      "entry_price": 84.07,
-      "exit_date": "2026-01-13T05",
-      "exit_price": 85.18,
-      "pnl_pct": 1.33,
-      "outcome": "win",
-      "exit_date_a": "2026-01-13T17",
-      "exit_price_a": 87.04,
-      "pnl_pct_a": 3.53,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1768282860000,
@@ -382,16 +382,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-01-13T05",
-      "entry_price": 85.18,
-      "exit_date": "2026-01-20",
-      "exit_price": 94.28,
-      "pnl_pct": -10.67,
-      "outcome": "loss",
-      "exit_date_a": "2026-01-13T23",
-      "exit_price_a": 87.68,
-      "pnl_pct_a": -2.93,
-      "outcome_a": "loss"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1768478820000,
@@ -431,16 +431,16 @@
       "ticker": "2344.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-01-19T04",
-      "entry_price": 117.0,
-      "exit_date": "2026-01-20",
-      "exit_price": 109.5,
-      "pnl_pct": 6.41,
-      "outcome": "win",
-      "exit_date_a": "2026-01-23T02",
-      "exit_price_a": 104.0,
-      "pnl_pct_a": 11.11,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1768817220000,
@@ -467,16 +467,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2026-01-20",
-      "entry_price": 72.15,
-      "exit_date": "2026-01-20T05",
-      "exit_price": 72.6,
-      "pnl_pct": 0.62,
-      "outcome": "win",
-      "exit_date_a": "2026-02-24",
-      "exit_price_a": 79.5,
-      "pnl_pct_a": 10.19,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1768912320000,
@@ -490,16 +490,16 @@
       "ticker": "2337.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-01-20T05",
-      "entry_price": 76.7,
-      "exit_date": "2026-01-22",
-      "exit_price": 76.7,
-      "pnl_pct": -0.0,
-      "outcome": "flat",
-      "exit_date_a": "2026-01-26T02",
-      "exit_price_a": 76.2,
-      "pnl_pct_a": 0.65,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1769043840000,
@@ -513,16 +513,16 @@
       "ticker": "2337.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-01-22",
-      "entry_price": 76.7,
-      "exit_date": "2026-01-28T05",
-      "exit_price": 83.8,
-      "pnl_pct": 9.26,
-      "outcome": "win",
-      "exit_date_a": "2026-02-26",
-      "exit_price_a": 111.0,
-      "pnl_pct_a": 44.72,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1769070660000,
@@ -549,16 +549,16 @@
       "ticker": "3481.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-01-23",
-      "entry_price": 24.55,
-      "exit_date": "2026-01-28T05",
-      "exit_price": 22.25,
-      "pnl_pct": -9.37,
-      "outcome": "flat",
-      "exit_date_a": "2026-03-02",
-      "exit_price_a": 28.65,
-      "pnl_pct_a": 16.7,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1769391360000,
@@ -585,16 +585,16 @@
       "ticker": "MU",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-01-28",
-      "entry_price": 425.54,
-      "exit_date": "2026-02-02T20",
-      "exit_price": 437.79,
-      "pnl_pct": -2.88,
-      "outcome": "loss",
-      "exit_date_a": "2026-02-23",
-      "exit_price_a": 422.11,
-      "pnl_pct_a": 0.81,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1769797080000,
@@ -608,16 +608,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-01-30T15",
-      "entry_price": 98.5,
-      "exit_date": "2026-02-03T02",
-      "exit_price": 81.63,
-      "pnl_pct": 17.13,
-      "outcome": "win",
-      "exit_date_a": "2026-02-03T11",
-      "exit_price_a": 86.21,
-      "pnl_pct_a": 12.47,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1770089280000,
@@ -631,16 +631,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-02-03T02",
-      "entry_price": 81.63,
-      "exit_date": "2026-02-03T08",
-      "exit_price": 87.17,
-      "pnl_pct": 6.78,
-      "outcome": "win",
-      "exit_date_a": "2026-02-03T19",
-      "exit_price_a": 84.43,
-      "pnl_pct_a": 3.43,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1770108480000,
@@ -654,16 +654,16 @@
       "ticker": "MU",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-02-03",
-      "entry_price": 417.52,
-      "exit_date": "2026-02-09",
-      "exit_price": 385.51,
-      "pnl_pct": 7.67,
-      "outcome": "win",
-      "exit_date_a": "2026-02-27",
-      "exit_price_a": 412.25,
-      "pnl_pct_a": 1.26,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1770168060000,
@@ -677,16 +677,16 @@
       "ticker": "2337.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-02-04",
-      "entry_price": 89.9,
-      "exit_date": "2026-02-09",
-      "exit_price": 88.8,
-      "pnl_pct": 1.22,
-      "outcome": "win",
-      "exit_date_a": "2026-03-11",
-      "exit_price_a": 99.7,
-      "pnl_pct_a": -10.9,
-      "outcome_a": "loss"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1770600540000,
@@ -700,16 +700,16 @@
       "ticker": "8027.TWO",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-02-09",
-      "entry_price": 95.9,
-      "exit_date": "2026-02-24",
-      "exit_price": 94.9,
-      "pnl_pct": -1.04,
-      "outcome": "flat",
-      "exit_date_a": "2026-03-16",
-      "exit_price_a": 108.5,
-      "pnl_pct_a": 13.14,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1770635400000,
@@ -736,16 +736,16 @@
       "ticker": "2330.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-02-11T01",
-      "entry_price": 1900.0,
-      "exit_date": "2026-02-24",
-      "exit_price": 1970.0,
-      "pnl_pct": 3.68,
-      "outcome": "win",
-      "exit_date_a": "2026-02-25T03",
-      "exit_price_a": 2010.0,
-      "pnl_pct_a": 5.79,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1770782580000,
@@ -759,16 +759,16 @@
       "ticker": "3481.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-02-11T03",
-      "entry_price": 21.6,
-      "exit_date": "2026-02-24",
-      "exit_price": 24.65,
-      "pnl_pct": 14.12,
-      "outcome": "win",
-      "exit_date_a": "2026-02-26T01",
-      "exit_price_a": 25.4,
-      "pnl_pct_a": 17.59,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1771953120000,
@@ -782,16 +782,16 @@
       "ticker": "TSM",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-02-24T16:30",
-      "entry_price": 387.0,
-      "exit_date": "2026-03-09",
-      "exit_price": 348.74,
-      "pnl_pct": 9.89,
-      "outcome": "win",
-      "exit_date_a": "2026-02-25T18:30",
-      "exit_price_a": 388.33,
-      "pnl_pct_a": -0.34,
-      "outcome_a": "loss"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1772688720000,
@@ -805,16 +805,16 @@
       "ticker": "MU",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-03-05",
-      "entry_price": 397.02,
-      "exit_date": "2026-03-09",
-      "exit_price": 389.31,
-      "pnl_pct": 1.94,
-      "outcome": "win",
-      "exit_date_a": "2026-03-30",
-      "exit_price_a": 321.8,
-      "pnl_pct_a": 18.95,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1773019440000,
@@ -828,16 +828,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2026-03-09",
-      "entry_price": 73.45,
-      "exit_date": "2026-03-11",
-      "exit_price": 78.2,
-      "pnl_pct": 6.47,
-      "outcome": "win",
-      "exit_date_a": "2026-04-01",
-      "exit_price_a": 75.5,
-      "pnl_pct_a": 2.79,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1773106080000,
@@ -864,16 +864,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2026-03-11",
-      "entry_price": 78.2,
-      "exit_date": "2026-03-13",
-      "exit_price": 75.95,
-      "pnl_pct": 2.88,
-      "outcome": "win",
-      "exit_date_a": "2026-04-07",
-      "exit_price_a": 75.2,
-      "pnl_pct_a": 3.84,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1773421380000,
@@ -887,16 +887,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2026-03-13",
-      "entry_price": 75.95,
-      "exit_date": "2026-03-25",
-      "exit_price": 76.2,
-      "pnl_pct": 0.33,
-      "outcome": "win",
-      "exit_date_a": "2026-04-09",
-      "exit_price_a": 79.05,
-      "pnl_pct_a": 4.08,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1773592080000,
@@ -910,16 +910,16 @@
       "ticker": "2337.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-03-16",
-      "entry_price": 119.0,
-      "exit_date": "2026-03-25",
-      "exit_price": 142.5,
-      "pnl_pct": 19.75,
-      "outcome": "win",
-      "exit_date_a": "2026-04-10",
-      "exit_price_a": 146.0,
-      "pnl_pct_a": 22.69,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1773912720000,
@@ -933,16 +933,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-03-19T09:00",
-      "entry_price": 71.54,
-      "exit_date": "2026-03-25T00:30",
-      "exit_price": 73.96,
-      "pnl_pct": 3.39,
-      "outcome": "win",
-      "exit_date_a": "2026-03-19T17:30",
-      "exit_price_a": 71.43,
-      "pnl_pct_a": -0.15,
-      "outcome_a": "flat"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1773969420000,
@@ -1008,16 +1008,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2026-03-25",
-      "entry_price": 76.2,
-      "exit_date": "2026-03-27T04:00",
-      "exit_price": 74.65,
-      "pnl_pct": 2.03,
-      "outcome": "win",
-      "exit_date_a": "2026-04-22",
-      "exit_price_a": 86.35,
-      "pnl_pct_a": -13.32,
-      "outcome_a": "loss"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1774490460000,
@@ -1031,16 +1031,16 @@
       "ticker": "MU",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-03-25T19:30",
-      "entry_price": 382.09,
-      "exit_date": "2026-03-27",
-      "exit_price": 357.3,
-      "pnl_pct": 6.49,
-      "outcome": "win",
-      "exit_date_a": "2026-03-27T15:00",
-      "exit_price_a": 367.3,
-      "pnl_pct_a": 3.87,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1774587180000,
@@ -1054,16 +1054,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2026-03-27T04:00",
-      "entry_price": 74.65,
-      "exit_date": "2026-03-30",
-      "exit_price": 73.9,
-      "pnl_pct": -1.0,
-      "outcome": "flat",
-      "exit_date_a": "2026-03-31T03:30",
-      "exit_price_a": 72.45,
-      "pnl_pct_a": -2.95,
-      "outcome_a": "flat"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1774832640000,
@@ -1077,16 +1077,16 @@
       "ticker": "CL=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-03-30T00:30",
-      "entry_price": 103.02,
-      "exit_date": "2026-03-31T01:00",
-      "exit_price": 102.88,
-      "pnl_pct": 0.14,
-      "outcome": "win",
-      "exit_date_a": "2026-03-30T09:00",
-      "exit_price_a": 101.56,
-      "pnl_pct_a": 1.42,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1774843560000,
@@ -1113,16 +1113,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2026-03-31T01:00",
-      "entry_price": 73.1,
-      "exit_date": "2026-04-02T01:00",
-      "exit_price": 74.9,
-      "pnl_pct": 2.46,
-      "outcome": "win",
-      "exit_date_a": "2026-04-01T05:00",
-      "exit_price_a": 75.5,
-      "pnl_pct_a": 3.28,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1774921200000,
@@ -1136,16 +1136,16 @@
       "ticker": "8027.TWO",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-03-31T01:00",
-      "entry_price": 137.5,
-      "exit_date": "2026-04-02T01:00",
-      "exit_price": 149.0,
-      "pnl_pct": 8.36,
-      "outcome": "win",
-      "exit_date_a": "2026-04-01T05:00",
-      "exit_price_a": 152.0,
-      "pnl_pct_a": 10.55,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1774936560000,
@@ -1185,16 +1185,16 @@
       "ticker": "QQQ",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-04-01T19:30",
-      "entry_price": 584.29,
-      "exit_date": "2026-04-02T13:30",
-      "exit_price": 577.19,
-      "pnl_pct": 1.22,
-      "outcome": "win",
-      "exit_date_a": "2026-04-06T15:00",
-      "exit_price_a": 586.54,
-      "pnl_pct_a": -0.39,
-      "outcome_a": "loss"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1775139840000,
@@ -1208,16 +1208,16 @@
       "ticker": "MU",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-04-02T13:30",
-      "entry_price": 354.6,
-      "exit_date": "2026-04-06T19:30",
-      "exit_price": 377.62,
-      "pnl_pct": 6.49,
-      "outcome": "win",
-      "exit_date_a": "2026-04-06T15:30",
-      "exit_price_a": 381.45,
-      "pnl_pct_a": 7.57,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1775527320000,
@@ -1231,16 +1231,16 @@
       "ticker": "CL=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-04-07T01:30",
-      "entry_price": 114.92,
-      "exit_date": "2026-04-07T23:30",
-      "exit_price": 96.46,
-      "pnl_pct": 16.06,
-      "outcome": "win",
-      "exit_date_a": "2026-04-07T10:00",
-      "exit_price_a": 113.8,
-      "pnl_pct_a": 0.97,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1775608020000,
@@ -1254,16 +1254,16 @@
       "ticker": "CL=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-04-07T23:30",
-      "entry_price": 96.46,
-      "exit_date": "2026-04-09T00:30",
-      "exit_price": 97.67,
-      "pnl_pct": 1.25,
-      "outcome": "win",
-      "exit_date_a": "2026-04-08T08:00",
-      "exit_price_a": 96.47,
-      "pnl_pct_a": 0.01,
-      "outcome_a": "win"
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1775610900000,
@@ -1290,12 +1290,12 @@
       "ticker": "8027.TWO",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-04-09",
-      "entry_price": 150.0,
-      "exit_date": "2026-04-09",
-      "exit_price": 150.0,
-      "pnl_pct": 0.0,
-      "outcome": "flat",
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "unknown",
       "exit_date_a": null,
       "exit_price_a": null,
       "pnl_pct_a": null,
@@ -1313,11 +1313,11 @@
       "ticker": "5274.TWO",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-04-09",
-      "entry_price": 12560.0,
-      "exit_date": "2026-04-23",
-      "exit_price": 15930.0,
-      "pnl_pct": -26.83,
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
       "outcome": "open",
       "exit_date_a": null,
       "exit_price_a": null,
@@ -1336,16 +1336,16 @@
       "ticker": "6139.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-04-10T01:30",
-      "entry_price": 639.0,
-      "exit_date": "2026-04-23",
-      "exit_price": 713.0,
-      "pnl_pct": -11.58,
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
       "outcome": "open",
-      "exit_date_a": "2026-04-14T01:00",
-      "exit_price_a": 631.0,
-      "pnl_pct_a": 1.25,
-      "outcome_a": "win"
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1775786641000,
@@ -1359,16 +1359,16 @@
       "ticker": "2383.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-04-10T01:30",
-      "entry_price": 3410.0,
-      "exit_date": "2026-04-23",
-      "exit_price": 4135.0,
-      "pnl_pct": -21.26,
+      "entry_date": null,
+      "entry_price": null,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
       "outcome": "open",
-      "exit_date_a": "2026-04-14T01:00",
-      "exit_price_a": 3655.0,
-      "pnl_pct_a": -7.18,
-      "outcome_a": "loss"
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     },
     {
       "unix_ms": 1775792400000,
@@ -1411,1013 +1411,306 @@
     }
   ],
   "equity_curves": {
-    "mode_b": [
-      {
-        "date": "2025-12-03",
-        "value": 100.0
-      },
-      {
-        "date": "2025-12-11T20",
-        "value": 104.06
-      },
-      {
-        "date": "2025-12-12T01",
-        "value": 105.97
-      },
-      {
-        "date": "2025-12-15",
-        "value": 107.39
-      },
-      {
-        "date": "2025-12-21",
-        "value": 117.22
-      },
-      {
-        "date": "2026-01-07T01",
-        "value": 104.69
-      },
-      {
-        "date": "2026-01-07T01",
-        "value": 104.69
-      },
-      {
-        "date": "2026-01-12T05",
-        "value": 105.36
-      },
-      {
-        "date": "2026-01-13T00",
-        "value": 105.91
-      },
-      {
-        "date": "2026-01-13T05",
-        "value": 107.32
-      },
-      {
-        "date": "2026-01-20",
-        "value": 95.87
-      },
-      {
-        "date": "2026-01-20",
-        "value": 102.01
-      },
-      {
-        "date": "2026-01-20T05",
-        "value": 102.64
-      },
-      {
-        "date": "2026-01-22",
-        "value": 102.64
-      },
-      {
-        "date": "2026-01-28T05",
-        "value": 112.15
-      },
-      {
-        "date": "2026-01-28T05",
-        "value": 101.64
-      },
-      {
-        "date": "2026-02-02T20",
-        "value": 98.71
-      },
-      {
-        "date": "2026-02-03T02",
-        "value": 115.62
-      },
-      {
-        "date": "2026-02-03T08",
-        "value": 123.46
-      },
-      {
-        "date": "2026-02-09",
-        "value": 132.93
-      },
-      {
-        "date": "2026-02-09",
-        "value": 134.55
-      },
-      {
-        "date": "2026-02-24",
-        "value": 133.15
-      },
-      {
-        "date": "2026-02-24",
-        "value": 138.05
-      },
-      {
-        "date": "2026-02-24",
-        "value": 157.55
-      },
-      {
-        "date": "2026-03-09",
-        "value": 173.13
-      },
-      {
-        "date": "2026-03-09",
-        "value": 176.49
-      },
-      {
-        "date": "2026-03-11",
-        "value": 187.91
-      },
-      {
-        "date": "2026-03-13",
-        "value": 193.32
-      },
-      {
-        "date": "2026-03-25",
-        "value": 193.96
-      },
-      {
-        "date": "2026-03-25",
-        "value": 232.26
-      },
-      {
-        "date": "2026-03-25T00:30",
-        "value": 240.13
-      },
-      {
-        "date": "2026-03-27T04:00",
-        "value": 245.01
-      },
-      {
-        "date": "2026-03-27",
-        "value": 260.91
-      },
-      {
-        "date": "2026-03-30",
-        "value": 258.3
-      },
-      {
-        "date": "2026-03-31T01:00",
-        "value": 258.66
-      },
-      {
-        "date": "2026-04-02T01:00",
-        "value": 265.03
-      },
-      {
-        "date": "2026-04-02T01:00",
-        "value": 287.18
-      },
-      {
-        "date": "2026-04-02T13:30",
-        "value": 290.69
-      },
-      {
-        "date": "2026-04-06T19:30",
-        "value": 309.55
-      },
-      {
-        "date": "2026-04-07T23:30",
-        "value": 359.27
-      },
-      {
-        "date": "2026-04-09T00:30",
-        "value": 363.76
-      },
-      {
-        "date": "2026-04-09",
-        "value": 363.76
-      },
-      {
-        "date": "2026-04-23",
-        "value": 266.16
-      },
-      {
-        "date": "2026-04-23",
-        "value": 321.63
-      },
-      {
-        "date": "2026-04-23",
-        "value": 286.42
-      }
-    ],
-    "mode_a": [
-      {
-        "date": "2025-12-03",
-        "value": 100.0
-      },
-      {
-        "date": "2025-12-11T19",
-        "value": 102.45
-      },
-      {
-        "date": "2025-12-15T15",
-        "value": 105.37
-      },
-      {
-        "date": "2025-12-17T03",
-        "value": 107.36
-      },
-      {
-        "date": "2025-12-29",
-        "value": 110.37
-      },
-      {
-        "date": "2026-01-12T03",
-        "value": 111.07
-      },
-      {
-        "date": "2026-01-12T23",
-        "value": 111.3
-      },
-      {
-        "date": "2026-01-13T17",
-        "value": 115.22
-      },
-      {
-        "date": "2026-01-13T23",
-        "value": 111.85
-      },
-      {
-        "date": "2026-01-16",
-        "value": 97.33
-      },
-      {
-        "date": "2026-01-23T02",
-        "value": 108.14
-      },
-      {
-        "date": "2026-01-26T02",
-        "value": 108.85
-      },
-      {
-        "date": "2026-01-29",
-        "value": 99.4
-      },
-      {
-        "date": "2026-02-03T11",
-        "value": 111.79
-      },
-      {
-        "date": "2026-02-03T19",
-        "value": 115.63
-      },
-      {
-        "date": "2026-02-23",
-        "value": 116.57
-      },
-      {
-        "date": "2026-02-24",
-        "value": 128.44
-      },
-      {
-        "date": "2026-02-25T03",
-        "value": 135.88
-      },
-      {
-        "date": "2026-02-25T18:30",
-        "value": 135.42
-      },
-      {
-        "date": "2026-02-26",
-        "value": 195.98
-      },
-      {
-        "date": "2026-02-26T01",
-        "value": 230.45
-      },
-      {
-        "date": "2026-02-27",
-        "value": 233.35
-      },
-      {
-        "date": "2026-03-02",
-        "value": 272.32
-      },
-      {
-        "date": "2026-03-11",
-        "value": 242.64
-      },
-      {
-        "date": "2026-03-16",
-        "value": 274.52
-      },
-      {
-        "date": "2026-03-19T17:30",
-        "value": 274.11
-      },
-      {
-        "date": "2026-03-27T15:00",
-        "value": 284.72
-      },
-      {
-        "date": "2026-03-30",
-        "value": 338.67
-      },
-      {
-        "date": "2026-03-30T09:00",
-        "value": 343.48
-      },
-      {
-        "date": "2026-03-31T03:30",
-        "value": 333.35
-      },
-      {
-        "date": "2026-04-01",
-        "value": 342.65
-      },
-      {
-        "date": "2026-04-01T05:00",
-        "value": 353.89
-      },
-      {
-        "date": "2026-04-01T05:00",
-        "value": 391.22
-      },
-      {
-        "date": "2026-04-06T15:00",
-        "value": 389.7
-      },
-      {
-        "date": "2026-04-06T15:30",
-        "value": 419.2
-      },
-      {
-        "date": "2026-04-07",
-        "value": 435.3
-      },
-      {
-        "date": "2026-04-07T10:00",
-        "value": 439.52
-      },
-      {
-        "date": "2026-04-08T08:00",
-        "value": 439.56
-      },
-      {
-        "date": "2026-04-09",
-        "value": 457.5
-      },
-      {
-        "date": "2026-04-10",
-        "value": 561.3
-      },
-      {
-        "date": "2026-04-14T01:00",
-        "value": 568.32
-      },
-      {
-        "date": "2026-04-14T01:00",
-        "value": 527.51
-      },
-      {
-        "date": "2026-04-22",
-        "value": 457.25
-      }
-    ],
-    "benchmark_0050": [
-      {
-        "date": "2025-12-03",
-        "value": 100.0
-      },
-      {
-        "date": "2025-12-04",
-        "value": 99.92
-      },
-      {
-        "date": "2025-12-05",
-        "value": 100.32
-      },
-      {
-        "date": "2025-12-08",
-        "value": 101.69
-      },
-      {
-        "date": "2025-12-09",
-        "value": 102.17
-      },
-      {
-        "date": "2025-12-10",
-        "value": 102.25
-      },
-      {
-        "date": "2025-12-11",
-        "value": 102.65
-      },
-      {
-        "date": "2025-12-12",
-        "value": 102.09
-      },
-      {
-        "date": "2025-12-15",
-        "value": 100.72
-      },
-      {
-        "date": "2025-12-16",
-        "value": 99.28
-      },
-      {
-        "date": "2025-12-17",
-        "value": 100.0
-      },
-      {
-        "date": "2025-12-18",
-        "value": 99.36
-      },
-      {
-        "date": "2025-12-19",
-        "value": 100.48
-      },
-      {
-        "date": "2025-12-22",
-        "value": 101.36
-      },
-      {
-        "date": "2025-12-23",
-        "value": 102.25
-      },
-      {
-        "date": "2025-12-24",
-        "value": 102.57
-      },
-      {
-        "date": "2025-12-26",
-        "value": 103.13
-      },
-      {
-        "date": "2025-12-29",
-        "value": 104.41
-      },
-      {
-        "date": "2025-12-30",
-        "value": 104.33
-      },
-      {
-        "date": "2025-12-31",
-        "value": 105.06
-      },
-      {
-        "date": "2026-01-02",
-        "value": 106.18
-      },
-      {
-        "date": "2026-01-05",
-        "value": 111.32
-      },
-      {
-        "date": "2026-01-06",
-        "value": 111.8
-      },
-      {
-        "date": "2026-01-07",
-        "value": 112.2
-      },
-      {
-        "date": "2026-01-08",
-        "value": 112.36
-      },
-      {
-        "date": "2026-01-09",
-        "value": 111.4
-      },
-      {
-        "date": "2026-01-12",
-        "value": 112.68
-      },
-      {
-        "date": "2026-01-13",
-        "value": 113.32
-      },
-      {
-        "date": "2026-01-14",
-        "value": 113.8
-      },
-      {
-        "date": "2026-01-15",
-        "value": 113.08
-      },
-      {
-        "date": "2026-01-16",
-        "value": 114.53
-      },
-      {
-        "date": "2026-01-19",
-        "value": 114.93
-      },
-      {
-        "date": "2026-01-20",
-        "value": 115.81
-      },
-      {
-        "date": "2026-01-21",
-        "value": 115.97
-      },
-      {
-        "date": "2026-01-22",
-        "value": 115.33
-      },
-      {
-        "date": "2026-01-23",
-        "value": 115.49
-      },
-      {
-        "date": "2026-01-26",
-        "value": 116.29
-      },
-      {
-        "date": "2026-01-27",
-        "value": 116.69
-      },
-      {
-        "date": "2026-01-28",
-        "value": 118.38
-      },
-      {
-        "date": "2026-01-29",
-        "value": 118.7
-      },
-      {
-        "date": "2026-01-30",
-        "value": 116.21
-      },
-      {
-        "date": "2026-02-03",
-        "value": 116.77
-      },
-      {
-        "date": "2026-02-04",
-        "value": 117.01
-      },
-      {
-        "date": "2026-02-05",
-        "value": 115.65
-      },
-      {
-        "date": "2026-02-06",
-        "value": 114.77
-      },
-      {
-        "date": "2026-02-09",
-        "value": 118.7
-      },
-      {
-        "date": "2026-02-10",
-        "value": 121.03
-      },
-      {
-        "date": "2026-02-11",
-        "value": 122.87
-      },
-      {
-        "date": "2026-02-23",
-        "value": 125.36
-      },
-      {
-        "date": "2026-02-24",
-        "value": 127.61
-      },
-      {
-        "date": "2026-02-25",
-        "value": 130.1
-      },
-      {
-        "date": "2026-02-26",
-        "value": 130.5
-      },
-      {
-        "date": "2026-03-02",
-        "value": 129.05
-      },
-      {
-        "date": "2026-03-03",
-        "value": 126.4
-      },
-      {
-        "date": "2026-03-04",
-        "value": 121.43
-      },
-      {
-        "date": "2026-03-05",
-        "value": 123.92
-      },
-      {
-        "date": "2026-03-06",
-        "value": 123.35
-      },
-      {
-        "date": "2026-03-09",
-        "value": 117.9
-      },
-      {
-        "date": "2026-03-10",
-        "value": 120.71
-      },
-      {
-        "date": "2026-03-11",
-        "value": 125.52
-      },
-      {
-        "date": "2026-03-12",
-        "value": 123.03
-      },
-      {
-        "date": "2026-03-13",
-        "value": 121.91
-      },
-      {
-        "date": "2026-03-16",
-        "value": 121.35
-      },
-      {
-        "date": "2026-03-17",
-        "value": 123.11
-      },
-      {
-        "date": "2026-03-18",
-        "value": 124.88
-      },
-      {
-        "date": "2026-03-19",
-        "value": 122.07
-      },
-      {
-        "date": "2026-03-20",
-        "value": 121.83
-      },
-      {
-        "date": "2026-03-23",
-        "value": 119.18
-      },
-      {
-        "date": "2026-03-24",
-        "value": 119.66
-      },
-      {
-        "date": "2026-03-25",
-        "value": 122.31
-      },
-      {
-        "date": "2026-03-26",
-        "value": 121.67
-      },
-      {
-        "date": "2026-03-27",
-        "value": 120.47
-      },
-      {
-        "date": "2026-03-30",
-        "value": 118.62
-      },
-      {
-        "date": "2026-03-31",
-        "value": 116.29
-      },
-      {
-        "date": "2026-04-01",
-        "value": 121.19
-      },
-      {
-        "date": "2026-04-02",
-        "value": 118.7
-      },
-      {
-        "date": "2026-04-07",
-        "value": 120.71
-      },
-      {
-        "date": "2026-04-08",
-        "value": 127.13
-      },
-      {
-        "date": "2026-04-09",
-        "value": 126.89
-      },
-      {
-        "date": "2026-04-10",
-        "value": 129.61
-      },
-      {
-        "date": "2026-04-13",
-        "value": 129.37
-      },
-      {
-        "date": "2026-04-14",
-        "value": 133.39
-      },
-      {
-        "date": "2026-04-15",
-        "value": 135.07
-      },
-      {
-        "date": "2026-04-16",
-        "value": 136.44
-      },
-      {
-        "date": "2026-04-17",
-        "value": 135.15
-      },
-      {
-        "date": "2026-04-21",
-        "value": 138.12
-      },
-      {
-        "date": "2026-04-22",
-        "value": 138.6
-      },
-      {
-        "date": "2026-04-23",
-        "value": 138.76
-      }
-    ]
+    "mode_b": [],
+    "mode_a": [],
+    "benchmark_0050": []
   },
   "sensitivity": [
     {
       "hold_bars": 14,
-      "win_rate": 72.5,
-      "avg_pnl_pct": 2.89,
-      "wins": 29,
-      "losses": 9,
-      "resolved": 42
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 15,
-      "win_rate": 71.8,
-      "avg_pnl_pct": 3.96,
-      "wins": 28,
-      "losses": 9,
-      "resolved": 42
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 16,
-      "win_rate": 75.0,
-      "avg_pnl_pct": 4.12,
-      "wins": 30,
-      "losses": 8,
-      "resolved": 42
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 17,
-      "win_rate": 76.2,
-      "avg_pnl_pct": 4.13,
-      "wins": 32,
-      "losses": 8,
-      "resolved": 42
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 18,
-      "win_rate": 73.2,
-      "avg_pnl_pct": 3.91,
-      "wins": 30,
-      "losses": 9,
-      "resolved": 42
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 19,
-      "win_rate": 71.4,
-      "avg_pnl_pct": 3.79,
-      "wins": 30,
-      "losses": 9,
-      "resolved": 41
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 20,
-      "win_rate": 69.0,
-      "avg_pnl_pct": 3.16,
-      "wins": 29,
-      "losses": 10,
-      "resolved": 41
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 21,
-      "win_rate": 69.8,
-      "avg_pnl_pct": 3.33,
-      "wins": 30,
-      "losses": 10,
-      "resolved": 41
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 22,
-      "win_rate": 69.8,
-      "avg_pnl_pct": 3.31,
-      "wins": 30,
-      "losses": 10,
-      "resolved": 41
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 23,
-      "win_rate": 67.4,
-      "avg_pnl_pct": 2.45,
-      "wins": 29,
-      "losses": 11,
-      "resolved": 41
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 24,
-      "win_rate": 69.8,
-      "avg_pnl_pct": 2.67,
-      "wins": 30,
-      "losses": 10,
-      "resolved": 41
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 25,
-      "win_rate": 67.4,
-      "avg_pnl_pct": 3.42,
-      "wins": 29,
-      "losses": 11,
-      "resolved": 41
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 26,
-      "win_rate": 60.5,
-      "avg_pnl_pct": 2.97,
-      "wins": 26,
-      "losses": 13,
-      "resolved": 40
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 27,
-      "win_rate": 58.1,
-      "avg_pnl_pct": 2.41,
-      "wins": 25,
-      "losses": 13,
-      "resolved": 39
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 28,
-      "win_rate": 61.9,
-      "avg_pnl_pct": 2.94,
-      "wins": 26,
-      "losses": 11,
-      "resolved": 39
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 29,
-      "win_rate": 65.1,
-      "avg_pnl_pct": 4.14,
-      "wins": 28,
-      "losses": 9,
-      "resolved": 38
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 30,
-      "win_rate": 62.8,
-      "avg_pnl_pct": 4.42,
-      "wins": 27,
-      "losses": 10,
-      "resolved": 38
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 31,
-      "win_rate": 52.4,
-      "avg_pnl_pct": 4.25,
-      "wins": 22,
-      "losses": 13,
-      "resolved": 37
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 32,
-      "win_rate": 54.8,
-      "avg_pnl_pct": 3.52,
-      "wins": 23,
-      "losses": 12,
-      "resolved": 37
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 33,
-      "win_rate": 54.8,
-      "avg_pnl_pct": 2.77,
-      "wins": 23,
-      "losses": 12,
-      "resolved": 37
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 34,
-      "win_rate": 52.4,
-      "avg_pnl_pct": 2.32,
-      "wins": 22,
-      "losses": 13,
-      "resolved": 37
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 35,
-      "win_rate": 51.2,
-      "avg_pnl_pct": 2.8,
-      "wins": 21,
-      "losses": 12,
-      "resolved": 36
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 36,
-      "win_rate": 52.5,
-      "avg_pnl_pct": 2.11,
-      "wins": 21,
-      "losses": 11,
-      "resolved": 36
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 37,
-      "win_rate": 51.3,
-      "avg_pnl_pct": 2.07,
-      "wins": 20,
-      "losses": 11,
-      "resolved": 36
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 38,
-      "win_rate": 47.4,
-      "avg_pnl_pct": 2.2,
-      "wins": 18,
-      "losses": 12,
-      "resolved": 36
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 39,
-      "win_rate": 51.2,
-      "avg_pnl_pct": 2.02,
-      "wins": 21,
-      "losses": 12,
-      "resolved": 36
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 40,
-      "win_rate": 51.2,
-      "avg_pnl_pct": 3.08,
-      "wins": 21,
-      "losses": 12,
-      "resolved": 36
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 41,
-      "win_rate": 50.0,
-      "avg_pnl_pct": 3.51,
-      "wins": 20,
-      "losses": 12,
-      "resolved": 36
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 42,
-      "win_rate": 51.2,
-      "avg_pnl_pct": 4.35,
-      "wins": 21,
-      "losses": 12,
-      "resolved": 36
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 43,
-      "win_rate": 50.0,
-      "avg_pnl_pct": 3.84,
-      "wins": 21,
-      "losses": 12,
-      "resolved": 35
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 44,
-      "win_rate": 48.8,
-      "avg_pnl_pct": 2.92,
-      "wins": 20,
-      "losses": 12,
-      "resolved": 35
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 45,
-      "win_rate": 47.6,
-      "avg_pnl_pct": 3.46,
-      "wins": 20,
-      "losses": 13,
-      "resolved": 35
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 46,
-      "win_rate": 50.0,
-      "avg_pnl_pct": 5.14,
-      "wins": 21,
-      "losses": 11,
-      "resolved": 34
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 47,
-      "win_rate": 51.2,
-      "avg_pnl_pct": 5.19,
-      "wins": 21,
-      "losses": 10,
-      "resolved": 34
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 48,
-      "win_rate": 51.2,
-      "avg_pnl_pct": 4.85,
-      "wins": 21,
-      "losses": 10,
-      "resolved": 34
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 49,
-      "win_rate": 52.4,
-      "avg_pnl_pct": 4.87,
-      "wins": 22,
-      "losses": 10,
-      "resolved": 34
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     },
     {
       "hold_bars": 50,
-      "win_rate": 52.4,
-      "avg_pnl_pct": 4.32,
-      "wins": 22,
-      "losses": 10,
-      "resolved": 34
+      "win_rate": 0.0,
+      "avg_pnl_pct": 0,
+      "wins": 0,
+      "losses": 0,
+      "resolved": 0
     }
   ]
 }

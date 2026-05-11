@@ -1,7 +1,7 @@
 // This Pine Script™ is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
 // © hansai-art / Group.G
 // 8zz 反指標 v2
-// 事件: 68筆 | 期間: 2025/12 ~ 2026/04
+// 事件: 70筆 | 期間: 2025/12 ~ 2026/05
 // 情緒解讀框架：負面情緒（被套、停損、恐慌）→ 偏多 ▲（散戶恐慌→主力拉升）
 //               正面情緒（漲停追買、過度樂觀）→ 偏空 ▼（市場過熱→崩跌機率高）
 // 免責聲明：本指標僅供娛樂參考，不構成任何投資建議。
@@ -441,6 +441,16 @@ if barstate.isfirst
     array.push(evt_dir, -1)
     array.push(evt_str, 3)
     array.push(evt_tips, "漲停買\n指標: 偏空 ▼ | 強度: ★★★\nFB 04/17 01:26 嘿！ 你以為我忘記買聯電了嗎！？ 好啦， 我真的忘記， 我是看到群組在喊才想起來的✌️  今天沒漲停買到了～（雖然...")
+    array.push(evt_ticker, "")
+    array.push(evt_time, 1778458691000)
+    array.push(evt_dir, -1)
+    array.push(evt_str, 2)
+    array.push(evt_tips, "會漲\n指標: 偏空 ▼ | 強度: ★★☆\nFB 05/11 00:18 早上好～ 今天又會漲多少呢？")
+    array.push(evt_ticker, "")
+    array.push(evt_time, 1778475308000)
+    array.push(evt_dir, -1)
+    array.push(evt_str, 2)
+    array.push(evt_tips, "買了\n指標: 偏空 ▼ | 強度: ★★☆\nFB 05/11 04:55 人生最痛苦是賣了聯發科買了聯電跟設備股⋯⋯⋯  尤其是設備股今天給我爆跌(;´༎ຶД༎ຶ`)")
     array.push(evt_ticker, "")
 
 var int currentDir = 0

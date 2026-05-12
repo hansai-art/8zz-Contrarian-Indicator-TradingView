@@ -1,22 +1,22 @@
 {
   "stats": {
-    "generated_at": "2026-05-12T07:42:20.384939+00:00",
+    "generated_at": "2026-05-12T15:57:23.995850+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
-    "total_events": 69,
-    "total_flips": 44,
-    "resolved_flips": 41,
-    "open_flips": 3,
+    "total_events": 70,
+    "total_flips": 45,
+    "resolved_flips": 44,
+    "open_flips": 1,
     "wins": 32,
-    "losses": 3,
-    "win_rate": 84.2,
-    "avg_pnl_pct": 3.25,
+    "losses": 6,
+    "win_rate": 82.1,
+    "avg_pnl_pct": 0.92,
     "bullish_flips": 22,
     "bullish_wins": 18,
     "bullish_win_rate": 81.8,
-    "bearish_flips": 19,
+    "bearish_flips": 22,
     "bearish_wins": 14,
-    "bearish_win_rate": 73.7,
+    "bearish_win_rate": 63.6,
     "by_strength": {
       "1": {
         "total": 4,
@@ -29,24 +29,24 @@
         "win_rate": 80.8
       },
       "3": {
-        "total": 11,
+        "total": 14,
         "wins": 8,
-        "win_rate": 72.7
+        "win_rate": 57.1
       }
     },
     "mode_b": {
-      "resolved_flips": 41,
-      "open_flips": 3,
+      "resolved_flips": 44,
+      "open_flips": 1,
       "wins": 32,
-      "losses": 3,
-      "win_rate": 84.2,
-      "avg_pnl_pct": 3.25,
+      "losses": 6,
+      "win_rate": 82.1,
+      "avg_pnl_pct": 0.92,
       "bullish_flips": 22,
       "bullish_wins": 18,
       "bullish_win_rate": 81.8,
-      "bearish_flips": 19,
+      "bearish_flips": 22,
       "bearish_wins": 14,
-      "bearish_win_rate": 73.7,
+      "bearish_win_rate": 63.6,
       "by_strength": {
         "1": {
           "total": 4,
@@ -59,19 +59,19 @@
           "win_rate": 80.8
         },
         "3": {
-          "total": 11,
+          "total": 14,
           "wins": 8,
-          "win_rate": 72.7
+          "win_rate": 57.1
         }
       }
     },
     "mode_a": {
       "resolved_flips": 44,
-      "open_flips": 0,
+      "open_flips": 1,
       "wins": 34,
       "losses": 8,
-      "win_rate": 81.0,
-      "avg_pnl_pct": 3.27,
+      "win_rate": 79.1,
+      "avg_pnl_pct": 3.49,
       "bullish_flips": 22,
       "bullish_wins": 20,
       "bullish_win_rate": 90.9,
@@ -193,14 +193,14 @@
       "ticker_is_fallback": false,
       "is_flip": true,
       "entry_date": "2025-12-12T21",
-      "entry_price": 62.01,
+      "entry_price": 62.08,
       "exit_date": "2025-12-21",
       "exit_price": 67.76,
-      "pnl_pct": 9.29,
+      "pnl_pct": 9.15,
       "outcome": "win",
       "exit_date_a": "2025-12-15T15",
       "exit_price_a": 63.85,
-      "pnl_pct_a": 2.97,
+      "pnl_pct_a": 2.85,
       "outcome_a": "win"
     },
     {
@@ -431,7 +431,7 @@
       "ticker": "2344.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-01-19T05",
+      "entry_date": "2026-01-19T04",
       "entry_price": 117.0,
       "exit_date": "2026-01-20",
       "exit_price": 109.5,
@@ -473,9 +473,9 @@
       "exit_price": 72.6,
       "pnl_pct": 0.62,
       "outcome": "win",
-      "exit_date_a": "2026-02-23",
-      "exit_price_a": 78.1,
-      "pnl_pct_a": 8.25,
+      "exit_date_a": "2026-02-24",
+      "exit_price_a": 78.35,
+      "pnl_pct_a": 8.59,
       "outcome_a": "win"
     },
     {
@@ -519,9 +519,9 @@
       "exit_price": 83.8,
       "pnl_pct": 9.26,
       "outcome": "win",
-      "exit_date_a": "2026-02-25",
-      "exit_price_a": 109.5,
-      "pnl_pct_a": 42.76,
+      "exit_date_a": "2026-02-26",
+      "exit_price_a": 111.5,
+      "pnl_pct_a": 45.37,
       "outcome_a": "win"
     },
     {
@@ -555,9 +555,9 @@
       "exit_price": 22.25,
       "pnl_pct": -9.37,
       "outcome": "flat",
-      "exit_date_a": "2026-02-26",
-      "exit_price_a": 25.4,
-      "pnl_pct_a": 3.46,
+      "exit_date_a": "2026-03-02",
+      "exit_price_a": 27.85,
+      "pnl_pct_a": 13.44,
       "outcome_a": "win"
     },
     {
@@ -588,8 +588,8 @@
       "entry_date": "2026-01-28",
       "entry_price": 425.54,
       "exit_date": "2026-02-02T20",
-      "exit_price": 437.82,
-      "pnl_pct": -2.89,
+      "exit_price": 437.79,
+      "pnl_pct": -2.88,
       "outcome": "loss",
       "exit_date_a": "2026-02-23",
       "exit_price_a": 422.11,
@@ -608,15 +608,15 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-01-30T16",
-      "entry_price": 93.74,
+      "entry_date": "2026-01-30T15",
+      "entry_price": 98.5,
       "exit_date": "2026-02-03T02",
       "exit_price": 81.63,
-      "pnl_pct": 12.91,
+      "pnl_pct": 17.13,
       "outcome": "win",
-      "exit_date_a": "2026-02-02T17",
-      "exit_price_a": 79.23,
-      "pnl_pct_a": 15.48,
+      "exit_date_a": "2026-02-03T11",
+      "exit_price_a": 86.21,
+      "pnl_pct_a": 12.47,
       "outcome_a": "win"
     },
     {
@@ -1318,7 +1318,7 @@
       "exit_date": "2026-05-12T05:00",
       "exit_price": 18245.0,
       "pnl_pct": -45.26,
-      "outcome": "open",
+      "outcome": "loss",
       "exit_date_a": "2026-05-06",
       "exit_price_a": 18725.0,
       "pnl_pct_a": -49.08,
@@ -1341,7 +1341,7 @@
       "exit_date": "2026-05-12T05:00",
       "exit_price": 679.0,
       "pnl_pct": -6.26,
-      "outcome": "open",
+      "outcome": "loss",
       "exit_date_a": "2026-04-14T01:00",
       "exit_price_a": 631.0,
       "pnl_pct_a": 1.25,
@@ -1364,7 +1364,7 @@
       "exit_date": "2026-05-12T05:00",
       "exit_price": 4950.0,
       "pnl_pct": -45.16,
-      "outcome": "open",
+      "outcome": "loss",
       "exit_date_a": "2026-04-14T01:00",
       "exit_price_a": 3655.0,
       "pnl_pct_a": -7.18,
@@ -1434,6 +1434,29 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false
+    },
+    {
+      "unix_ms": 1778581914000,
+      "date": "2026-05-12",
+      "time_utc": "2026-05-12T10:31:54+00:00",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "怎麼辦\n指標: 偏多 ▲ | 強度: ★★☆\nFB 05/12 10:31 明明沒經驗，確有人要找我主持節目耶 天啊～怎麼辦？ 要答應嗎？ Mygod😭感覺這個製作組會倒吧😆😆😆 新的一年真...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": true,
+      "entry_date": "2026-05-12T05:00",
+      "entry_price": 96.85,
+      "exit_date": "2026-05-12",
+      "exit_price": 96.85,
+      "pnl_pct": 0.0,
+      "outcome": "open",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
     }
   ],
   "equity_curves": {
@@ -1456,167 +1479,171 @@
       },
       {
         "date": "2025-12-21",
-        "value": 117.37
+        "value": 117.22
       },
       {
         "date": "2026-01-07T01",
-        "value": 104.82
+        "value": 104.69
       },
       {
         "date": "2026-01-07T01",
-        "value": 104.82
+        "value": 104.69
       },
       {
         "date": "2026-01-12T05",
-        "value": 105.5
+        "value": 105.36
       },
       {
         "date": "2026-01-13T00",
-        "value": 106.04
+        "value": 105.91
       },
       {
         "date": "2026-01-13T05",
-        "value": 107.45
+        "value": 107.32
       },
       {
         "date": "2026-01-20",
-        "value": 95.99
+        "value": 95.87
       },
       {
         "date": "2026-01-20",
-        "value": 102.14
+        "value": 102.01
       },
       {
         "date": "2026-01-20T05",
-        "value": 102.78
+        "value": 102.64
       },
       {
         "date": "2026-01-22",
-        "value": 102.78
+        "value": 102.64
       },
       {
         "date": "2026-01-28T05",
-        "value": 112.29
+        "value": 112.15
       },
       {
         "date": "2026-01-28T05",
-        "value": 101.77
+        "value": 101.64
       },
       {
         "date": "2026-02-02T20",
-        "value": 98.83
+        "value": 98.71
       },
       {
         "date": "2026-02-03T02",
-        "value": 111.59
+        "value": 115.62
       },
       {
         "date": "2026-02-03T08",
-        "value": 119.15
+        "value": 123.46
       },
       {
         "date": "2026-02-09",
-        "value": 128.29
+        "value": 132.93
       },
       {
         "date": "2026-02-09",
-        "value": 129.86
+        "value": 134.55
       },
       {
         "date": "2026-02-24",
-        "value": 128.09
+        "value": 132.72
       },
       {
         "date": "2026-02-24",
-        "value": 130.12
+        "value": 134.82
       },
       {
         "date": "2026-02-24",
-        "value": 139.76
+        "value": 144.81
       },
       {
         "date": "2026-03-09",
-        "value": 158.93
+        "value": 164.68
       },
       {
         "date": "2026-03-09",
-        "value": 170.61
+        "value": 176.78
       },
       {
         "date": "2026-03-11",
-        "value": 181.21
+        "value": 187.76
       },
       {
         "date": "2026-03-13",
-        "value": 183.44
+        "value": 190.07
       },
       {
         "date": "2026-03-25",
-        "value": 183.8
+        "value": 190.45
       },
       {
         "date": "2026-03-25",
-        "value": 220.11
+        "value": 228.06
       },
       {
         "date": "2026-03-25T00:30",
-        "value": 227.57
+        "value": 235.79
       },
       {
         "date": "2026-03-27T04:00",
-        "value": 232.19
+        "value": 240.58
       },
       {
         "date": "2026-03-27",
-        "value": 247.26
+        "value": 256.2
       },
       {
         "date": "2026-03-30",
-        "value": 244.78
+        "value": 253.63
       },
       {
         "date": "2026-03-31T01:00",
-        "value": 245.13
+        "value": 253.99
       },
       {
         "date": "2026-04-02T01:00",
-        "value": 251.16
+        "value": 260.24
       },
       {
         "date": "2026-04-02T01:00",
-        "value": 272.15
+        "value": 281.99
       },
       {
         "date": "2026-04-02T13:30",
-        "value": 275.47
+        "value": 285.43
       },
       {
         "date": "2026-04-06T19:30",
-        "value": 293.35
+        "value": 303.96
       },
       {
         "date": "2026-04-07T23:30",
-        "value": 340.46
+        "value": 352.77
       },
       {
         "date": "2026-04-09T00:30",
-        "value": 344.72
+        "value": 357.18
       },
       {
         "date": "2026-04-09",
-        "value": 344.72
+        "value": 357.18
       },
       {
         "date": "2026-05-12T05:00",
-        "value": 188.7
+        "value": 195.52
       },
       {
         "date": "2026-05-12T05:00",
-        "value": 323.14
+        "value": 183.28
       },
       {
         "date": "2026-05-12T05:00",
-        "value": 189.04
+        "value": 100.51
+      },
+      {
+        "date": "2026-05-12",
+        "value": 100.51
       }
     ],
     "mode_a": [
@@ -1630,175 +1657,175 @@
       },
       {
         "date": "2025-12-15T15",
-        "value": 105.49
+        "value": 105.37
       },
       {
         "date": "2025-12-17T03",
-        "value": 107.49
+        "value": 107.36
       },
       {
         "date": "2025-12-29",
-        "value": 110.5
+        "value": 110.37
       },
       {
         "date": "2026-01-12T03",
-        "value": 111.2
+        "value": 111.07
       },
       {
         "date": "2026-01-12T23",
-        "value": 111.43
+        "value": 111.3
       },
       {
         "date": "2026-01-13T17",
-        "value": 115.36
+        "value": 115.22
       },
       {
         "date": "2026-01-13T23",
-        "value": 111.98
+        "value": 111.85
       },
       {
         "date": "2026-01-16",
-        "value": 97.44
+        "value": 97.33
       },
       {
         "date": "2026-01-23T02",
-        "value": 108.27
+        "value": 108.14
       },
       {
         "date": "2026-01-26T02",
-        "value": 108.97
+        "value": 108.85
       },
       {
         "date": "2026-01-29",
-        "value": 99.52
+        "value": 99.4
       },
       {
-        "date": "2026-02-02T17",
-        "value": 114.92
+        "date": "2026-02-03T11",
+        "value": 111.79
       },
       {
         "date": "2026-02-03T19",
-        "value": 118.86
+        "value": 115.63
       },
       {
         "date": "2026-02-23",
-        "value": 128.67
+        "value": 116.57
       },
       {
-        "date": "2026-02-23",
-        "value": 129.71
-      },
-      {
-        "date": "2026-02-25",
-        "value": 185.17
+        "date": "2026-02-24",
+        "value": 126.58
       },
       {
         "date": "2026-02-25T03",
-        "value": 195.9
+        "value": 133.91
       },
       {
         "date": "2026-02-26",
-        "value": 202.67
+        "value": 194.66
       },
       {
         "date": "2026-02-26T01",
-        "value": 238.32
+        "value": 228.9
       },
       {
         "date": "2026-02-26T19",
-        "value": 247.02
+        "value": 237.26
       },
       {
         "date": "2026-02-27",
-        "value": 248.18
+        "value": 238.37
+      },
+      {
+        "date": "2026-03-02",
+        "value": 270.41
       },
       {
         "date": "2026-03-11",
-        "value": 221.13
+        "value": 240.93
       },
       {
         "date": "2026-03-16",
-        "value": 250.19
+        "value": 272.59
       },
       {
         "date": "2026-03-19T17:30",
-        "value": 249.81
+        "value": 272.18
       },
       {
         "date": "2026-03-27T15:00",
-        "value": 259.48
+        "value": 282.72
       },
       {
         "date": "2026-03-30",
-        "value": 308.06
+        "value": 335.64
       },
       {
         "date": "2026-03-30T09:00",
-        "value": 312.43
+        "value": 340.41
       },
       {
         "date": "2026-03-31T03:30",
-        "value": 303.21
+        "value": 330.37
       },
       {
         "date": "2026-04-01",
-        "value": 315.77
+        "value": 344.04
       },
       {
         "date": "2026-04-01T05:00",
-        "value": 326.12
+        "value": 355.33
       },
       {
         "date": "2026-04-01T05:00",
-        "value": 360.53
+        "value": 392.82
       },
       {
         "date": "2026-04-06T15:00",
-        "value": 359.12
+        "value": 391.28
       },
       {
         "date": "2026-04-06T15:30",
-        "value": 386.31
+        "value": 420.9
       },
       {
         "date": "2026-04-07",
-        "value": 395.35
+        "value": 430.75
       },
       {
         "date": "2026-04-07T10:00",
-        "value": 399.18
+        "value": 434.93
       },
       {
         "date": "2026-04-08T08:00",
-        "value": 399.22
+        "value": 434.97
       },
       {
         "date": "2026-04-09",
-        "value": 414.95
+        "value": 452.11
       },
       {
         "date": "2026-04-10",
-        "value": 509.11
+        "value": 554.7
       },
       {
         "date": "2026-04-14T01:00",
-        "value": 515.47
+        "value": 561.63
       },
       {
         "date": "2026-04-14T01:00",
-        "value": 478.46
+        "value": 521.31
       },
       {
         "date": "2026-04-22",
-        "value": 414.73
+        "value": 451.87
       },
       {
         "date": "2026-05-06",
-        "value": 541.93
+        "value": 590.46
       },
       {
         "date": "2026-05-06",
-        "value": 275.95
+        "value": 300.66
       }
     ],
     "benchmark_0050": [
@@ -1965,10 +1992,6 @@
       {
         "date": "2026-01-30",
         "value": 116.21
-      },
-      {
-        "date": "2026-02-02",
-        "value": 114.04
       },
       {
         "date": "2026-02-03",
@@ -2211,296 +2234,296 @@
   "sensitivity": [
     {
       "hold_bars": 14,
-      "win_rate": 76.3,
-      "avg_pnl_pct": 2.05,
+      "win_rate": 74.4,
+      "avg_pnl_pct": 2.27,
       "wins": 29,
       "losses": 9,
       "resolved": 44
     },
     {
       "hold_bars": 15,
-      "win_rate": 76.9,
-      "avg_pnl_pct": 3.52,
-      "wins": 30,
+      "win_rate": 75.6,
+      "avg_pnl_pct": 3.87,
+      "wins": 31,
       "losses": 9,
       "resolved": 44
     },
     {
       "hold_bars": 16,
-      "win_rate": 80.0,
-      "avg_pnl_pct": 3.78,
+      "win_rate": 78.0,
+      "avg_pnl_pct": 3.58,
       "wins": 32,
       "losses": 8,
       "resolved": 44
     },
     {
       "hold_bars": 17,
-      "win_rate": 81.0,
-      "avg_pnl_pct": 3.27,
+      "win_rate": 79.1,
+      "avg_pnl_pct": 3.49,
       "wins": 34,
       "losses": 8,
       "resolved": 44
     },
     {
       "hold_bars": 18,
-      "win_rate": 78.0,
-      "avg_pnl_pct": 3.57,
+      "win_rate": 76.2,
+      "avg_pnl_pct": 3.49,
       "wins": 32,
       "losses": 9,
       "resolved": 44
     },
     {
       "hold_bars": 19,
-      "win_rate": 76.2,
-      "avg_pnl_pct": 3.71,
+      "win_rate": 74.4,
+      "avg_pnl_pct": 3.23,
       "wins": 32,
       "losses": 10,
       "resolved": 44
     },
     {
       "hold_bars": 20,
-      "win_rate": 73.8,
-      "avg_pnl_pct": 2.97,
+      "win_rate": 72.1,
+      "avg_pnl_pct": 2.73,
       "wins": 31,
       "losses": 11,
       "resolved": 44
     },
     {
       "hold_bars": 21,
-      "win_rate": 74.4,
-      "avg_pnl_pct": 2.81,
+      "win_rate": 72.7,
+      "avg_pnl_pct": 3.09,
       "wins": 32,
       "losses": 11,
       "resolved": 44
     },
     {
       "hold_bars": 22,
-      "win_rate": 69.8,
-      "avg_pnl_pct": 2.99,
+      "win_rate": 68.2,
+      "avg_pnl_pct": 2.8,
       "wins": 30,
       "losses": 11,
       "resolved": 42
     },
     {
       "hold_bars": 23,
-      "win_rate": 67.4,
-      "avg_pnl_pct": 2.46,
+      "win_rate": 65.9,
+      "avg_pnl_pct": 2.22,
       "wins": 29,
       "losses": 12,
       "resolved": 42
     },
     {
       "hold_bars": 24,
-      "win_rate": 69.8,
-      "avg_pnl_pct": 1.86,
+      "win_rate": 68.2,
+      "avg_pnl_pct": 2.06,
       "wins": 30,
       "losses": 11,
       "resolved": 42
     },
     {
       "hold_bars": 25,
-      "win_rate": 69.8,
-      "avg_pnl_pct": 2.46,
+      "win_rate": 68.2,
+      "avg_pnl_pct": 2.67,
       "wins": 30,
       "losses": 11,
       "resolved": 42
     },
     {
       "hold_bars": 26,
-      "win_rate": 62.8,
-      "avg_pnl_pct": 2.55,
+      "win_rate": 61.4,
+      "avg_pnl_pct": 2.76,
       "wins": 27,
       "losses": 14,
       "resolved": 42
     },
     {
       "hold_bars": 27,
-      "win_rate": 62.8,
-      "avg_pnl_pct": 2.85,
+      "win_rate": 61.4,
+      "avg_pnl_pct": 2.69,
       "wins": 27,
       "losses": 14,
       "resolved": 42
     },
     {
       "hold_bars": 28,
-      "win_rate": 66.7,
-      "avg_pnl_pct": 3.14,
+      "win_rate": 65.1,
+      "avg_pnl_pct": 3.4,
       "wins": 28,
       "losses": 12,
       "resolved": 42
     },
     {
       "hold_bars": 29,
-      "win_rate": 69.8,
-      "avg_pnl_pct": 3.78,
+      "win_rate": 68.2,
+      "avg_pnl_pct": 4.21,
       "wins": 30,
       "losses": 11,
       "resolved": 42
     },
     {
       "hold_bars": 30,
-      "win_rate": 67.4,
-      "avg_pnl_pct": 3.62,
+      "win_rate": 65.9,
+      "avg_pnl_pct": 4.09,
       "wins": 29,
       "losses": 12,
       "resolved": 42
     },
     {
       "hold_bars": 31,
-      "win_rate": 61.9,
-      "avg_pnl_pct": 4.64,
+      "win_rate": 60.5,
+      "avg_pnl_pct": 5.16,
       "wins": 26,
       "losses": 13,
       "resolved": 41
     },
     {
       "hold_bars": 32,
-      "win_rate": 61.9,
-      "avg_pnl_pct": 4.83,
+      "win_rate": 60.5,
+      "avg_pnl_pct": 4.91,
       "wins": 26,
       "losses": 13,
       "resolved": 41
     },
     {
       "hold_bars": 33,
-      "win_rate": 61.9,
-      "avg_pnl_pct": 5.03,
+      "win_rate": 60.5,
+      "avg_pnl_pct": 4.56,
       "wins": 26,
       "losses": 13,
       "resolved": 41
     },
     {
       "hold_bars": 34,
-      "win_rate": 59.5,
-      "avg_pnl_pct": 4.19,
+      "win_rate": 58.1,
+      "avg_pnl_pct": 3.92,
       "wins": 25,
       "losses": 14,
       "resolved": 41
     },
     {
       "hold_bars": 35,
-      "win_rate": 58.5,
-      "avg_pnl_pct": 3.15,
+      "win_rate": 57.1,
+      "avg_pnl_pct": 3.43,
       "wins": 24,
       "losses": 14,
       "resolved": 41
     },
     {
       "hold_bars": 36,
-      "win_rate": 60.0,
-      "avg_pnl_pct": 3.44,
+      "win_rate": 58.5,
+      "avg_pnl_pct": 2.87,
       "wins": 24,
       "losses": 13,
       "resolved": 41
     },
     {
       "hold_bars": 37,
-      "win_rate": 59.0,
-      "avg_pnl_pct": 2.99,
+      "win_rate": 57.5,
+      "avg_pnl_pct": 2.84,
       "wins": 23,
       "losses": 13,
       "resolved": 41
     },
     {
       "hold_bars": 38,
-      "win_rate": 53.8,
-      "avg_pnl_pct": 2.03,
-      "wins": 21,
+      "win_rate": 51.3,
+      "avg_pnl_pct": 2.16,
+      "wins": 20,
       "losses": 14,
       "resolved": 40
     },
     {
       "hold_bars": 39,
-      "win_rate": 52.5,
-      "avg_pnl_pct": 1.67,
-      "wins": 21,
+      "win_rate": 52.4,
+      "avg_pnl_pct": 1.46,
+      "wins": 22,
       "losses": 14,
       "resolved": 39
     },
     {
       "hold_bars": 40,
-      "win_rate": 53.7,
-      "avg_pnl_pct": 1.83,
+      "win_rate": 52.4,
+      "avg_pnl_pct": 2.17,
       "wins": 22,
       "losses": 14,
       "resolved": 39
     },
     {
       "hold_bars": 41,
-      "win_rate": 53.7,
-      "avg_pnl_pct": 3.16,
-      "wins": 22,
-      "losses": 13,
-      "resolved": 38
-    },
-    {
-      "hold_bars": 42,
-      "win_rate": 52.5,
-      "avg_pnl_pct": 3.14,
+      "win_rate": 51.2,
+      "avg_pnl_pct": 3.08,
       "wins": 21,
       "losses": 13,
       "resolved": 38
     },
     {
-      "hold_bars": 43,
+      "hold_bars": 42,
       "win_rate": 52.4,
-      "avg_pnl_pct": 2.92,
+      "avg_pnl_pct": 3.46,
+      "wins": 22,
+      "losses": 13,
+      "resolved": 38
+    },
+    {
+      "hold_bars": 43,
+      "win_rate": 51.2,
+      "avg_pnl_pct": 3.56,
       "wins": 22,
       "losses": 13,
       "resolved": 37
     },
     {
       "hold_bars": 44,
-      "win_rate": 51.2,
-      "avg_pnl_pct": 2.97,
+      "win_rate": 50.0,
+      "avg_pnl_pct": 2.95,
       "wins": 21,
       "losses": 13,
       "resolved": 37
     },
     {
       "hold_bars": 45,
-      "win_rate": 50.0,
-      "avg_pnl_pct": 2.45,
+      "win_rate": 48.8,
+      "avg_pnl_pct": 2.82,
       "wins": 21,
       "losses": 14,
       "resolved": 37
     },
     {
       "hold_bars": 46,
-      "win_rate": 52.4,
-      "avg_pnl_pct": 2.88,
+      "win_rate": 51.2,
+      "avg_pnl_pct": 3.13,
       "wins": 22,
       "losses": 13,
       "resolved": 37
     },
     {
       "hold_bars": 47,
-      "win_rate": 53.7,
-      "avg_pnl_pct": 5.53,
+      "win_rate": 52.4,
+      "avg_pnl_pct": 3.78,
       "wins": 22,
-      "losses": 11,
-      "resolved": 36
+      "losses": 12,
+      "resolved": 37
     },
     {
       "hold_bars": 48,
-      "win_rate": 53.7,
-      "avg_pnl_pct": 6.02,
+      "win_rate": 52.4,
+      "avg_pnl_pct": 5.65,
       "wins": 22,
       "losses": 11,
       "resolved": 36
     },
     {
       "hold_bars": 49,
-      "win_rate": 54.8,
-      "avg_pnl_pct": 5.48,
+      "win_rate": 53.5,
+      "avg_pnl_pct": 5.45,
       "wins": 23,
       "losses": 11,
       "resolved": 36
     },
     {
       "hold_bars": 50,
-      "win_rate": 54.8,
-      "avg_pnl_pct": 5.18,
+      "win_rate": 53.5,
+      "avg_pnl_pct": 5.14,
       "wins": 23,
       "losses": 11,
       "resolved": 36

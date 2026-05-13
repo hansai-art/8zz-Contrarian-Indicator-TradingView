@@ -1,9 +1,9 @@
 {
   "stats": {
-    "generated_at": "2026-05-13T04:43:47.441499+00:00",
+    "generated_at": "2026-05-13T07:49:43.371189+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
-    "total_events": 70,
+    "total_events": 71,
     "total_flips": 45,
     "resolved_flips": 0,
     "open_flips": 1,
@@ -1457,6 +1457,19 @@
       "exit_price_a": null,
       "pnl_pct_a": null,
       "outcome_a": "open"
+    },
+    {
+      "unix_ms": 1778656940000,
+      "date": "2026-05-13",
+      "time_utc": "2026-05-13T07:22:20+00:00",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "跌停\n指標: 偏多 ▲ | 強度: ★★★\nFB 05/13 07:22 我， 巴逆逆 在這邊發誓， 我2026年整個年度 不會再買任何錶 一直到2027年年暑假才可以買其中一隻當生日禮物...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
     }
   ],
   "equity_curves": {

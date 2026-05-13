@@ -1,6 +1,6 @@
 {
   "stats": {
-    "generated_at": "2026-05-13T16:00:49.562281+00:00",
+    "generated_at": "2026-05-13T16:39:02.134330+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
     "total_events": 71,
@@ -2528,7 +2528,7 @@
     {
       "hold_bars": 48,
       "win_rate": 52.4,
-      "avg_pnl_pct": 3.17,
+      "avg_pnl_pct": 3.14,
       "wins": 22,
       "losses": 12,
       "resolved": 37

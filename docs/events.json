@@ -1,9 +1,9 @@
 {
   "stats": {
-    "generated_at": "2026-05-20T08:41:18.206737+00:00",
+    "generated_at": "2026-05-20T16:36:00.253380+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
-    "total_events": 75,
+    "total_events": 76,
     "total_flips": 47,
     "resolved_flips": 0,
     "open_flips": 1,
@@ -1539,6 +1539,19 @@
       "strength": 3,
       "strength_label": "★★★",
       "tooltip": "跌停\n指標: 偏多 ▲ | 強度: ★★★\nFB 05/20 05:44 那個，不好意思，跌太多心情有點差 我已經說200次了，我就這個帳號會講股票 沒有Line 沒有秘書 沒有助手 沒有...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1779285645000,
+      "date": "2026-05-20",
+      "time_utc": "2026-05-20T14:00:45+00:00",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "不懂\n指標: 偏多 ▲ | 強度: ★★☆\nFB 05/20 14:00 追了一個月的瓜 結論是： 他沒有被fired!!   好了， 所以可以開始解決IG那完全看不懂怎麼運作的社群守則了...",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false

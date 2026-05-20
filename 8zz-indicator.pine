@@ -1,7 +1,7 @@
 // This Pine Script™ is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
 // © hansai-art / Group.G
 // 8zz 反指標 v2
-// 事件: 76筆 | 期間: 2025/12 ~ 2026/05
+// 事件: 77筆 | 期間: 2025/12 ~ 2026/05
 // 情緒解讀框架：負面情緒（被套、停損、恐慌）→ 偏多 ▲（散戶恐慌→主力拉升）
 //               正面情緒（漲停追買、過度樂觀）→ 偏空 ▼（市場過熱→崩跌機率高）
 // 免責聲明：本指標僅供娛樂參考，不構成任何投資建議。
@@ -481,6 +481,11 @@ if barstate.isfirst
     array.push(evt_dir, 1)
     array.push(evt_str, 3)
     array.push(evt_tips, "跌停\n指標: 偏多 ▲ | 強度: ★★★\nFB 05/20 05:44 那個，不好意思，跌太多心情有點差 我已經說200次了，我就這個帳號會講股票 沒有Line 沒有秘書 沒有助手 沒有...")
+    array.push(evt_ticker, "")
+    array.push(evt_time, 1779285645000)
+    array.push(evt_dir, 1)
+    array.push(evt_str, 2)
+    array.push(evt_tips, "不懂\n指標: 偏多 ▲ | 強度: ★★☆\nFB 05/20 14:00 追了一個月的瓜 結論是： 他沒有被fired!!   好了， 所以可以開始解決IG那完全看不懂怎麼運作的社群守則了...")
     array.push(evt_ticker, "")
 
 var int currentDir = 0

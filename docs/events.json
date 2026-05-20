@@ -1,9 +1,9 @@
 {
   "stats": {
-    "generated_at": "2026-05-20T05:05:00.991698+00:00",
+    "generated_at": "2026-05-20T08:41:18.206737+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
-    "total_events": 74,
+    "total_events": 75,
     "total_flips": 47,
     "resolved_flips": 0,
     "open_flips": 1,
@@ -1529,6 +1529,19 @@
       "exit_price_a": null,
       "pnl_pct_a": null,
       "outcome_a": "open"
+    },
+    {
+      "unix_ms": 1779255886000,
+      "date": "2026-05-20",
+      "time_utc": "2026-05-20T05:44:46+00:00",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "跌停\n指標: 偏多 ▲ | 強度: ★★★\nFB 05/20 05:44 那個，不好意思，跌太多心情有點差 我已經說200次了，我就這個帳號會講股票 沒有Line 沒有秘書 沒有助手 沒有...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
     }
   ],
   "equity_curves": {

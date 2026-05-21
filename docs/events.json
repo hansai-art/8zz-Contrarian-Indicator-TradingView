@@ -1,9 +1,9 @@
 {
   "stats": {
-    "generated_at": "2026-05-21T05:09:28.839348+00:00",
+    "generated_at": "2026-05-21T08:47:12.029451+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
-    "total_events": 77,
+    "total_events": 78,
     "total_flips": 47,
     "resolved_flips": 0,
     "open_flips": 1,
@@ -1565,6 +1565,19 @@
       "strength": 1,
       "strength_label": "★☆☆",
       "tooltip": "等\n指標: 偏多 ▲ | 強度: ★☆☆\nFB 05/21 01:23 趁好不容易沒虧錢先跑了 手上有現金才能等之後大整理的機會～❤️  還是拿去買已經在谷底的散熱？",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1779342310000,
+      "date": "2026-05-21",
+      "time_utc": "2026-05-21T05:45:10+00:00",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "跌停\n指標: 偏多 ▲ | 強度: ★★★\nFB 05/21 05:45 收盤了 跌停了 跟我的人生一樣 在谷底了⋯ 不，還會再往下吧 爛泥一般",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false

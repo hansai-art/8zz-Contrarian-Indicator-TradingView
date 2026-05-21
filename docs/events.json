@@ -1,9 +1,9 @@
 {
   "stats": {
-    "generated_at": "2026-05-20T17:38:20.694008+00:00",
+    "generated_at": "2026-05-21T05:09:28.839348+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
-    "total_events": 76,
+    "total_events": 77,
     "total_flips": 47,
     "resolved_flips": 0,
     "open_flips": 1,
@@ -1552,6 +1552,19 @@
       "strength": 2,
       "strength_label": "★★☆",
       "tooltip": "不懂\n指標: 偏多 ▲ | 強度: ★★☆\nFB 05/20 14:00 追了一個月的瓜 結論是： 他沒有被fired!!   好了， 所以可以開始解決IG那完全看不懂怎麼運作的社群守則了...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1779326595000,
+      "date": "2026-05-21",
+      "time_utc": "2026-05-21T01:23:15+00:00",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 1,
+      "strength_label": "★☆☆",
+      "tooltip": "等\n指標: 偏多 ▲ | 強度: ★☆☆\nFB 05/21 01:23 趁好不容易沒虧錢先跑了 手上有現金才能等之後大整理的機會～❤️  還是拿去買已經在谷底的散熱？",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false

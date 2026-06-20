@@ -44,6 +44,14 @@ on:
         required: false
         type: boolean
         default: false
+      apify_run_timeout_seconds:
+        description: "Apify sync run timeout in seconds"
+        required: false
+        default: "120"
+      apify_memory_mb:
+        description: "Apify actor memory in MB"
+        required: false
+        default: "256"
 
 jobs:
   update-pine:
@@ -80,6 +88,8 @@ jobs:
           APIFY_START_DATE: ${{ inputs.apify_start_date || '' }}
           APIFY_END_DATE: ${{ inputs.apify_end_date || '' }}
           FETCH_IGNORE_STATE: ${{ inputs.fetch_ignore_state || false }}
+          APIFY_RUN_TIMEOUT_SECONDS: ${{ inputs.apify_run_timeout_seconds || '120' }}
+          APIFY_MEMORY_MB: ${{ inputs.apify_memory_mb || '256' }}
         run: python scripts/fetch_fb_events.py
 
       # ── 4. Inject events into .pine ──────────────────────────────────────────

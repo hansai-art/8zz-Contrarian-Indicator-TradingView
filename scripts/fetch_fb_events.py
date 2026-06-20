@@ -47,6 +47,8 @@ APIFY_PARSE_ALL_RESULTS = os.environ.get("APIFY_PARSE_ALL_RESULTS", "false").low
 APIFY_START_DATE = os.environ.get("APIFY_START_DATE", "").strip()
 APIFY_END_DATE   = os.environ.get("APIFY_END_DATE", "").strip()
 FETCH_IGNORE_STATE = os.environ.get("FETCH_IGNORE_STATE", "false").lower() in {"1", "true", "yes", "on"}
+APIFY_RUN_TIMEOUT_SECONDS = int(os.environ.get("APIFY_RUN_TIMEOUT_SECONDS", "120"))
+APIFY_MEMORY_MB = int(os.environ.get("APIFY_MEMORY_MB", "256"))
 
 # ── Apify FB scraping ─────────────────────────────────────────────────────────
 
@@ -63,7 +65,7 @@ def fetch_posts_via_apify() -> list[dict]:
     # ── 1. Trigger a synchronous run (waits until finished) ───────────────────
     run_url = (
         f"https://api.apify.com/v2/acts/{APIFY_ACTOR_ID}/run-sync-get-dataset-items"
-        f"?token={APIFY_TOKEN}&timeout=120&memory=256"
+        f"?token={APIFY_TOKEN}&timeout={APIFY_RUN_TIMEOUT_SECONDS}&memory={APIFY_MEMORY_MB}"
     )
     payload_obj = {
         "startUrls": [{"url": APIFY_FB_URL}],
@@ -81,6 +83,7 @@ def fetch_posts_via_apify() -> list[dict]:
         f"ℹ️  Triggering Apify run for {APIFY_FB_URL} … "
         f"resultsLimit={APIFY_MAX_POSTS} parseAllResults={APIFY_PARSE_ALL_RESULTS} "
         f"startDate={APIFY_START_DATE or '-'} endDate={APIFY_END_DATE or '-'}"
+        f" timeout={APIFY_RUN_TIMEOUT_SECONDS}s memory={APIFY_MEMORY_MB}MB"
     )
     try:
         req = urllib.request.Request(

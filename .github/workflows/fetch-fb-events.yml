@@ -21,6 +21,29 @@ on:
 
   # Allow manual trigger for testing
   workflow_dispatch:
+    inputs:
+      apify_max_posts:
+        description: "Max posts to ask Apify for"
+        required: false
+        default: "10"
+      apify_parse_all_results:
+        description: "Ask Apify to paginate all results"
+        required: false
+        type: boolean
+        default: false
+      apify_start_date:
+        description: "Optional backfill start date (YYYY-MM-DD)"
+        required: false
+        default: ""
+      apify_end_date:
+        description: "Optional backfill end date (YYYY-MM-DD)"
+        required: false
+        default: ""
+      fetch_ignore_state:
+        description: "Ignore saved timestamp and reprocess matching posts"
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   update-pine:
@@ -52,6 +75,11 @@ jobs:
         env:
           APIFY_TOKEN:    ${{ secrets.APIFY_TOKEN }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          APIFY_MAX_POSTS: ${{ inputs.apify_max_posts || '10' }}
+          APIFY_PARSE_ALL_RESULTS: ${{ inputs.apify_parse_all_results || false }}
+          APIFY_START_DATE: ${{ inputs.apify_start_date || '' }}
+          APIFY_END_DATE: ${{ inputs.apify_end_date || '' }}
+          FETCH_IGNORE_STATE: ${{ inputs.fetch_ignore_state || false }}
         run: python scripts/fetch_fb_events.py
 
       # ── 4. Inject events into .pine ──────────────────────────────────────────

@@ -42,7 +42,11 @@ GOOGLE_API_KEY: str = os.environ.get("GOOGLE_API_KEY", "")
 # Apify actor for Facebook Posts Scraper
 APIFY_ACTOR_ID   = "apify~facebook-posts-scraper"
 APIFY_FB_URL     = "https://www.facebook.com/DieWithoutBang"
-APIFY_MAX_POSTS  = 10   # posts per Apify run
+APIFY_MAX_POSTS  = int(os.environ.get("APIFY_MAX_POSTS", "10"))
+APIFY_PARSE_ALL_RESULTS = os.environ.get("APIFY_PARSE_ALL_RESULTS", "false").lower() in {"1", "true", "yes", "on"}
+APIFY_START_DATE = os.environ.get("APIFY_START_DATE", "").strip()
+APIFY_END_DATE   = os.environ.get("APIFY_END_DATE", "").strip()
+FETCH_IGNORE_STATE = os.environ.get("FETCH_IGNORE_STATE", "false").lower() in {"1", "true", "yes", "on"}
 
 # ── Apify FB scraping ─────────────────────────────────────────────────────────
 
@@ -61,12 +65,23 @@ def fetch_posts_via_apify() -> list[dict]:
         f"https://api.apify.com/v2/acts/{APIFY_ACTOR_ID}/run-sync-get-dataset-items"
         f"?token={APIFY_TOKEN}&timeout=120&memory=256"
     )
-    payload = json.dumps({
+    payload_obj = {
         "startUrls": [{"url": APIFY_FB_URL}],
         "resultsLimit": APIFY_MAX_POSTS,
-    }).encode("utf-8")
+    }
+    if APIFY_PARSE_ALL_RESULTS:
+        payload_obj["parseAllResults"] = True
+    if APIFY_START_DATE:
+        payload_obj["startDate"] = APIFY_START_DATE
+    if APIFY_END_DATE:
+        payload_obj["endDate"] = APIFY_END_DATE
+    payload = json.dumps(payload_obj).encode("utf-8")
 
-    print(f"ℹ️  Triggering Apify run for {APIFY_FB_URL} …")
+    print(
+        f"ℹ️  Triggering Apify run for {APIFY_FB_URL} … "
+        f"resultsLimit={APIFY_MAX_POSTS} parseAllResults={APIFY_PARSE_ALL_RESULTS} "
+        f"startDate={APIFY_START_DATE or '-'} endDate={APIFY_END_DATE or '-'}"
+    )
     try:
         req = urllib.request.Request(
             run_url,
@@ -347,7 +362,9 @@ def main() -> None:
     using_ai = bool(GOOGLE_API_KEY)
     print(f"ℹ️  Classifier: {'Gemini Flash (AI)' if using_ai else 'keyword rules'}")
 
-    last_unix_ms = load_state()
+    last_unix_ms = 0 if FETCH_IGNORE_STATE else load_state()
+    if FETCH_IGNORE_STATE:
+        print("ℹ️  FETCH_IGNORE_STATE=true — reprocessing posts regardless of saved timestamp.")
     raw_items = fetch_posts_via_apify()
 
     new_events: list[dict] = []

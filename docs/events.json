@@ -1,98 +1,98 @@
 {
   "stats": {
-    "generated_at": "2026-06-20T04:20:33.266407+00:00",
+    "generated_at": "2026-06-20T04:17:43.919569+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
     "total_events": 84,
     "total_flips": 49,
-    "resolved_flips": 0,
+    "resolved_flips": 48,
     "open_flips": 1,
-    "wins": 0,
+    "wins": 13,
     "losses": 0,
-    "win_rate": 0.0,
-    "avg_pnl_pct": 0,
-    "bullish_flips": 0,
-    "bullish_wins": 0,
-    "bullish_win_rate": 0,
-    "bearish_flips": 0,
-    "bearish_wins": 0,
-    "bearish_win_rate": 0,
+    "win_rate": 92.9,
+    "avg_pnl_pct": null,
+    "bullish_flips": 24,
+    "bullish_wins": 9,
+    "bullish_win_rate": 37.5,
+    "bearish_flips": 24,
+    "bearish_wins": 4,
+    "bearish_win_rate": 16.7,
     "by_strength": {
       "1": {
-        "total": 0,
-        "wins": 0,
-        "win_rate": 0
+        "total": 4,
+        "wins": 1,
+        "win_rate": 25.0
       },
       "2": {
-        "total": 0,
-        "wins": 0,
-        "win_rate": 0
+        "total": 29,
+        "wins": 9,
+        "win_rate": 31.0
       },
       "3": {
-        "total": 0,
-        "wins": 0,
-        "win_rate": 0
+        "total": 15,
+        "wins": 3,
+        "win_rate": 20.0
       }
     },
     "mode_b": {
-      "resolved_flips": 0,
+      "resolved_flips": 48,
       "open_flips": 1,
-      "wins": 0,
+      "wins": 13,
       "losses": 0,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "bullish_flips": 0,
-      "bullish_wins": 0,
-      "bullish_win_rate": 0,
-      "bearish_flips": 0,
-      "bearish_wins": 0,
-      "bearish_win_rate": 0,
+      "win_rate": 92.9,
+      "avg_pnl_pct": null,
+      "bullish_flips": 24,
+      "bullish_wins": 9,
+      "bullish_win_rate": 37.5,
+      "bearish_flips": 24,
+      "bearish_wins": 4,
+      "bearish_win_rate": 16.7,
       "by_strength": {
         "1": {
-          "total": 0,
-          "wins": 0,
-          "win_rate": 0
+          "total": 4,
+          "wins": 1,
+          "win_rate": 25.0
         },
         "2": {
-          "total": 0,
-          "wins": 0,
-          "win_rate": 0
+          "total": 29,
+          "wins": 9,
+          "win_rate": 31.0
         },
         "3": {
-          "total": 0,
-          "wins": 0,
-          "win_rate": 0
+          "total": 15,
+          "wins": 3,
+          "win_rate": 20.0
         }
       }
     },
     "mode_a": {
-      "resolved_flips": 0,
-      "open_flips": 49,
-      "wins": 0,
-      "losses": 0,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "bullish_flips": 0,
-      "bullish_wins": 0,
-      "bullish_win_rate": 0,
-      "bearish_flips": 0,
-      "bearish_wins": 0,
-      "bearish_win_rate": 0,
+      "resolved_flips": 48,
+      "open_flips": 1,
+      "wins": 6,
+      "losses": 3,
+      "win_rate": 60.0,
+      "avg_pnl_pct": null,
+      "bullish_flips": 24,
+      "bullish_wins": 5,
+      "bullish_win_rate": 20.8,
+      "bearish_flips": 24,
+      "bearish_wins": 1,
+      "bearish_win_rate": 4.2,
       "by_strength": {
         "1": {
-          "total": 0,
+          "total": 4,
           "wins": 0,
-          "win_rate": 0
+          "win_rate": 0.0
         },
         "2": {
-          "total": 0,
-          "wins": 0,
-          "win_rate": 0
+          "total": 29,
+          "wins": 5,
+          "win_rate": 17.2
         },
         "3": {
-          "total": 0,
-          "wins": 0,
-          "win_rate": 0
+          "total": 15,
+          "wins": 1,
+          "win_rate": 6.7
         }
       }
     }
@@ -110,16 +110,16 @@
       "ticker": "TSM",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2025-12-03",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2025-12-12T01",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2025-12-23",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1765162380000,
@@ -146,16 +146,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
-      "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
-      "exit_price_a": null,
-      "pnl_pct_a": null,
-      "outcome_a": "open"
+      "entry_date": "2025-12-11T02",
+      "entry_price": 62.65,
+      "exit_date": "2025-12-12T01",
+      "exit_price": 63.8,
+      "pnl_pct": 1.84,
+      "outcome": "win",
+      "exit_date_a": "2025-12-11T19",
+      "exit_price_a": 64.18,
+      "pnl_pct_a": 2.45,
+      "outcome_a": "win"
     },
     {
       "unix_ms": 1765504200000,
@@ -169,16 +169,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
+      "entry_date": "2025-12-12T01",
+      "entry_price": 63.6,
+      "exit_date": "2025-12-12T21",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2025-12-12T18",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1765599000000,
@@ -192,16 +192,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
-      "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
-      "exit_price_a": null,
-      "pnl_pct_a": null,
-      "outcome_a": "open"
+      "entry_date": "2025-12-12T21",
+      "entry_price": 62.01,
+      "exit_date": "2025-12-21",
+      "exit_price": 67.76,
+      "pnl_pct": 9.29,
+      "outcome": "win",
+      "exit_date_a": "2025-12-15T15",
+      "exit_price_a": 63.85,
+      "pnl_pct_a": 2.97,
+      "outcome_a": "win"
     },
     {
       "unix_ms": 1765845780000,
@@ -241,16 +241,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2025-12-21",
       "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
+      "exit_date": "2026-01-07T01",
+      "exit_price": 69.9,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-01-12",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1767316140000,
@@ -277,16 +277,16 @@
       "ticker": "2330.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-01-06T00",
       "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
+      "exit_date": "2026-01-07T01",
+      "exit_price": 1670.0,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-01-06T17",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1767665760000,
@@ -313,16 +313,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
-      "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "entry_date": "2026-01-07T01",
+      "entry_price": 69.9,
+      "exit_date": "2026-01-12T05",
+      "exit_price": 70.35,
+      "pnl_pct": 0.64,
+      "outcome": "win",
+      "exit_date_a": "2026-01-07T18",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1768196760000,
@@ -336,16 +336,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
-      "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
-      "exit_price_a": null,
-      "pnl_pct_a": null,
-      "outcome_a": "open"
+      "entry_date": "2026-01-12T05",
+      "entry_price": 84.51,
+      "exit_date": "2026-01-13T00",
+      "exit_price": 84.07,
+      "pnl_pct": 0.52,
+      "outcome": "win",
+      "exit_date_a": "2026-01-12T23",
+      "exit_price_a": 84.34,
+      "pnl_pct_a": 0.2,
+      "outcome_a": "win"
     },
     {
       "unix_ms": 1768266540000,
@@ -359,16 +359,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
-      "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
-      "exit_price_a": null,
-      "pnl_pct_a": null,
-      "outcome_a": "open"
+      "entry_date": "2026-01-13T00",
+      "entry_price": 84.07,
+      "exit_date": "2026-01-13T05",
+      "exit_price": 85.18,
+      "pnl_pct": 1.33,
+      "outcome": "win",
+      "exit_date_a": "2026-01-13T17",
+      "exit_price_a": 87.04,
+      "pnl_pct_a": 3.53,
+      "outcome_a": "win"
     },
     {
       "unix_ms": 1768282860000,
@@ -382,16 +382,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
+      "entry_date": "2026-01-13T05",
+      "entry_price": 85.18,
+      "exit_date": "2026-01-20",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
-      "exit_price_a": null,
-      "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome": "flat",
+      "exit_date_a": "2026-01-13T23",
+      "exit_price_a": 87.68,
+      "pnl_pct_a": -2.93,
+      "outcome_a": "loss"
     },
     {
       "unix_ms": 1768478820000,
@@ -431,16 +431,16 @@
       "ticker": "2344.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
-      "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "entry_date": "2026-01-19T05",
+      "entry_price": 117.0,
+      "exit_date": "2026-01-20",
+      "exit_price": 109.5,
+      "pnl_pct": 6.41,
+      "outcome": "win",
+      "exit_date_a": "2026-01-20T17",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1768817220000,
@@ -467,16 +467,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
+      "entry_date": "2026-01-20",
+      "entry_price": 72.15,
+      "exit_date": "2026-01-20T12",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-02-09",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1768912320000,
@@ -490,16 +490,16 @@
       "ticker": "2337.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-01-20T12",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-01-22T00",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-01-21T06",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1769043840000,
@@ -513,16 +513,16 @@
       "ticker": "2337.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-01-22T00",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-01-28T06",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-01-22T17",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1769070660000,
@@ -549,16 +549,16 @@
       "ticker": "3481.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-01-23T00",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-01-28T06",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-01-23T17",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1769391360000,
@@ -585,16 +585,16 @@
       "ticker": "MU",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-01-28T06",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-02-03T02",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-01-29T00",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1769797080000,
@@ -608,16 +608,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-01-30T17",
       "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
+      "exit_date": "2026-02-03T02",
+      "exit_price": 81.63,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
-      "exit_price_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-02-02T13",
+      "exit_price_a": 81.63,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1770089280000,
@@ -631,16 +631,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
-      "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
-      "exit_price_a": null,
-      "pnl_pct_a": null,
-      "outcome_a": "open"
+      "entry_date": "2026-02-03T02",
+      "entry_price": 81.63,
+      "exit_date": "2026-02-03T08",
+      "exit_price": 87.17,
+      "pnl_pct": 6.78,
+      "outcome": "win",
+      "exit_date_a": "2026-02-03T19",
+      "exit_price_a": 84.43,
+      "pnl_pct_a": 3.43,
+      "outcome_a": "win"
     },
     {
       "unix_ms": 1770108480000,
@@ -654,16 +654,16 @@
       "ticker": "MU",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-02-03T08",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-02-09T00",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-02-04T02",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1770168060000,
@@ -677,16 +677,16 @@
       "ticker": "2337.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-02-04T00",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-02-09T00",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-02-04T17",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1770600540000,
@@ -700,16 +700,16 @@
       "ticker": "8027.TWO",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-02-09T00",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-02-24T16",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-02-09T17",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1770635400000,
@@ -736,16 +736,16 @@
       "ticker": "2330.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
+      "entry_date": "2026-02-11T01",
+      "entry_price": 1900.0,
+      "exit_date": "2026-02-24T16",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-02-11T18",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1770782580000,
@@ -759,16 +759,16 @@
       "ticker": "3481.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
+      "entry_date": "2026-02-11T03",
+      "entry_price": 21.6,
+      "exit_date": "2026-02-24T16",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-02-11T20",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1771953120000,
@@ -782,16 +782,16 @@
       "ticker": "TSM",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-02-24T16",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-03-09T00",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-02-25T10",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1772688720000,
@@ -805,16 +805,16 @@
       "ticker": "MU",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-03-05T05",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-03-09T00",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-03-05T23",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1773019440000,
@@ -828,16 +828,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-03-09T00",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-03-11T00",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-03-09T17",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1773106080000,
@@ -864,16 +864,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-03-11T00",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-03-13T16",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-03-11T17",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1773421380000,
@@ -887,16 +887,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-03-13T16",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-03-25T00",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-03-16T10",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1773592080000,
@@ -910,16 +910,16 @@
       "ticker": "2337.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-03-15",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-03-25T00",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-04-05",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1773912720000,
@@ -933,16 +933,16 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
-      "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
-      "exit_price_a": null,
-      "pnl_pct_a": null,
-      "outcome_a": "open"
+      "entry_date": "2026-03-19T09",
+      "entry_price": 71.64,
+      "exit_date": "2026-03-25T00",
+      "exit_price": 73.96,
+      "pnl_pct": 3.25,
+      "outcome": "win",
+      "exit_date_a": "2026-03-20T04",
+      "exit_price_a": 73.9,
+      "pnl_pct_a": 3.15,
+      "outcome_a": "win"
     },
     {
       "unix_ms": 1773969420000,
@@ -1008,16 +1008,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-03-25T00",
       "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
+      "exit_date": "2026-03-27T04",
+      "exit_price": 74.9,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-03-25T17",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1774490460000,
@@ -1031,16 +1031,16 @@
       "ticker": "MU",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-03-26T01",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-03-27T04",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-03-26T18",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1774587180000,
@@ -1054,16 +1054,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
+      "entry_date": "2026-03-27T04",
+      "entry_price": 74.9,
+      "exit_date": "2026-03-30T00",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-03-29T22",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1774832640000,
@@ -1077,16 +1077,16 @@
       "ticker": "CL=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
-      "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
-      "exit_price_a": null,
-      "pnl_pct_a": null,
-      "outcome_a": "open"
+      "entry_date": "2026-03-30T00",
+      "entry_price": 103.02,
+      "exit_date": "2026-03-31T01",
+      "exit_price": 101.68,
+      "pnl_pct": 1.3,
+      "outcome": "win",
+      "exit_date_a": "2026-03-30T17",
+      "exit_price_a": 103.37,
+      "pnl_pct_a": -0.34,
+      "outcome_a": "loss"
     },
     {
       "unix_ms": 1774843560000,
@@ -1113,16 +1113,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
-      "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "entry_date": "2026-03-31T01",
+      "entry_price": 73.3,
+      "exit_date": "2026-04-02T01",
+      "exit_price": 74.55,
+      "pnl_pct": 1.71,
+      "outcome": "win",
+      "exit_date_a": "2026-03-31T18",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1774921200000,
@@ -1136,16 +1136,16 @@
       "ticker": "8027.TWO",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
-      "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "entry_date": "2026-03-31T01",
+      "entry_price": 139.5,
+      "exit_date": "2026-04-02T01",
+      "exit_price": 148.0,
+      "pnl_pct": 6.09,
+      "outcome": "win",
+      "exit_date_a": "2026-03-31T18",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1774936560000,
@@ -1185,16 +1185,16 @@
       "ticker": "QQQ",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-04-02T01",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-04-02T13",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-04-02T18",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1775139840000,
@@ -1208,16 +1208,16 @@
       "ticker": "MU",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-04-02T13",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-04-07T01",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-04-06T07",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1775527320000,
@@ -1231,16 +1231,16 @@
       "ticker": "CL=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
-      "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
-      "exit_price_a": null,
-      "pnl_pct_a": null,
-      "outcome_a": "open"
+      "entry_date": "2026-04-07T01",
+      "entry_price": 114.92,
+      "exit_date": "2026-04-07T20",
+      "exit_price": 110.34,
+      "pnl_pct": 3.99,
+      "outcome": "win",
+      "exit_date_a": "2026-04-07T18",
+      "exit_price_a": 115.12,
+      "pnl_pct_a": -0.17,
+      "outcome_a": "loss"
     },
     {
       "unix_ms": 1775608020000,
@@ -1254,16 +1254,16 @@
       "ticker": "CL=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
-      "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
-      "exit_price_a": null,
-      "pnl_pct_a": null,
-      "outcome_a": "open"
+      "entry_date": "2026-04-07T20",
+      "entry_price": 110.34,
+      "exit_date": "2026-04-09T00",
+      "exit_price": 97.67,
+      "pnl_pct": -11.48,
+      "outcome": "flat",
+      "exit_date_a": "2026-04-08T16",
+      "exit_price_a": 94.42,
+      "pnl_pct_a": -14.43,
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1775610900000,
@@ -1290,16 +1290,16 @@
       "ticker": "8027.TWO",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-04-09T00",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-04-09T00",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-04-09T17",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1775697900000,
@@ -1313,16 +1313,16 @@
       "ticker": "5274.TWO",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-04-09T00",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-05-12T10:00",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-04-09T17",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1775786640000,
@@ -1336,16 +1336,16 @@
       "ticker": "6139.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
+      "entry_date": "2026-04-10T01",
+      "entry_price": 639.0,
+      "exit_date": "2026-05-12T10:00",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-04-10T18",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1775786641000,
@@ -1359,16 +1359,16 @@
       "ticker": "2383.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
+      "entry_date": "2026-04-10T01",
+      "entry_price": 3410.0,
+      "exit_date": "2026-05-12T10:00",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-04-10T18",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1775792400000,
@@ -1447,16 +1447,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-05-12T10:00",
       "entry_price": null,
-      "exit_date": null,
+      "exit_date": "2026-05-18T09:00",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-05-12T18:30",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1778656940000,
@@ -1496,16 +1496,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-05-18T09:00",
       "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
+      "exit_date": "2026-05-20T01:00",
+      "exit_price": 92.95,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-05-18T17:30",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1779241416000,
@@ -1519,16 +1519,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
-      "exit_price": null,
-      "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "entry_date": "2026-05-20T01:00",
+      "entry_price": 92.95,
+      "exit_date": "2026-06-18T04:00",
+      "exit_price": 106.75,
+      "pnl_pct": 14.85,
+      "outcome": "win",
+      "exit_date_a": "2026-05-20T09:30",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1779255886000,
@@ -1646,16 +1646,16 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": null,
-      "entry_price": null,
-      "exit_date": null,
+      "entry_date": "2026-06-18T04:00",
+      "entry_price": 106.75,
+      "exit_date": "2026-06-19T03:30",
       "exit_price": null,
       "pnl_pct": null,
-      "outcome": "unknown",
-      "exit_date_a": null,
+      "outcome": "flat",
+      "exit_date_a": "2026-06-18T12:30",
       "exit_price_a": null,
       "pnl_pct_a": null,
-      "outcome_a": "open"
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1781854144000,
@@ -1669,7 +1669,7 @@
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": null,
+      "entry_date": "2026-06-19T03:30",
       "entry_price": null,
       "exit_date": null,
       "exit_price": null,
@@ -1682,306 +1682,1365 @@
     }
   ],
   "equity_curves": {
-    "mode_b": [],
-    "mode_a": [],
-    "benchmark_0050": []
+    "mode_b": [
+      {
+        "date": "2025-12-03",
+        "value": 100.0
+      },
+      {
+        "date": "2025-12-12T01",
+        "value": null
+      },
+      {
+        "date": "2025-12-12T01",
+        "value": null
+      },
+      {
+        "date": "2025-12-12T21",
+        "value": null
+      },
+      {
+        "date": "2025-12-21",
+        "value": null
+      },
+      {
+        "date": "2026-01-07T01",
+        "value": null
+      },
+      {
+        "date": "2026-01-07T01",
+        "value": null
+      },
+      {
+        "date": "2026-01-12T05",
+        "value": null
+      },
+      {
+        "date": "2026-01-13T00",
+        "value": null
+      },
+      {
+        "date": "2026-01-13T05",
+        "value": null
+      },
+      {
+        "date": "2026-01-20",
+        "value": null
+      },
+      {
+        "date": "2026-01-20",
+        "value": null
+      },
+      {
+        "date": "2026-01-20T12",
+        "value": null
+      },
+      {
+        "date": "2026-01-22T00",
+        "value": null
+      },
+      {
+        "date": "2026-01-28T06",
+        "value": null
+      },
+      {
+        "date": "2026-01-28T06",
+        "value": null
+      },
+      {
+        "date": "2026-02-03T02",
+        "value": null
+      },
+      {
+        "date": "2026-02-03T02",
+        "value": null
+      },
+      {
+        "date": "2026-02-03T08",
+        "value": null
+      },
+      {
+        "date": "2026-02-09T00",
+        "value": null
+      },
+      {
+        "date": "2026-02-09T00",
+        "value": null
+      },
+      {
+        "date": "2026-02-24T16",
+        "value": null
+      },
+      {
+        "date": "2026-02-24T16",
+        "value": null
+      },
+      {
+        "date": "2026-02-24T16",
+        "value": null
+      },
+      {
+        "date": "2026-03-09T00",
+        "value": null
+      },
+      {
+        "date": "2026-03-09T00",
+        "value": null
+      },
+      {
+        "date": "2026-03-11T00",
+        "value": null
+      },
+      {
+        "date": "2026-03-13T16",
+        "value": null
+      },
+      {
+        "date": "2026-03-25T00",
+        "value": null
+      },
+      {
+        "date": "2026-03-25T00",
+        "value": null
+      },
+      {
+        "date": "2026-03-25T00",
+        "value": null
+      },
+      {
+        "date": "2026-03-27T04",
+        "value": null
+      },
+      {
+        "date": "2026-03-27T04",
+        "value": null
+      },
+      {
+        "date": "2026-03-30T00",
+        "value": null
+      },
+      {
+        "date": "2026-03-31T01",
+        "value": null
+      },
+      {
+        "date": "2026-04-02T01",
+        "value": null
+      },
+      {
+        "date": "2026-04-02T01",
+        "value": null
+      },
+      {
+        "date": "2026-04-02T13",
+        "value": null
+      },
+      {
+        "date": "2026-04-07T01",
+        "value": null
+      },
+      {
+        "date": "2026-04-07T20",
+        "value": null
+      },
+      {
+        "date": "2026-04-09T00",
+        "value": null
+      },
+      {
+        "date": "2026-04-09T00",
+        "value": null
+      },
+      {
+        "date": "2026-05-12T10:00",
+        "value": null
+      },
+      {
+        "date": "2026-05-12T10:00",
+        "value": null
+      },
+      {
+        "date": "2026-05-12T10:00",
+        "value": null
+      },
+      {
+        "date": "2026-05-18T09:00",
+        "value": null
+      },
+      {
+        "date": "2026-05-20T01:00",
+        "value": null
+      },
+      {
+        "date": "2026-06-18T04:00",
+        "value": null
+      },
+      {
+        "date": "2026-06-19T03:30",
+        "value": null
+      }
+    ],
+    "mode_a": [
+      {
+        "date": "2025-12-03",
+        "value": 100.0
+      },
+      {
+        "date": "2025-12-11T19",
+        "value": 102.45
+      },
+      {
+        "date": "2025-12-12T18",
+        "value": null
+      },
+      {
+        "date": "2025-12-15T15",
+        "value": null
+      },
+      {
+        "date": "2025-12-23",
+        "value": null
+      },
+      {
+        "date": "2026-01-06T17",
+        "value": null
+      },
+      {
+        "date": "2026-01-07T18",
+        "value": null
+      },
+      {
+        "date": "2026-01-12",
+        "value": null
+      },
+      {
+        "date": "2026-01-12T23",
+        "value": null
+      },
+      {
+        "date": "2026-01-13T17",
+        "value": null
+      },
+      {
+        "date": "2026-01-13T23",
+        "value": null
+      },
+      {
+        "date": "2026-01-20T17",
+        "value": null
+      },
+      {
+        "date": "2026-01-21T06",
+        "value": null
+      },
+      {
+        "date": "2026-01-22T17",
+        "value": null
+      },
+      {
+        "date": "2026-01-23T17",
+        "value": null
+      },
+      {
+        "date": "2026-01-29T00",
+        "value": null
+      },
+      {
+        "date": "2026-02-02T13",
+        "value": null
+      },
+      {
+        "date": "2026-02-03T19",
+        "value": null
+      },
+      {
+        "date": "2026-02-04T02",
+        "value": null
+      },
+      {
+        "date": "2026-02-04T17",
+        "value": null
+      },
+      {
+        "date": "2026-02-09",
+        "value": null
+      },
+      {
+        "date": "2026-02-09T17",
+        "value": null
+      },
+      {
+        "date": "2026-02-11T18",
+        "value": null
+      },
+      {
+        "date": "2026-02-11T20",
+        "value": null
+      },
+      {
+        "date": "2026-02-25T10",
+        "value": null
+      },
+      {
+        "date": "2026-03-05T23",
+        "value": null
+      },
+      {
+        "date": "2026-03-09T17",
+        "value": null
+      },
+      {
+        "date": "2026-03-11T17",
+        "value": null
+      },
+      {
+        "date": "2026-03-16T10",
+        "value": null
+      },
+      {
+        "date": "2026-03-20T04",
+        "value": null
+      },
+      {
+        "date": "2026-03-25T17",
+        "value": null
+      },
+      {
+        "date": "2026-03-26T18",
+        "value": null
+      },
+      {
+        "date": "2026-03-29T22",
+        "value": null
+      },
+      {
+        "date": "2026-03-30T17",
+        "value": null
+      },
+      {
+        "date": "2026-03-31T18",
+        "value": null
+      },
+      {
+        "date": "2026-03-31T18",
+        "value": null
+      },
+      {
+        "date": "2026-04-02T18",
+        "value": null
+      },
+      {
+        "date": "2026-04-05",
+        "value": null
+      },
+      {
+        "date": "2026-04-06T07",
+        "value": null
+      },
+      {
+        "date": "2026-04-07T18",
+        "value": null
+      },
+      {
+        "date": "2026-04-08T16",
+        "value": null
+      },
+      {
+        "date": "2026-04-09T17",
+        "value": null
+      },
+      {
+        "date": "2026-04-09T17",
+        "value": null
+      },
+      {
+        "date": "2026-04-10T18",
+        "value": null
+      },
+      {
+        "date": "2026-04-10T18",
+        "value": null
+      },
+      {
+        "date": "2026-05-12T18:30",
+        "value": null
+      },
+      {
+        "date": "2026-05-18T17:30",
+        "value": null
+      },
+      {
+        "date": "2026-05-20T09:30",
+        "value": null
+      },
+      {
+        "date": "2026-06-18T12:30",
+        "value": null
+      }
+    ],
+    "benchmark_0050": [
+      {
+        "date": "2025-12-03",
+        "value": 100.0
+      },
+      {
+        "date": "2025-12-04",
+        "value": null
+      },
+      {
+        "date": "2025-12-05",
+        "value": null
+      },
+      {
+        "date": "2025-12-07",
+        "value": null
+      },
+      {
+        "date": "2025-12-08",
+        "value": null
+      },
+      {
+        "date": "2025-12-09",
+        "value": null
+      },
+      {
+        "date": "2025-12-10",
+        "value": null
+      },
+      {
+        "date": "2025-12-11",
+        "value": null
+      },
+      {
+        "date": "2025-12-12",
+        "value": null
+      },
+      {
+        "date": "2025-12-14",
+        "value": null
+      },
+      {
+        "date": "2025-12-15",
+        "value": null
+      },
+      {
+        "date": "2025-12-16",
+        "value": null
+      },
+      {
+        "date": "2025-12-17",
+        "value": null
+      },
+      {
+        "date": "2025-12-18",
+        "value": null
+      },
+      {
+        "date": "2025-12-19",
+        "value": null
+      },
+      {
+        "date": "2025-12-21",
+        "value": null
+      },
+      {
+        "date": "2025-12-22",
+        "value": null
+      },
+      {
+        "date": "2025-12-23",
+        "value": null
+      },
+      {
+        "date": "2025-12-24",
+        "value": null
+      },
+      {
+        "date": "2025-12-26",
+        "value": 103.13
+      },
+      {
+        "date": "2025-12-28",
+        "value": null
+      },
+      {
+        "date": "2025-12-29",
+        "value": null
+      },
+      {
+        "date": "2025-12-30",
+        "value": null
+      },
+      {
+        "date": "2025-12-31",
+        "value": null
+      },
+      {
+        "date": "2026-01-02",
+        "value": 106.18
+      },
+      {
+        "date": "2026-01-04",
+        "value": null
+      },
+      {
+        "date": "2026-01-05",
+        "value": null
+      },
+      {
+        "date": "2026-01-06",
+        "value": null
+      },
+      {
+        "date": "2026-01-07",
+        "value": null
+      },
+      {
+        "date": "2026-01-08",
+        "value": null
+      },
+      {
+        "date": "2026-01-09",
+        "value": null
+      },
+      {
+        "date": "2026-01-11",
+        "value": null
+      },
+      {
+        "date": "2026-01-12",
+        "value": null
+      },
+      {
+        "date": "2026-01-13",
+        "value": null
+      },
+      {
+        "date": "2026-01-14",
+        "value": null
+      },
+      {
+        "date": "2026-01-15",
+        "value": null
+      },
+      {
+        "date": "2026-01-16",
+        "value": null
+      },
+      {
+        "date": "2026-01-19",
+        "value": 114.93
+      },
+      {
+        "date": "2026-01-20",
+        "value": 115.81
+      },
+      {
+        "date": "2026-01-21",
+        "value": null
+      },
+      {
+        "date": "2026-01-22",
+        "value": null
+      },
+      {
+        "date": "2026-01-23",
+        "value": null
+      },
+      {
+        "date": "2026-01-25",
+        "value": null
+      },
+      {
+        "date": "2026-01-26",
+        "value": null
+      },
+      {
+        "date": "2026-01-27",
+        "value": null
+      },
+      {
+        "date": "2026-01-28",
+        "value": null
+      },
+      {
+        "date": "2026-01-29",
+        "value": null
+      },
+      {
+        "date": "2026-01-30",
+        "value": null
+      },
+      {
+        "date": "2026-02-01",
+        "value": null
+      },
+      {
+        "date": "2026-02-02",
+        "value": null
+      },
+      {
+        "date": "2026-02-03",
+        "value": null
+      },
+      {
+        "date": "2026-02-04",
+        "value": null
+      },
+      {
+        "date": "2026-02-05",
+        "value": null
+      },
+      {
+        "date": "2026-02-06",
+        "value": null
+      },
+      {
+        "date": "2026-02-08",
+        "value": null
+      },
+      {
+        "date": "2026-02-09",
+        "value": null
+      },
+      {
+        "date": "2026-02-10",
+        "value": null
+      },
+      {
+        "date": "2026-02-11",
+        "value": null
+      },
+      {
+        "date": "2026-02-12",
+        "value": null
+      },
+      {
+        "date": "2026-02-13",
+        "value": null
+      },
+      {
+        "date": "2026-02-15",
+        "value": null
+      },
+      {
+        "date": "2026-02-16",
+        "value": null
+      },
+      {
+        "date": "2026-02-17",
+        "value": null
+      },
+      {
+        "date": "2026-02-18",
+        "value": null
+      },
+      {
+        "date": "2026-02-19",
+        "value": null
+      },
+      {
+        "date": "2026-02-20",
+        "value": null
+      },
+      {
+        "date": "2026-02-22",
+        "value": null
+      },
+      {
+        "date": "2026-02-23",
+        "value": null
+      },
+      {
+        "date": "2026-02-24",
+        "value": null
+      },
+      {
+        "date": "2026-02-25",
+        "value": null
+      },
+      {
+        "date": "2026-02-26",
+        "value": null
+      },
+      {
+        "date": "2026-02-27",
+        "value": null
+      },
+      {
+        "date": "2026-03-01",
+        "value": null
+      },
+      {
+        "date": "2026-03-02",
+        "value": null
+      },
+      {
+        "date": "2026-03-03",
+        "value": null
+      },
+      {
+        "date": "2026-03-04",
+        "value": null
+      },
+      {
+        "date": "2026-03-05",
+        "value": null
+      },
+      {
+        "date": "2026-03-06",
+        "value": null
+      },
+      {
+        "date": "2026-03-08",
+        "value": null
+      },
+      {
+        "date": "2026-03-09",
+        "value": null
+      },
+      {
+        "date": "2026-03-10",
+        "value": null
+      },
+      {
+        "date": "2026-03-11",
+        "value": null
+      },
+      {
+        "date": "2026-03-12",
+        "value": null
+      },
+      {
+        "date": "2026-03-13",
+        "value": null
+      },
+      {
+        "date": "2026-03-15",
+        "value": null
+      },
+      {
+        "date": "2026-03-16",
+        "value": null
+      },
+      {
+        "date": "2026-03-17",
+        "value": null
+      },
+      {
+        "date": "2026-03-18",
+        "value": null
+      },
+      {
+        "date": "2026-03-19",
+        "value": null
+      },
+      {
+        "date": "2026-03-20",
+        "value": null
+      },
+      {
+        "date": "2026-03-22",
+        "value": null
+      },
+      {
+        "date": "2026-03-23",
+        "value": null
+      },
+      {
+        "date": "2026-03-24",
+        "value": null
+      },
+      {
+        "date": "2026-03-25",
+        "value": null
+      },
+      {
+        "date": "2026-03-26",
+        "value": null
+      },
+      {
+        "date": "2026-03-27",
+        "value": null
+      },
+      {
+        "date": "2026-03-29",
+        "value": null
+      },
+      {
+        "date": "2026-03-30",
+        "value": null
+      },
+      {
+        "date": "2026-03-31",
+        "value": null
+      },
+      {
+        "date": "2026-04-01",
+        "value": null
+      },
+      {
+        "date": "2026-04-02",
+        "value": null
+      },
+      {
+        "date": "2026-04-05",
+        "value": null
+      },
+      {
+        "date": "2026-04-06",
+        "value": null
+      },
+      {
+        "date": "2026-04-07",
+        "value": null
+      },
+      {
+        "date": "2026-04-08",
+        "value": null
+      },
+      {
+        "date": "2026-04-09",
+        "value": null
+      },
+      {
+        "date": "2026-04-10",
+        "value": null
+      },
+      {
+        "date": "2026-04-12",
+        "value": null
+      },
+      {
+        "date": "2026-04-13",
+        "value": null
+      },
+      {
+        "date": "2026-04-14",
+        "value": null
+      },
+      {
+        "date": "2026-04-15",
+        "value": null
+      },
+      {
+        "date": "2026-04-16",
+        "value": null
+      },
+      {
+        "date": "2026-04-17",
+        "value": null
+      },
+      {
+        "date": "2026-04-19",
+        "value": null
+      },
+      {
+        "date": "2026-04-20",
+        "value": null
+      },
+      {
+        "date": "2026-04-21",
+        "value": null
+      },
+      {
+        "date": "2026-04-22",
+        "value": null
+      },
+      {
+        "date": "2026-04-23",
+        "value": null
+      },
+      {
+        "date": "2026-04-24",
+        "value": null
+      },
+      {
+        "date": "2026-04-26",
+        "value": null
+      },
+      {
+        "date": "2026-04-27",
+        "value": null
+      },
+      {
+        "date": "2026-04-28",
+        "value": null
+      },
+      {
+        "date": "2026-04-29",
+        "value": null
+      },
+      {
+        "date": "2026-04-30",
+        "value": null
+      },
+      {
+        "date": "2026-05-01",
+        "value": null
+      },
+      {
+        "date": "2026-05-03",
+        "value": null
+      },
+      {
+        "date": "2026-05-04",
+        "value": null
+      },
+      {
+        "date": "2026-05-05",
+        "value": null
+      },
+      {
+        "date": "2026-05-06",
+        "value": null
+      },
+      {
+        "date": "2026-05-07",
+        "value": null
+      },
+      {
+        "date": "2026-05-08",
+        "value": null
+      },
+      {
+        "date": "2026-05-10",
+        "value": null
+      },
+      {
+        "date": "2026-05-11",
+        "value": null
+      },
+      {
+        "date": "2026-05-12",
+        "value": null
+      },
+      {
+        "date": "2026-05-13",
+        "value": null
+      },
+      {
+        "date": "2026-05-14",
+        "value": null
+      },
+      {
+        "date": "2026-05-15",
+        "value": null
+      },
+      {
+        "date": "2026-05-17",
+        "value": null
+      },
+      {
+        "date": "2026-05-18",
+        "value": null
+      },
+      {
+        "date": "2026-05-19",
+        "value": null
+      },
+      {
+        "date": "2026-05-20",
+        "value": null
+      },
+      {
+        "date": "2026-05-21",
+        "value": null
+      },
+      {
+        "date": "2026-05-22",
+        "value": null
+      },
+      {
+        "date": "2026-05-25",
+        "value": 161.72
+      },
+      {
+        "date": "2026-05-26",
+        "value": null
+      },
+      {
+        "date": "2026-05-27",
+        "value": null
+      },
+      {
+        "date": "2026-05-28",
+        "value": null
+      },
+      {
+        "date": "2026-05-29",
+        "value": null
+      },
+      {
+        "date": "2026-05-31",
+        "value": null
+      },
+      {
+        "date": "2026-06-01",
+        "value": null
+      },
+      {
+        "date": "2026-06-02",
+        "value": null
+      },
+      {
+        "date": "2026-06-03",
+        "value": null
+      },
+      {
+        "date": "2026-06-04",
+        "value": null
+      },
+      {
+        "date": "2026-06-05",
+        "value": null
+      },
+      {
+        "date": "2026-06-07",
+        "value": null
+      },
+      {
+        "date": "2026-06-08",
+        "value": null
+      },
+      {
+        "date": "2026-06-09",
+        "value": null
+      },
+      {
+        "date": "2026-06-10",
+        "value": null
+      },
+      {
+        "date": "2026-06-11",
+        "value": null
+      },
+      {
+        "date": "2026-06-12",
+        "value": null
+      },
+      {
+        "date": "2026-06-14",
+        "value": null
+      },
+      {
+        "date": "2026-06-15",
+        "value": null
+      },
+      {
+        "date": "2026-06-16",
+        "value": null
+      },
+      {
+        "date": "2026-06-17",
+        "value": null
+      },
+      {
+        "date": "2026-06-18",
+        "value": null
+      },
+      {
+        "date": "2026-06-19",
+        "value": null
+      }
+    ]
   },
   "sensitivity": [
     {
       "hold_bars": 14,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 60.0,
+      "avg_pnl_pct": null,
+      "wins": 6,
+      "losses": 3,
+      "resolved": 48
     },
     {
       "hold_bars": 15,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 60.0,
+      "avg_pnl_pct": null,
+      "wins": 6,
+      "losses": 3,
+      "resolved": 48
     },
     {
       "hold_bars": 16,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 70.0,
+      "avg_pnl_pct": null,
+      "wins": 7,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 17,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 60.0,
+      "avg_pnl_pct": null,
+      "wins": 6,
+      "losses": 3,
+      "resolved": 48
     },
     {
       "hold_bars": 18,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 70.0,
+      "avg_pnl_pct": null,
+      "wins": 7,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 19,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 70.0,
+      "avg_pnl_pct": null,
+      "wins": 7,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 20,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 60.0,
+      "avg_pnl_pct": null,
+      "wins": 6,
+      "losses": 3,
+      "resolved": 48
     },
     {
       "hold_bars": 21,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 60.0,
+      "avg_pnl_pct": null,
+      "wins": 6,
+      "losses": 3,
+      "resolved": 48
     },
     {
       "hold_bars": 22,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 60.0,
+      "avg_pnl_pct": null,
+      "wins": 6,
+      "losses": 3,
+      "resolved": 48
     },
     {
       "hold_bars": 23,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 75.0,
+      "avg_pnl_pct": null,
+      "wins": 12,
+      "losses": 3,
+      "resolved": 48
     },
     {
       "hold_bars": 24,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 82.4,
+      "avg_pnl_pct": null,
+      "wins": 14,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 25,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 82.4,
+      "avg_pnl_pct": null,
+      "wins": 14,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 26,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 81.2,
+      "avg_pnl_pct": null,
+      "wins": 13,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 27,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 81.2,
+      "avg_pnl_pct": null,
+      "wins": 13,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 28,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 70.0,
+      "avg_pnl_pct": null,
+      "wins": 7,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 29,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 66.7,
+      "avg_pnl_pct": null,
+      "wins": 6,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 30,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 66.7,
+      "avg_pnl_pct": null,
+      "wins": 6,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 31,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 66.7,
+      "avg_pnl_pct": null,
+      "wins": 6,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 32,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 55.6,
+      "avg_pnl_pct": null,
+      "wins": 5,
+      "losses": 3,
+      "resolved": 48
     },
     {
       "hold_bars": 33,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 55.6,
+      "avg_pnl_pct": null,
+      "wins": 5,
+      "losses": 3,
+      "resolved": 48
     },
     {
       "hold_bars": 34,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 66.7,
+      "avg_pnl_pct": null,
+      "wins": 6,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 35,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 55.6,
+      "avg_pnl_pct": null,
+      "wins": 5,
+      "losses": 3,
+      "resolved": 48
     },
     {
       "hold_bars": 36,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 62.5,
+      "avg_pnl_pct": null,
+      "wins": 5,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 37,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 50.0,
+      "avg_pnl_pct": null,
+      "wins": 4,
+      "losses": 3,
+      "resolved": 48
     },
     {
       "hold_bars": 38,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 50.0,
+      "avg_pnl_pct": null,
+      "wins": 4,
+      "losses": 3,
+      "resolved": 48
     },
     {
       "hold_bars": 39,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 62.5,
+      "avg_pnl_pct": null,
+      "wins": 5,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 40,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 62.5,
+      "avg_pnl_pct": null,
+      "wins": 5,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 41,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 62.5,
+      "avg_pnl_pct": null,
+      "wins": 5,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 42,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 62.5,
+      "avg_pnl_pct": null,
+      "wins": 5,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 43,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 62.5,
+      "avg_pnl_pct": null,
+      "wins": 5,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 44,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 57.1,
+      "avg_pnl_pct": null,
+      "wins": 4,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 45,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 62.5,
+      "avg_pnl_pct": null,
+      "wins": 5,
+      "losses": 2,
+      "resolved": 48
     },
     {
       "hold_bars": 46,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 66.7,
+      "avg_pnl_pct": null,
+      "wins": 10,
+      "losses": 3,
+      "resolved": 47
     },
     {
       "hold_bars": 47,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 70.6,
+      "avg_pnl_pct": null,
+      "wins": 12,
+      "losses": 3,
+      "resolved": 47
     },
     {
       "hold_bars": 48,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 64.7,
+      "avg_pnl_pct": null,
+      "wins": 11,
+      "losses": 4,
+      "resolved": 47
     },
     {
       "hold_bars": 49,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 68.8,
+      "avg_pnl_pct": null,
+      "wins": 11,
+      "losses": 3,
+      "resolved": 47
     },
     {
       "hold_bars": 50,
-      "win_rate": 0.0,
-      "avg_pnl_pct": 0,
-      "wins": 0,
-      "losses": 0,
-      "resolved": 0
+      "win_rate": 70.6,
+      "avg_pnl_pct": null,
+      "wins": 12,
+      "losses": 3,
+      "resolved": 47
     }
   ]
 }

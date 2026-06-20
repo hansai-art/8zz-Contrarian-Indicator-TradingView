@@ -720,6 +720,21 @@ def main() -> None:
     events = compute_outcomes_mode_a(events, all_prices, hold_bars=MODE_A_HOLD_BARS)
     stats = build_stats(events)
 
+    existing_output = None
+    if OUTPUT_FILE.exists():
+        try:
+            existing_output = json.loads(OUTPUT_FILE.read_text(encoding="utf-8"))
+        except Exception:  # noqa: BLE001
+            existing_output = None
+
+    existing_stats = (existing_output or {}).get("stats", {})
+    if stats["resolved_flips"] == 0 and existing_stats.get("resolved_flips", 0) > 0:
+        print(
+            "WARNING: fresh market-data build produced zero resolved flips; "
+            "preserving the existing docs/events.json to avoid overwriting good data."
+        )
+        return
+
     print("Running hold_bars sensitivity analysis …")
     sens = sensitivity_analysis(events, all_prices)
     positive = [r for r in sens if r["avg_pnl_pct"] > 0]

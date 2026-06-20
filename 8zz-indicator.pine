@@ -1,7 +1,7 @@
 // This Pine Script™ is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
 // © hansai-art / Group.G
 // 8zz 反指標 v2
-// 事件: 81筆 | 期間: 2025/12 ~ 2026/05
+// 事件: 85筆 | 期間: 2025/12 ~ 2026/06
 // 情緒解讀框架：負面情緒（被套、停損、恐慌）→ 偏多 ▲（散戶恐慌→主力拉升）
 //               正面情緒（漲停追買、過度樂觀）→ 偏空 ▼（市場過熱→崩跌機率高）
 // 免責聲明：本指標僅供娛樂參考，不構成任何投資建議。
@@ -506,6 +506,26 @@ if barstate.isfirst
     array.push(evt_dir, 1)
     array.push(evt_str, 1)
     array.push(evt_tips, "等\n指標: 偏多 ▲ | 強度: ★☆☆\nFB 05/25 01:15 你乖，不要亂漲 我等等就來接你了～～❤️")
+    array.push(evt_ticker, "")
+    array.push(evt_time, 1781629529000)
+    array.push(evt_dir, 1)
+    array.push(evt_str, 3)
+    array.push(evt_tips, "停損\n指標: 偏多 ▲ | 強度: ★★★\nFB 06/16 17:05 這兩年真的停損會覺得自己是笨蛋 年初鈦昇95停損， 聯電97停損，華崩電120停損，聯發科跌5%停利，國巨應該還在...")
+    array.push(evt_ticker, "")
+    array.push(evt_time, 1781666520000)
+    array.push(evt_dir, 1)
+    array.push(evt_str, 3)
+    array.push(evt_tips, "停損\n指標: 偏多 ▲ | 強度: ★★★\nFB 06/17 03:22 Why... 為什麼下殺了 我剛剛買還是紅的阿阿！？ 我停損一個芭樂股轉過來，你不可以這樣耶！")
+    array.push(evt_ticker, "")
+    array.push(evt_time, 1781757086000)
+    array.push(evt_dir, -1)
+    array.push(evt_str, 2)
+    array.push(evt_tips, "多頭\n指標: 偏空 ▼ | 強度: ★★☆\nFB 06/18 04:31 來吧！ 我準備好了！ 大多頭三年總資產才漲10%不到！")
+    array.push(evt_ticker, "")
+    array.push(evt_time, 1781854144000)
+    array.push(evt_dir, 1)
+    array.push(evt_str, 1)
+    array.push(evt_tips, "等\n指標: 偏多 ▲ | 強度: ★☆☆\nFB 06/19 07:29 拿了這麼多年的公關品，終於第一次用買的 重車日誌-教士 你看看～ 我還是有在騎車的喔（笑）  只是安全帽已經退化道...")
     array.push(evt_ticker, "")
 
 var int currentDir = 0

@@ -126,124 +126,166 @@ def _store_bar(dt_utc: datetime, close: float, prices: dict[str, float], fmt: st
     prices[dt_utc.strftime("%Y-%m-%d")] = close  # last bar of day wins → daily close
 
 
-def fetch_price_history(ticker: str, start: datetime, end: datetime) -> dict[str, float]:
-    """
-    Return price data for the given ticker and date range.
+def _to_utc(idx) -> datetime:
+    if hasattr(idx, "tzinfo") and idx.tzinfo is not None:
+        return idx.astimezone(timezone.utc)
+    return idx.replace(tzinfo=timezone.utc)
 
-    Key formats:
-      '30m'   keys: 'YYYY-MM-DDTHH:MM'  (16 chars) – bar OPENING time, UTC
-      '1h'    keys: 'YYYY-MM-DDTHH'     (13 chars) – bar OPENING time, UTC
-      'daily' keys: 'YYYY-MM-DD'        (10 chars)
 
-    30m is limited to ~60 days by yfinance; 1h covers up to ~730 days.
-    All are attempted; daily is the final fallback.
-    """
-    end_padded = end + timedelta(days=5)
-    prices: dict[str, float] = {}
+def _download_batch(tickers: list[str], start: datetime, end: datetime, interval: str | None = None):
+    if not tickers:
+        return None
+    kwargs = {
+        "tickers": tickers,
+        "start": start.strftime("%Y-%m-%d"),
+        "end": end.strftime("%Y-%m-%d"),
+        "auto_adjust": True,
+        "progress": False,
+        "threads": False,
+        "group_by": "ticker",
+    }
+    if interval:
+        kwargs["interval"] = interval
+    return yf.download(**kwargs)
 
-    def _to_utc(idx) -> datetime:
-        if hasattr(idx, "tzinfo") and idx.tzinfo is not None:
-            return idx.astimezone(timezone.utc)
-        return idx.replace(tzinfo=timezone.utc)
 
-    # ── 30m (last ~60 days) ───────────────────────────────────────────────────
-    thirty_m_start = max(start, end - timedelta(days=59))
+def _ticker_frame(df, ticker: str):
+    if df is None or getattr(df, "empty", True):
+        return None
+    columns = getattr(df, "columns", None)
+    if columns is None:
+        return None
+
+    if getattr(columns, "nlevels", 1) > 1:
+        top_level = set(columns.get_level_values(0))
+        if ticker not in top_level:
+            return None
+        sub = df[ticker]
+    else:
+        sub = df
+
+    if getattr(sub, "empty", True) or "Close" not in sub:
+        return None
+    return sub
+
+
+def _populate_30m_prices(all_prices: dict[str, dict[str, float]], tickers: list[str], start: datetime, end: datetime) -> None:
+    if not tickers:
+        return
     try:
-        df = yf.download(
-            ticker,
-            start=thirty_m_start.strftime("%Y-%m-%d"),
-            end=end_padded.strftime("%Y-%m-%d"),
-            interval="30m",
-            auto_adjust=True,
-            progress=False,
-        )
-        if df is not None and not df.empty:
-            for idx, row in df.iterrows():
-                close = float(row["Close"].iloc[0]) if hasattr(row["Close"], "iloc") else float(row["Close"])
-                _store_bar(_to_utc(idx), close, prices, "%Y-%m-%dT%H:%M")
+        df = _download_batch(tickers, start, end, interval="30m")
     except Exception as exc:  # noqa: BLE001
-        print(f"WARNING: yfinance 30m error for {ticker}: {exc}")
+        print(f"WARNING: yfinance 30m batch error: {exc}")
+        return
 
-    # ── 1h (full range, fills gaps older than 60 days) ────────────────────────
+    for ticker in tickers:
+        sub = _ticker_frame(df, ticker)
+        if sub is None:
+            continue
+        prices = all_prices.setdefault(ticker, {})
+        for idx, row in sub.iterrows():
+            close = row.get("Close")
+            if close is None:
+                continue
+            _store_bar(_to_utc(idx), float(close), prices, "%Y-%m-%dT%H:%M")
+
+
+def _populate_1h_prices(all_prices: dict[str, dict[str, float]], tickers: list[str], start: datetime, end: datetime) -> None:
+    if not tickers:
+        return
     try:
-        df = yf.download(
-            ticker,
-            start=start.strftime("%Y-%m-%d"),
-            end=end_padded.strftime("%Y-%m-%d"),
-            interval="1h",
-            auto_adjust=True,
-            progress=False,
-        )
-        if df is not None and not df.empty:
-            # Group bars by day; filter out intra-day outliers before storing.
-            # yfinance often returns a corrupt "last bar of day" for non-US exchanges
-            # (e.g. Taiwan market closes at 13:30 CST, so the 13:00–14:00 bar is
-            # truncated and sometimes contains a wildly wrong close price).
-            # Strategy: if a bar deviates >7% from the day's median close, skip it.
-            from statistics import median as _median
-            day_bars: dict[str, list[tuple]] = {}
-            for idx, row in df.iterrows():
-                dt_utc = _to_utc(idx)
-                close = float(row["Close"].iloc[0]) if hasattr(row["Close"], "iloc") else float(row["Close"])
-                d_key = dt_utc.strftime("%Y-%m-%d")
-                day_bars.setdefault(d_key, []).append((dt_utc, close))
-
-            for d_key, bars in day_bars.items():
-                closes = [c for _, c in bars]
-                med = _median(closes)
-                for dt_utc, close in sorted(bars, key=lambda x: x[0]):
-                    if len(bars) >= 3 and abs(close - med) / med > 0.07:
-                        continue  # skip intra-day outlier (corrupt truncated bar)
-                    h_key = dt_utc.strftime("%Y-%m-%dT%H")
-                    if h_key not in prices:          # don't overwrite 30m data
-                        prices[h_key] = close
-                    if d_key not in prices:
-                        prices[d_key] = close
+        df = _download_batch(tickers, start, end, interval="1h")
     except Exception as exc:  # noqa: BLE001
-        print(f"WARNING: yfinance 1h error for {ticker}: {exc}")
+        print(f"WARNING: yfinance 1h batch error: {exc}")
+        return
 
-    if prices:
-        return prices
+    from statistics import median as _median
 
-    # ── Daily fallback ────────────────────────────────────────────────────────
+    for ticker in tickers:
+        sub = _ticker_frame(df, ticker)
+        if sub is None:
+            continue
+
+        prices = all_prices.setdefault(ticker, {})
+        day_bars: dict[str, list[tuple[datetime, float]]] = {}
+        for idx, row in sub.iterrows():
+            close = row.get("Close")
+            if close is None:
+                continue
+            dt_utc = _to_utc(idx)
+            day_bars.setdefault(dt_utc.strftime("%Y-%m-%d"), []).append((dt_utc, float(close)))
+
+        for d_key, bars in day_bars.items():
+            closes = [c for _, c in bars]
+            med = _median(closes)
+            for dt_utc, close in sorted(bars, key=lambda x: x[0]):
+                if len(bars) >= 3 and med and abs(close - med) / med > 0.07:
+                    continue
+                h_key = dt_utc.strftime("%Y-%m-%dT%H")
+                if h_key not in prices:
+                    prices[h_key] = close
+                if d_key not in prices:
+                    prices[d_key] = close
+
+
+def _populate_daily_prices(all_prices: dict[str, dict[str, float]], tickers: list[str], start: datetime, end: datetime) -> None:
+    if not tickers:
+        return
     try:
-        df = yf.download(
-            ticker,
-            start=start.strftime("%Y-%m-%d"),
-            end=end_padded.strftime("%Y-%m-%d"),
-            auto_adjust=True,
-            progress=False,
-        )
-        if df is not None and not df.empty:
-            for idx, row in df.iterrows():
-                date_str = idx.strftime("%Y-%m-%d") if hasattr(idx, "strftime") else str(idx)[:10]
-                close = float(row["Close"].iloc[0]) if hasattr(row["Close"], "iloc") else float(row["Close"])
-                prices[date_str] = close
+        df = _download_batch(tickers, start, end)
     except Exception as exc:  # noqa: BLE001
-        print(f"WARNING: yfinance daily error for {ticker}: {exc}")
+        print(f"WARNING: yfinance daily batch error: {exc}")
+        return
 
-    return prices
+    for ticker in tickers:
+        sub = _ticker_frame(df, ticker)
+        if sub is None:
+            continue
+        prices = all_prices.setdefault(ticker, {})
+        for idx, row in sub.iterrows():
+            close = row.get("Close")
+            if close is None:
+                continue
+            prices[idx.strftime("%Y-%m-%d")] = float(close)
 
 
 def fetch_all_prices(events: list[dict], first_dt: datetime, last_dt: datetime) -> dict[str, dict[str, float]]:
     """
     Download price history for every unique ticker referenced by events.
+    Uses batched yfinance requests to avoid rate limits from per-ticker downloads.
     Returns {ticker: {date_str: price}}.
     Falls back to FALLBACK_TICKER data when a ticker yields no data.
     """
     tickers = sorted({e["ticker"] for e in events} | {FALLBACK_TICKER})
-    all_prices: dict[str, dict[str, float]] = {}
+    all_prices: dict[str, dict[str, float]] = {ticker: {} for ticker in tickers}
+    end_padded = last_dt + timedelta(days=5)
 
     for ticker in tickers:
-        print(f"  Fetching {ticker} …")
-        prices = fetch_price_history(ticker, first_dt, last_dt)
-        if not prices:
+        print(f"  Queueing {ticker} …")
+
+    thirty_m_start = max(first_dt, last_dt - timedelta(days=59))
+    _populate_30m_prices(all_prices, tickers, thirty_m_start, end_padded)
+    _populate_1h_prices(all_prices, tickers, first_dt, end_padded)
+
+    missing_daily = [ticker for ticker, prices in all_prices.items() if not prices]
+    if missing_daily:
+        print(f"  Daily fallback for {len(missing_daily)} ticker(s) …")
+        _populate_daily_prices(all_prices, missing_daily, first_dt, end_padded)
+
+    fallback_prices = all_prices.get(FALLBACK_TICKER, {})
+    if not fallback_prices and FALLBACK_TICKER in tickers:
+        print(f"  Retrying fallback ticker {FALLBACK_TICKER} with daily download …")
+        _populate_daily_prices(all_prices, [FALLBACK_TICKER], first_dt, end_padded)
+        fallback_prices = all_prices.get(FALLBACK_TICKER, {})
+
+    for ticker in tickers:
+        if all_prices[ticker]:
+            continue
+        if fallback_prices:
             print(f"  WARNING: No data for {ticker}; using {FALLBACK_TICKER} as fallback.")
-            if FALLBACK_TICKER not in all_prices:
-                all_prices[FALLBACK_TICKER] = fetch_price_history(FALLBACK_TICKER, first_dt, last_dt)
-            all_prices[ticker] = all_prices[FALLBACK_TICKER]
+            all_prices[ticker] = fallback_prices
         else:
-            all_prices[ticker] = prices
+            print(f"  WARNING: No data for {ticker}; fallback ticker {FALLBACK_TICKER} also unavailable.")
 
     return all_prices
 

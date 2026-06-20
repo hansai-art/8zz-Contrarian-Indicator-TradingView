@@ -8,6 +8,7 @@
   <!-- Chart.js + date adapter -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+  <script src="https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js" defer></script>
 
   <style>
     /* ── Reset & base ── */
@@ -291,7 +292,7 @@
   </header>
 
   <div id="loading">⏳ 載入資料中…</div>
-  <div id="error">❌ 無法載入 events.json，請稍後再試。</div>
+  <div id="error" hidden aria-live="polite"></div>
 
   <div id="main-content" style="display:none">
 
@@ -329,6 +330,10 @@
       <div class="stat-card">
         <div class="val" id="s-total" style="color:var(--muted)">—</div>
         <div class="lbl">總事件數</div>
+      </div>
+      <div class="stat-card">
+        <div class="val"><span id="busuanzi_site_uv">—</span></div>
+        <div class="lbl">累計訪客數</div>
       </div>
     </div>
 
@@ -432,20 +437,44 @@
   const $ = id => document.getElementById(id);
   let allEvents = [];
   let stats = {};
-  let currentMode = 'a'; // 'a' or 'b'
+  let currentMode = 'b'; // 'a' or 'b'
+
+  function showError(message) {
+    $('loading').style.display = 'none';
+    $('main-content').style.display = 'none';
+    $('error').hidden = false;
+    $('error').style.display = 'block';
+    $('error').textContent = message;
+  }
+
+  function formatPct(value, digits = 2, showSign = true) {
+    if (value == null || !Number.isFinite(Number(value))) return '—';
+    const num = Number(value);
+    const sign = showSign && num >= 0 ? '+' : '';
+    return `${sign}${num.toFixed(digits)}%`;
+  }
+
+  function formatCount(value) {
+    if (value == null || !Number.isFinite(Number(value))) return '—';
+    return Number(value).toLocaleString('zh-TW');
+  }
 
   // ── Fetch data ──────────────────────────────────────────────────────────────
   try {
-    const res = await fetch('events.json');
-    if (!res.ok) throw new Error(res.statusText);
+    const res = await fetch('events.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
+    if (!data?.stats || !Array.isArray(data?.events)) {
+      throw new Error('資料格式錯誤');
+    }
+    if (typeof data.stats.total_events === 'number' && data.stats.total_events !== data.events.length) {
+      throw new Error(`資料不同步：stats.total_events=${data.stats.total_events}，events.length=${data.events.length}`);
+    }
     window._data = data;
     stats    = data.stats;
     allEvents = data.events.slice().sort((a, b) => b.unix_ms - a.unix_ms);
   } catch (e) {
-    $('loading').style.display = 'none';
-    $('error').style.display   = 'block';
-    $('error').textContent = '❌ 無法載入 events.json：' + e.message;
+    showError('❌ 無法載入 events.json：' + e.message);
     return;
   }
 
@@ -493,11 +522,11 @@
     const hasResolved = ms.resolved_flips > 0;
     if (hasResolved) {
       const winRateColor = ms.win_rate >= 60 ? 'var(--green)' : ms.win_rate >= 40 ? 'var(--yellow)' : 'var(--red)';
-      $('s-winrate').textContent = ms.win_rate + '%';
+      $('s-winrate').textContent = formatPct(ms.win_rate, 1, false);
       $('s-winrate').style.color = winRateColor;
       const avg = ms.avg_pnl_pct;
-      $('s-avgpnl').textContent  = (avg >= 0 ? '+' : '') + avg + '%';
-      $('s-avgpnl').style.color  = avg >= 0 ? 'var(--green)' : 'var(--red)';
+      $('s-avgpnl').textContent  = formatPct(avg, 2);
+      $('s-avgpnl').style.color  = avg == null || !Number.isFinite(Number(avg)) ? 'var(--muted)' : avg >= 0 ? 'var(--green)' : 'var(--red)';
     } else {
       $('s-winrate').textContent = '計算中';
       $('s-winrate').style.color = 'var(--muted)';
@@ -511,7 +540,7 @@
     $('s-winrate-lbl').textContent = modeLabel;
   }
 
-  renderStats('a');
+  renderStats('b');
 
   // ── Equity Chart ─────────────────────────────────────────────────────────────
   let equityChartObj = null;
@@ -627,8 +656,8 @@
       const wrColor  = row.win_rate >= 60 ? 'var(--green)' : row.win_rate >= 40 ? 'var(--yellow)' : 'var(--red)';
       tbody.innerHTML = `<tr style="background:#1a2a1a">
         <td style="font-weight:700;color:var(--blue)">${row.hold_bars} ★</td>
-        <td style="color:${wrColor}">${row.win_rate}%</td>
-        <td style="color:${pnlColor}">${row.avg_pnl_pct >= 0 ? '+' : ''}${row.avg_pnl_pct.toFixed(2)}%</td>
+        <td style="color:${wrColor}">${formatPct(row.win_rate, 1, false)}</td>
+        <td style="color:${pnlColor}">${formatPct(row.avg_pnl_pct, 2)}</td>
         <td>${row.wins}</td><td>${row.losses}</td><td>${row.resolved}</td>
       </tr>`;
     }

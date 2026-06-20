@@ -47,18 +47,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: pip
-          cache-dependency-path: scripts/requirements.txt
-
-      - name: Install dependencies
-        run: pip install yfinance
-
-      - name: Build site data (docs/events.json)
-        run: python scripts/build_site_data.py
+      - name: Verify Pages assets exist
+        run: |
+          test -f docs/index.html
+          test -f docs/events.json
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

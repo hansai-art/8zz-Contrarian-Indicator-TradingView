@@ -20,6 +20,7 @@ Usage:
 """
 
 import json
+import math
 import re
 import sys
 from datetime import datetime, timezone, timedelta
@@ -126,6 +127,14 @@ def _store_bar(dt_utc: datetime, close: float, prices: dict[str, float], fmt: st
     prices[dt_utc.strftime("%Y-%m-%d")] = close  # last bar of day wins → daily close
 
 
+def _finite_float(value) -> float | None:
+    try:
+        number = float(value)
+    except (TypeError, ValueError):
+        return None
+    return number if math.isfinite(number) else None
+
+
 def _to_utc(idx) -> datetime:
     if hasattr(idx, "tzinfo") and idx.tzinfo is not None:
         return idx.astimezone(timezone.utc)
@@ -184,10 +193,10 @@ def _populate_30m_prices(all_prices: dict[str, dict[str, float]], tickers: list[
             continue
         prices = all_prices.setdefault(ticker, {})
         for idx, row in sub.iterrows():
-            close = row.get("Close")
+            close = _finite_float(row.get("Close"))
             if close is None:
                 continue
-            _store_bar(_to_utc(idx), float(close), prices, "%Y-%m-%dT%H:%M")
+            _store_bar(_to_utc(idx), close, prices, "%Y-%m-%dT%H:%M")
 
 
 def _populate_1h_prices(all_prices: dict[str, dict[str, float]], tickers: list[str], start: datetime, end: datetime) -> None:
@@ -209,11 +218,11 @@ def _populate_1h_prices(all_prices: dict[str, dict[str, float]], tickers: list[s
         prices = all_prices.setdefault(ticker, {})
         day_bars: dict[str, list[tuple[datetime, float]]] = {}
         for idx, row in sub.iterrows():
-            close = row.get("Close")
+            close = _finite_float(row.get("Close"))
             if close is None:
                 continue
             dt_utc = _to_utc(idx)
-            day_bars.setdefault(dt_utc.strftime("%Y-%m-%d"), []).append((dt_utc, float(close)))
+            day_bars.setdefault(dt_utc.strftime("%Y-%m-%d"), []).append((dt_utc, close))
 
         for d_key, bars in day_bars.items():
             closes = [c for _, c in bars]
@@ -243,10 +252,10 @@ def _populate_daily_prices(all_prices: dict[str, dict[str, float]], tickers: lis
             continue
         prices = all_prices.setdefault(ticker, {})
         for idx, row in sub.iterrows():
-            close = row.get("Close")
+            close = _finite_float(row.get("Close"))
             if close is None:
                 continue
-            prices[idx.strftime("%Y-%m-%d")] = float(close)
+            prices[idx.strftime("%Y-%m-%d")] = close
 
 
 def fetch_all_prices(events: list[dict], first_dt: datetime, last_dt: datetime) -> dict[str, dict[str, float]]:
@@ -519,7 +528,7 @@ def _build_mode_stats(
     # Denominator: wins + losses + open (flat = 0% or long-side miss, excluded from rate)
     denom = len(wins) + len(losses) + len(open_flips)
     win_rate = len(wins) / denom * 100 if denom else 0
-    pnls = [f[pnl_key] for f in resolved if f.get(pnl_key) is not None]
+    pnls = [p for f in resolved if (p := _finite_float(f.get(pnl_key))) is not None]
     avg_pnl = sum(pnls) / len(pnls) if pnls else 0
 
     bullish = [f for f in resolved if f["direction"] == 1]

@@ -92,7 +92,8 @@ def fetch_posts_via_apify() -> list[dict]:
             headers={"Content-Type": "application/json"},
             method="POST",
         )
-        with urllib.request.urlopen(req, timeout=150) as resp:
+        client_timeout = max(APIFY_RUN_TIMEOUT_SECONDS + 30, 150)
+        with urllib.request.urlopen(req, timeout=client_timeout) as resp:
             items = json.loads(resp.read().decode("utf-8"))
         print(f"ℹ️  Apify returned {len(items)} item(s).")
         return items

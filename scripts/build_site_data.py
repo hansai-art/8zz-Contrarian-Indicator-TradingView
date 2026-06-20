@@ -127,6 +127,15 @@ def _store_bar(dt_utc: datetime, close: float, prices: dict[str, float], fmt: st
     prices[dt_utc.strftime("%Y-%m-%d")] = close  # last bar of day wins → daily close
 
 
+def _normalize_bar_key(key: str | None) -> str | None:
+    """Normalize display keys so intraday timestamps always include minutes."""
+    if key is None:
+        return None
+    if len(key) == 13 and "T" in key:  # 1h key: YYYY-MM-DDTHH
+        return key + ":00"
+    return key
+
+
 def _finite_float(value) -> float | None:
     try:
         number = float(value)
@@ -230,7 +239,7 @@ def _populate_1h_prices(all_prices: dict[str, dict[str, float]], tickers: list[s
             for dt_utc, close in sorted(bars, key=lambda x: x[0]):
                 if len(bars) >= 3 and med and abs(close - med) / med > 0.07:
                     continue
-                h_key = dt_utc.strftime("%Y-%m-%dT%H")
+                h_key = dt_utc.strftime("%Y-%m-%dT%H:%M")
                 if h_key not in prices:
                     prices[h_key] = close
                 if d_key not in prices:
@@ -334,7 +343,7 @@ def nearest_close(prices: dict[str, float], target_dt: datetime) -> tuple[str | 
             return k30, prices[k30]
         # On exact hours, also try the 1h key
         if t.minute == 0:
-            k1h = t.strftime("%Y-%m-%dT%H")
+            k1h = t.strftime("%Y-%m-%dT%H:%M")
             if k1h in prices:
                 return k1h, prices[k1h]
 
@@ -385,7 +394,7 @@ def compute_outcomes_mode_b(events: list[dict], all_prices: dict[str, dict[str, 
             flip["outcome"] = "open" if is_last else "unknown"
             continue
 
-        flip["entry_date"] = entry_key   # keep full timestamp (e.g. "2026-04-09T01:00")
+        flip["entry_date"] = _normalize_bar_key(entry_key)
         flip["entry_price"] = round(entry_price, 2)
 
         if not is_last:
@@ -404,7 +413,7 @@ def compute_outcomes_mode_b(events: list[dict], all_prices: dict[str, dict[str, 
             flip["outcome"] = "open" if is_open else "unknown"
             continue
 
-        flip["exit_date"] = exit_key   # keep full timestamp
+        flip["exit_date"] = _normalize_bar_key(exit_key)
         flip["exit_price"] = round(exit_price, 2)
 
         price_change_pct = (exit_price - entry_price) / entry_price * 100
@@ -444,13 +453,14 @@ def compute_outcomes_mode_a(
     for flip in flips:
         prices = all_prices.get(flip["ticker"], {})
 
-        # Resolve entry key (reuse Mode B result; entry_date is the full key, e.g. "2026-04-09T01:00")
-        entry_key = flip.get("entry_date")   # Mode B stores full timestamp here
+        # Resolve entry key (reuse Mode B result; intraday timestamps are normalized to HH:MM)
+        entry_key = flip.get("entry_date")
         entry_price_val = flip.get("entry_price")
 
         if entry_key is None:
             entry_dt = datetime.fromisoformat(flip["time_utc"])
             entry_key, entry_price_val = nearest_close(prices, entry_dt)
+            entry_key = _normalize_bar_key(entry_key)
 
         if entry_key is None or entry_price_val is None:
             flip["exit_date_a"] = None
@@ -495,7 +505,7 @@ def compute_outcomes_mode_a(
         exit_bar_a = sorted_bars[exit_idx]
         exit_price_a = prices[exit_bar_a]
 
-        flip["exit_date_a"] = exit_bar_a   # full timestamp (30m/1h/daily matches entry granularity)
+        flip["exit_date_a"] = _normalize_bar_key(exit_bar_a)
         flip["exit_price_a"] = round(exit_price_a, 2)
 
         price_change_pct = (exit_price_a - entry_price_val) / entry_price_val * 100

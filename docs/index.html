@@ -450,8 +450,16 @@
   function formatPct(value, digits = 2, showSign = true) {
     if (value == null || !Number.isFinite(Number(value))) return '—';
     const num = Number(value);
-    const sign = showSign && num >= 0 ? '+' : '';
+    const sign = showSign && num > 0 ? '+' : '';
     return `${sign}${num.toFixed(digits)}%`;
+  }
+
+  function formatBarKey(value) {
+    if (!value) return '—';
+    if (typeof value !== 'string') return String(value);
+    if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(value)) return value.replace('T', ' ');
+    if (/^\d{4}-\d{2}-\d{2}T\d{2}$/.test(value)) return value.replace('T', ' ') + ':00';
+    return value;
   }
 
   function formatCount(value) {
@@ -708,16 +716,16 @@
           <td class="${tickerCls}">${tickerLabel}</td>
           <td class="tooltip-cell">${tip}</td>
           <td style="text-align:center">${flipMark}</td>
-          <td class="hide-mobile" style="white-space:nowrap">${e.entry_date || '—'}</td>
+          <td class="hide-mobile" style="white-space:nowrap">${formatBarKey(e.entry_date)}</td>
           <td class="col-mode-b hide-mobile" style="white-space:nowrap;${showA?'display:none':''}">
-            ${e.is_flip ? (e.exit_date || '—') : '—'}
+            ${e.is_flip ? formatBarKey(e.exit_date) : '—'}
           </td>
           ${pnlCell(e.is_flip ? e.pnl_pct : null, 'col-mode-b' + (showA ? '" style="display:none' : ''))}
           <td class="col-mode-b"${showA?' style="display:none"':''}>
             ${e.is_flip ? outcomeBadge(e.outcome) : '—'}
           </td>
           <td class="col-mode-a hide-mobile" style="white-space:nowrap;${!showA?'display:none':''}">
-            ${e.is_flip ? (e.exit_date_a || '—') : '—'}
+            ${e.is_flip ? formatBarKey(e.exit_date_a) : '—'}
           </td>
           ${pnlCell(e.is_flip ? e.pnl_pct_a : null, 'col-mode-a' + (!showA ? '" style="display:none' : ''))}
           <td class="col-mode-a"${!showA?' style="display:none"':''}>

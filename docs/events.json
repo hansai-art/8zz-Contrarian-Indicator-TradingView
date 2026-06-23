@@ -1,6 +1,6 @@
 {
   "stats": {
-    "generated_at": "2026-06-22T18:30:53.728844+00:00",
+    "generated_at": "2026-06-23T08:30:39.468845+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
     "total_events": 98,
@@ -10,7 +10,7 @@
     "wins": 35,
     "losses": 9,
     "win_rate": 77.8,
-    "avg_pnl_pct": 0.39,
+    "avg_pnl_pct": 0.31,
     "bullish_flips": 27,
     "bullish_wins": 19,
     "bullish_win_rate": 70.4,
@@ -40,7 +40,7 @@
       "wins": 35,
       "losses": 9,
       "win_rate": 77.8,
-      "avg_pnl_pct": 0.39,
+      "avg_pnl_pct": 0.31,
       "bullish_flips": 27,
       "bullish_wins": 19,
       "bullish_win_rate": 70.4,
@@ -66,18 +66,18 @@
       }
     },
     "mode_a": {
-      "resolved_flips": 50,
-      "open_flips": 5,
+      "resolved_flips": 51,
+      "open_flips": 4,
       "wins": 35,
-      "losses": 11,
+      "losses": 12,
       "win_rate": 68.6,
-      "avg_pnl_pct": 2.9,
+      "avg_pnl_pct": 2.57,
       "bullish_flips": 26,
       "bullish_wins": 22,
       "bullish_win_rate": 84.6,
-      "bearish_flips": 24,
+      "bearish_flips": 25,
       "bearish_wins": 13,
-      "bearish_win_rate": 54.2,
+      "bearish_win_rate": 52.0,
       "by_strength": {
         "1": {
           "total": 4,
@@ -85,9 +85,9 @@
           "win_rate": 75.0
         },
         "2": {
-          "total": 30,
+          "total": 31,
           "wins": 21,
-          "win_rate": 70.0
+          "win_rate": 67.7
         },
         "3": {
           "total": 16,
@@ -193,14 +193,14 @@
       "ticker_is_fallback": false,
       "is_flip": true,
       "entry_date": "2025-12-12T21:00",
-      "entry_price": 62.08,
+      "entry_price": 62.01,
       "exit_date": "2025-12-21",
       "exit_price": 67.76,
-      "pnl_pct": 9.15,
+      "pnl_pct": 9.29,
       "outcome": "win",
       "exit_date_a": "2025-12-15T15:00",
       "exit_price_a": 63.85,
-      "pnl_pct_a": 2.85,
+      "pnl_pct_a": 2.97,
       "outcome_a": "win"
     },
     {
@@ -431,7 +431,7 @@
       "ticker": "2344.TW",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-01-19T04:00",
+      "entry_date": "2026-01-19T05:00",
       "entry_price": 117.0,
       "exit_date": "2026-01-20",
       "exit_price": 109.5,
@@ -473,9 +473,9 @@
       "exit_price": 72.6,
       "pnl_pct": 0.62,
       "outcome": "win",
-      "exit_date_a": "2026-02-24",
-      "exit_price_a": 78.35,
-      "pnl_pct_a": 8.59,
+      "exit_date_a": "2026-02-23",
+      "exit_price_a": 78.1,
+      "pnl_pct_a": 8.25,
       "outcome_a": "win"
     },
     {
@@ -519,9 +519,9 @@
       "exit_price": 83.8,
       "pnl_pct": 9.26,
       "outcome": "win",
-      "exit_date_a": "2026-02-26",
-      "exit_price_a": 111.5,
-      "pnl_pct_a": 45.37,
+      "exit_date_a": "2026-02-25",
+      "exit_price_a": 109.5,
+      "pnl_pct_a": 42.76,
       "outcome_a": "win"
     },
     {
@@ -555,9 +555,9 @@
       "exit_price": 22.25,
       "pnl_pct": -9.37,
       "outcome": "flat",
-      "exit_date_a": "2026-03-02",
-      "exit_price_a": 27.85,
-      "pnl_pct_a": 13.44,
+      "exit_date_a": "2026-02-26",
+      "exit_price_a": 25.4,
+      "pnl_pct_a": 3.46,
       "outcome_a": "win"
     },
     {
@@ -588,8 +588,8 @@
       "entry_date": "2026-01-28",
       "entry_price": 425.54,
       "exit_date": "2026-02-02T20:30",
-      "exit_price": 437.79,
-      "pnl_pct": -2.88,
+      "exit_price": 437.82,
+      "pnl_pct": -2.89,
       "outcome": "loss",
       "exit_date_a": "2026-02-23",
       "exit_price_a": 422.11,
@@ -608,15 +608,15 @@
       "ticker": "SI=F",
       "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-01-30T15:00",
-      "entry_price": 98.5,
+      "entry_date": "2026-01-30T16:00",
+      "entry_price": 93.74,
       "exit_date": "2026-02-03T02:00",
       "exit_price": 81.63,
-      "pnl_pct": 17.13,
+      "pnl_pct": 12.91,
       "outcome": "win",
-      "exit_date_a": "2026-02-03T11:00",
-      "exit_price_a": 86.21,
-      "pnl_pct_a": 12.47,
+      "exit_date_a": "2026-02-02T17:00",
+      "exit_price_a": 79.23,
+      "pnl_pct_a": 15.48,
       "outcome_a": "win"
     },
     {
@@ -1652,10 +1652,10 @@
       "exit_price": 111.15,
       "pnl_pct": -4.12,
       "outcome": "loss",
-      "exit_date_a": null,
-      "exit_price_a": null,
-      "pnl_pct_a": null,
-      "outcome_a": "open"
+      "exit_date_a": "2026-06-23T03:30",
+      "exit_price_a": 110.95,
+      "pnl_pct_a": -3.93,
+      "outcome_a": "loss"
     },
     {
       "unix_ms": 1781854144000,
@@ -1887,9 +1887,9 @@
       "is_flip": true,
       "entry_date": "2026-06-15T03:00",
       "entry_price": 105.2,
-      "exit_date": "2026-06-22",
-      "exit_price": 111.15,
-      "pnl_pct": 5.66,
+      "exit_date": "2026-06-23T05:00",
+      "exit_price": 110.25,
+      "pnl_pct": 4.8,
       "outcome": "open",
       "exit_date_a": "2026-06-17T02:30",
       "exit_price_a": 105.25,
@@ -1943,211 +1943,211 @@
       },
       {
         "date": "2025-12-21",
-        "value": 117.22
+        "value": 117.37
       },
       {
         "date": "2026-01-07T01:00",
-        "value": 104.69
+        "value": 104.82
       },
       {
         "date": "2026-01-07T01:00",
-        "value": 104.69
+        "value": 104.82
       },
       {
         "date": "2026-01-12T05:00",
-        "value": 105.36
+        "value": 105.5
       },
       {
         "date": "2026-01-13T00:00",
-        "value": 105.91
+        "value": 106.04
       },
       {
         "date": "2026-01-13T05:00",
-        "value": 107.32
+        "value": 107.45
       },
       {
         "date": "2026-01-20",
-        "value": 95.87
+        "value": 95.99
       },
       {
         "date": "2026-01-20",
-        "value": 102.01
+        "value": 102.14
       },
       {
         "date": "2026-01-20T05:00",
-        "value": 102.64
+        "value": 102.78
       },
       {
         "date": "2026-01-22",
-        "value": 102.64
+        "value": 102.78
       },
       {
         "date": "2026-01-28T05:00",
-        "value": 112.15
+        "value": 112.29
       },
       {
         "date": "2026-01-28T05:00",
-        "value": 101.64
+        "value": 101.77
       },
       {
         "date": "2026-02-02T20:30",
-        "value": 98.71
+        "value": 98.83
       },
       {
         "date": "2026-02-03T02:00",
-        "value": 115.62
+        "value": 111.59
       },
       {
         "date": "2026-02-03T08:00",
-        "value": 123.46
+        "value": 119.15
       },
       {
         "date": "2026-02-09",
-        "value": 132.93
+        "value": 128.29
       },
       {
         "date": "2026-02-09",
-        "value": 134.55
+        "value": 129.86
       },
       {
         "date": "2026-02-24",
-        "value": 132.72
+        "value": 128.09
       },
       {
         "date": "2026-02-24",
-        "value": 134.82
+        "value": 130.12
       },
       {
         "date": "2026-02-24",
-        "value": 144.81
+        "value": 139.76
       },
       {
         "date": "2026-03-09",
-        "value": 164.68
+        "value": 158.93
       },
       {
         "date": "2026-03-09",
-        "value": 176.78
+        "value": 170.61
       },
       {
         "date": "2026-03-11",
-        "value": 187.76
+        "value": 181.21
       },
       {
         "date": "2026-03-13",
-        "value": 190.07
+        "value": 183.44
       },
       {
         "date": "2026-03-25",
-        "value": 191.44
+        "value": 184.76
       },
       {
         "date": "2026-03-25",
-        "value": 223.62
+        "value": 215.82
       },
       {
         "date": "2026-03-25T00:00",
-        "value": 230.89
+        "value": 222.83
       },
       {
         "date": "2026-03-27T04:00",
-        "value": 236.01
+        "value": 227.78
       },
       {
         "date": "2026-03-27",
-        "value": 249.09
+        "value": 240.4
       },
       {
         "date": "2026-03-30",
-        "value": 244.6
+        "value": 236.07
       },
       {
         "date": "2026-03-31T01:00",
-        "value": 247.78
+        "value": 239.14
       },
       {
         "date": "2026-04-02T01:00",
-        "value": 252.02
+        "value": 243.23
       },
       {
         "date": "2026-04-02T01:00",
-        "value": 267.37
+        "value": 258.04
       },
       {
         "date": "2026-04-02T13:30",
-        "value": 270.15
+        "value": 260.72
       },
       {
         "date": "2026-04-06T19:30",
-        "value": 286.47
+        "value": 276.47
       },
       {
         "date": "2026-04-07T20:00",
-        "value": 297.9
+        "value": 287.5
       },
       {
         "date": "2026-04-09T00:00",
-        "value": 263.7
+        "value": 254.5
       },
       {
         "date": "2026-04-09",
-        "value": 263.7
+        "value": 254.5
       },
       {
         "date": "2026-05-12T05:00",
-        "value": 161.38
+        "value": 155.75
       },
       {
         "date": "2026-05-12T05:00",
-        "value": 151.28
+        "value": 146.0
       },
       {
         "date": "2026-05-12T05:00",
-        "value": 82.96
+        "value": 80.07
       },
       {
         "date": "2026-05-18T05:00",
-        "value": 81.34
+        "value": 78.5
       },
       {
         "date": "2026-05-20T01:00",
-        "value": 83.05
-      },
-      {
-        "date": "2026-06-18T04:00",
-        "value": 95.39
-      },
-      {
-        "date": "2026-06-22",
-        "value": 91.46
-      },
-      {
-        "date": "2026-05-29T03:30",
-        "value": 85.58
-      },
-      {
-        "date": "2026-06-03T03:30",
-        "value": 82.69
-      },
-      {
-        "date": "2026-06-05",
         "value": 80.15
       },
       {
-        "date": "2026-06-08",
-        "value": 82.61
-      },
-      {
-        "date": "2026-06-15",
-        "value": 86.01
-      },
-      {
-        "date": "2026-06-15T03:00",
-        "value": 85.97
+        "date": "2026-06-18T04:00",
+        "value": 92.06
       },
       {
         "date": "2026-06-22",
-        "value": 90.83
+        "value": 88.26
+      },
+      {
+        "date": "2026-05-29T03:30",
+        "value": 82.59
+      },
+      {
+        "date": "2026-06-03T03:30",
+        "value": 79.81
+      },
+      {
+        "date": "2026-06-05",
+        "value": 77.36
+      },
+      {
+        "date": "2026-06-08",
+        "value": 79.73
+      },
+      {
+        "date": "2026-06-15",
+        "value": 83.01
+      },
+      {
+        "date": "2026-06-15T03:00",
+        "value": 82.97
+      },
+      {
+        "date": "2026-06-23T05:00",
+        "value": 86.95
       }
     ],
     "mode_a": [
@@ -2161,199 +2161,203 @@
       },
       {
         "date": "2025-12-15T15:00",
-        "value": 105.37
+        "value": 105.49
       },
       {
         "date": "2025-12-17T03:00",
-        "value": 107.36
+        "value": 107.49
       },
       {
         "date": "2025-12-29",
-        "value": 110.37
+        "value": 110.5
       },
       {
         "date": "2026-01-12T03:00",
-        "value": 111.07
+        "value": 111.2
       },
       {
         "date": "2026-01-12T23:00",
-        "value": 111.3
+        "value": 111.43
       },
       {
         "date": "2026-01-13T17:00",
-        "value": 115.22
+        "value": 115.36
       },
       {
         "date": "2026-01-13T23:00",
-        "value": 111.85
+        "value": 111.98
       },
       {
         "date": "2026-01-16",
-        "value": 97.33
+        "value": 97.44
       },
       {
         "date": "2026-01-23T02:00",
-        "value": 108.14
+        "value": 108.27
       },
       {
         "date": "2026-01-26T02:00",
-        "value": 108.85
+        "value": 108.97
       },
       {
         "date": "2026-01-29",
-        "value": 99.4
+        "value": 99.52
       },
       {
-        "date": "2026-02-03T11:00",
-        "value": 111.79
+        "date": "2026-02-02T17:00",
+        "value": 114.92
       },
       {
         "date": "2026-02-03T19:00",
-        "value": 115.63
+        "value": 118.86
       },
       {
         "date": "2026-02-23",
-        "value": 116.57
+        "value": 128.67
       },
       {
-        "date": "2026-02-24",
-        "value": 126.58
+        "date": "2026-02-23",
+        "value": 129.71
+      },
+      {
+        "date": "2026-02-25",
+        "value": 185.17
       },
       {
         "date": "2026-02-25T03:00",
-        "value": 133.91
+        "value": 195.9
       },
       {
         "date": "2026-02-26",
-        "value": 194.66
+        "value": 202.67
       },
       {
         "date": "2026-02-26T01:00",
-        "value": 228.9
+        "value": 238.32
       },
       {
         "date": "2026-02-26T19:30",
-        "value": 237.26
+        "value": 247.02
       },
       {
         "date": "2026-02-27",
-        "value": 238.37
-      },
-      {
-        "date": "2026-03-02",
-        "value": 270.41
+        "value": 248.18
       },
       {
         "date": "2026-03-11",
-        "value": 240.93
+        "value": 221.13
       },
       {
         "date": "2026-03-16",
-        "value": 270.09
+        "value": 247.89
       },
       {
         "date": "2026-03-20T03:00",
-        "value": 279.73
+        "value": 256.74
       },
       {
         "date": "2026-03-30",
-        "value": 319.37
+        "value": 293.12
       },
       {
         "date": "2026-03-30T15:30",
-        "value": 362.8
+        "value": 332.98
       },
       {
         "date": "2026-03-30T17:00",
-        "value": 361.57
+        "value": 331.85
       },
       {
         "date": "2026-04-01",
-        "value": 374.55
+        "value": 343.76
       },
       {
         "date": "2026-04-02T01:00",
-        "value": 372.79
+        "value": 342.15
       },
       {
         "date": "2026-04-07",
-        "value": 383.19
+        "value": 351.69
       },
       {
         "date": "2026-04-07T03:00",
-        "value": 393.11
+        "value": 360.8
       },
       {
         "date": "2026-04-07T03:00",
-        "value": 424.13
+        "value": 389.27
       },
       {
         "date": "2026-04-07T15:30",
-        "value": 424.04
+        "value": 389.19
       },
       {
         "date": "2026-04-07T16:30",
-        "value": 446.56
+        "value": 409.86
       },
       {
         "date": "2026-04-07T18:00",
-        "value": 445.8
+        "value": 409.16
       },
       {
         "date": "2026-04-08T16:00",
-        "value": 381.47
+        "value": 350.12
       },
       {
         "date": "2026-04-09",
-        "value": 397.27
+        "value": 364.61
       },
       {
         "date": "2026-04-10",
-        "value": 480.73
+        "value": 441.22
       },
       {
         "date": "2026-04-15T03:00",
-        "value": 487.51
+        "value": 447.44
       },
       {
         "date": "2026-04-15T03:00",
-        "value": 430.32
+        "value": 394.96
       },
       {
         "date": "2026-04-22",
-        "value": 375.54
+        "value": 344.68
       },
       {
         "date": "2026-05-06",
-        "value": 490.72
+        "value": 450.39
       },
       {
         "date": "2026-05-06",
-        "value": 282.41
+        "value": 259.2
       },
       {
         "date": "2026-05-14T04:30",
-        "value": 280.66
+        "value": 257.59
       },
       {
         "date": "2026-05-20T04:30",
-        "value": 288.04
+        "value": 264.37
       },
       {
         "date": "2026-05-21T05:00",
-        "value": 297.17
+        "value": 272.75
       },
       {
         "date": "2026-06-02T03:00",
-        "value": 296.04
+        "value": 271.71
       },
       {
         "date": "2026-06-05T03:00",
-        "value": 288.2
+        "value": 264.51
       },
       {
         "date": "2026-06-17T02:30",
-        "value": 288.34
+        "value": 264.64
+      },
+      {
+        "date": "2026-06-23T03:30",
+        "value": 254.24
       }
     ],
     "benchmark_0050": [
@@ -2520,6 +2524,10 @@
       {
         "date": "2026-01-30",
         "value": 116.21
+      },
+      {
+        "date": "2026-02-02",
+        "value": 114.04
       },
       {
         "date": "2026-02-03",
@@ -2868,6 +2876,10 @@
       {
         "date": "2026-06-22",
         "value": 178.41
+      },
+      {
+        "date": "2026-06-23",
+        "value": 176.97
       }
     ]
   },
@@ -2875,63 +2887,63 @@
     {
       "hold_bars": 14,
       "win_rate": 65.3,
-      "avg_pnl_pct": 1.6,
+      "avg_pnl_pct": 1.3,
       "wins": 32,
-      "losses": 12,
-      "resolved": 50
+      "losses": 13,
+      "resolved": 51
     },
     {
       "hold_bars": 15,
-      "win_rate": 66.7,
-      "avg_pnl_pct": 2.97,
-      "wins": 34,
-      "losses": 12,
-      "resolved": 50
+      "win_rate": 66.0,
+      "avg_pnl_pct": 2.53,
+      "wins": 33,
+      "losses": 13,
+      "resolved": 51
     },
     {
       "hold_bars": 16,
       "win_rate": 73.1,
-      "avg_pnl_pct": 2.88,
+      "avg_pnl_pct": 2.93,
       "wins": 38,
-      "losses": 9,
-      "resolved": 50
+      "losses": 10,
+      "resolved": 51
     },
     {
       "hold_bars": 17,
       "win_rate": 68.6,
-      "avg_pnl_pct": 2.9,
+      "avg_pnl_pct": 2.57,
       "wins": 35,
-      "losses": 11,
-      "resolved": 50
+      "losses": 12,
+      "resolved": 51
     },
     {
       "hold_bars": 18,
       "win_rate": 68.0,
-      "avg_pnl_pct": 3.23,
+      "avg_pnl_pct": 3.17,
       "wins": 34,
-      "losses": 11,
-      "resolved": 50
+      "losses": 12,
+      "resolved": 51
     },
     {
       "hold_bars": 19,
       "win_rate": 65.4,
-      "avg_pnl_pct": 2.84,
+      "avg_pnl_pct": 3.14,
       "wins": 34,
-      "losses": 13,
-      "resolved": 50
+      "losses": 14,
+      "resolved": 51
     },
     {
       "hold_bars": 20,
       "win_rate": 62.0,
-      "avg_pnl_pct": 2.77,
+      "avg_pnl_pct": 2.86,
       "wins": 31,
-      "losses": 14,
-      "resolved": 50
+      "losses": 15,
+      "resolved": 51
     },
     {
       "hold_bars": 21,
       "win_rate": 60.0,
-      "avg_pnl_pct": 2.9,
+      "avg_pnl_pct": 2.65,
       "wins": 30,
       "losses": 15,
       "resolved": 50
@@ -2939,7 +2951,7 @@
     {
       "hold_bars": 22,
       "win_rate": 60.0,
-      "avg_pnl_pct": 2.69,
+      "avg_pnl_pct": 2.85,
       "wins": 30,
       "losses": 15,
       "resolved": 50
@@ -2947,7 +2959,7 @@
     {
       "hold_bars": 23,
       "win_rate": 58.8,
-      "avg_pnl_pct": 2.63,
+      "avg_pnl_pct": 2.83,
       "wins": 30,
       "losses": 16,
       "resolved": 50
@@ -2955,7 +2967,7 @@
     {
       "hold_bars": 24,
       "win_rate": 62.7,
-      "avg_pnl_pct": 2.31,
+      "avg_pnl_pct": 2.15,
       "wins": 32,
       "losses": 14,
       "resolved": 50
@@ -2963,7 +2975,7 @@
     {
       "hold_bars": 25,
       "win_rate": 63.5,
-      "avg_pnl_pct": 3.56,
+      "avg_pnl_pct": 3.39,
       "wins": 33,
       "losses": 14,
       "resolved": 50
@@ -2971,7 +2983,7 @@
     {
       "hold_bars": 26,
       "win_rate": 59.6,
-      "avg_pnl_pct": 3.66,
+      "avg_pnl_pct": 3.48,
       "wins": 31,
       "losses": 16,
       "resolved": 50
@@ -2979,7 +2991,7 @@
     {
       "hold_bars": 27,
       "win_rate": 56.9,
-      "avg_pnl_pct": 3.46,
+      "avg_pnl_pct": 3.57,
       "wins": 29,
       "losses": 17,
       "resolved": 50
@@ -2987,7 +2999,7 @@
     {
       "hold_bars": 28,
       "win_rate": 58.0,
-      "avg_pnl_pct": 3.45,
+      "avg_pnl_pct": 3.16,
       "wins": 29,
       "losses": 16,
       "resolved": 50
@@ -2995,7 +3007,7 @@
     {
       "hold_bars": 29,
       "win_rate": 58.8,
-      "avg_pnl_pct": 4.18,
+      "avg_pnl_pct": 3.92,
       "wins": 30,
       "losses": 16,
       "resolved": 50
@@ -3003,7 +3015,7 @@
     {
       "hold_bars": 30,
       "win_rate": 58.8,
-      "avg_pnl_pct": 3.75,
+      "avg_pnl_pct": 3.28,
       "wins": 30,
       "losses": 16,
       "resolved": 50
@@ -3011,7 +3023,7 @@
     {
       "hold_bars": 31,
       "win_rate": 56.9,
-      "avg_pnl_pct": 4.0,
+      "avg_pnl_pct": 3.88,
       "wins": 29,
       "losses": 17,
       "resolved": 50
@@ -3019,47 +3031,47 @@
     {
       "hold_bars": 32,
       "win_rate": 52.9,
-      "avg_pnl_pct": 3.84,
+      "avg_pnl_pct": 3.5,
       "wins": 27,
       "losses": 19,
       "resolved": 50
     },
     {
       "hold_bars": 33,
-      "win_rate": 52.0,
-      "avg_pnl_pct": 3.56,
-      "wins": 26,
+      "win_rate": 52.9,
+      "avg_pnl_pct": 3.89,
+      "wins": 27,
       "losses": 19,
       "resolved": 50
     },
     {
       "hold_bars": 34,
-      "win_rate": 56.9,
-      "avg_pnl_pct": 3.0,
-      "wins": 29,
+      "win_rate": 56.0,
+      "avg_pnl_pct": 3.38,
+      "wins": 28,
       "losses": 17,
       "resolved": 50
     },
     {
       "hold_bars": 35,
       "win_rate": 52.0,
-      "avg_pnl_pct": 2.99,
+      "avg_pnl_pct": 2.76,
       "wins": 26,
       "losses": 19,
       "resolved": 50
     },
     {
       "hold_bars": 36,
-      "win_rate": 54.2,
-      "avg_pnl_pct": 2.84,
-      "wins": 26,
+      "win_rate": 55.1,
+      "avg_pnl_pct": 3.19,
+      "wins": 27,
       "losses": 17,
       "resolved": 50
     },
     {
       "hold_bars": 37,
       "win_rate": 52.1,
-      "avg_pnl_pct": 2.37,
+      "avg_pnl_pct": 2.87,
       "wins": 25,
       "losses": 18,
       "resolved": 50
@@ -3067,106 +3079,106 @@
     {
       "hold_bars": 38,
       "win_rate": 52.1,
-      "avg_pnl_pct": 2.76,
+      "avg_pnl_pct": 2.38,
       "wins": 25,
       "losses": 18,
       "resolved": 50
     },
     {
       "hold_bars": 39,
-      "win_rate": 55.1,
-      "avg_pnl_pct": 2.62,
-      "wins": 27,
+      "win_rate": 54.2,
+      "avg_pnl_pct": 2.75,
+      "wins": 26,
       "losses": 17,
       "resolved": 50
     },
     {
       "hold_bars": 40,
       "win_rate": 58.0,
-      "avg_pnl_pct": 2.4,
+      "avg_pnl_pct": 2.14,
       "wins": 29,
       "losses": 16,
       "resolved": 50
     },
     {
       "hold_bars": 41,
-      "win_rate": 53.1,
-      "avg_pnl_pct": 2.69,
-      "wins": 26,
+      "win_rate": 56.0,
+      "avg_pnl_pct": 2.7,
+      "wins": 28,
       "losses": 17,
-      "resolved": 49
+      "resolved": 50
     },
     {
       "hold_bars": 42,
-      "win_rate": 53.1,
-      "avg_pnl_pct": 2.31,
+      "win_rate": 54.2,
+      "avg_pnl_pct": 2.3,
       "wins": 26,
       "losses": 17,
-      "resolved": 49
+      "resolved": 50
     },
     {
       "hold_bars": 43,
-      "win_rate": 54.0,
-      "avg_pnl_pct": 2.83,
-      "wins": 27,
+      "win_rate": 56.0,
+      "avg_pnl_pct": 2.33,
+      "wins": 28,
       "losses": 17,
-      "resolved": 49
+      "resolved": 50
     },
     {
       "hold_bars": 44,
-      "win_rate": 53.1,
-      "avg_pnl_pct": 2.09,
-      "wins": 26,
+      "win_rate": 55.1,
+      "avg_pnl_pct": 2.31,
+      "wins": 27,
       "losses": 17,
-      "resolved": 49
+      "resolved": 50
     },
     {
       "hold_bars": 45,
-      "win_rate": 53.1,
-      "avg_pnl_pct": 2.26,
-      "wins": 26,
+      "win_rate": 55.1,
+      "avg_pnl_pct": 2.04,
+      "wins": 27,
       "losses": 17,
-      "resolved": 49
+      "resolved": 50
     },
     {
       "hold_bars": 46,
-      "win_rate": 53.1,
-      "avg_pnl_pct": 2.89,
-      "wins": 26,
+      "win_rate": 55.1,
+      "avg_pnl_pct": 2.65,
+      "wins": 27,
       "losses": 17,
-      "resolved": 49
+      "resolved": 50
     },
     {
       "hold_bars": 47,
-      "win_rate": 55.1,
-      "avg_pnl_pct": 3.3,
-      "wins": 27,
+      "win_rate": 57.1,
+      "avg_pnl_pct": 2.93,
+      "wins": 28,
       "losses": 16,
-      "resolved": 49
+      "resolved": 50
     },
     {
       "hold_bars": 48,
-      "win_rate": 51.0,
-      "avg_pnl_pct": 2.73,
-      "wins": 25,
+      "win_rate": 53.1,
+      "avg_pnl_pct": 2.68,
+      "wins": 26,
       "losses": 18,
-      "resolved": 49
+      "resolved": 50
     },
     {
       "hold_bars": 49,
-      "win_rate": 55.1,
-      "avg_pnl_pct": 2.68,
-      "wins": 27,
+      "win_rate": 57.1,
+      "avg_pnl_pct": 3.08,
+      "wins": 28,
       "losses": 16,
-      "resolved": 49
+      "resolved": 50
     },
     {
       "hold_bars": 50,
-      "win_rate": 53.1,
-      "avg_pnl_pct": 2.23,
-      "wins": 26,
-      "losses": 15,
-      "resolved": 47
+      "win_rate": 55.1,
+      "avg_pnl_pct": 2.45,
+      "wins": 27,
+      "losses": 16,
+      "resolved": 49
     }
   ]
 }

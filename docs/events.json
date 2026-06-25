@@ -1,6 +1,6 @@
 {
   "stats": {
-    "generated_at": "2026-06-25T08:36:03.402560+00:00",
+    "generated_at": "2026-06-25T16:04:53.847459+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
     "total_events": 99,
@@ -1887,7 +1887,7 @@
       "is_flip": true,
       "entry_date": "2026-06-15T03:00",
       "entry_price": 105.2,
-      "exit_date": "2026-06-25T05:00",
+      "exit_date": "2026-06-25",
       "exit_price": 107.35,
       "pnl_pct": 2.04,
       "outcome": "open",
@@ -2159,7 +2159,7 @@
         "value": 82.97
       },
       {
-        "date": "2026-06-25T05:00",
+        "date": "2026-06-25",
         "value": 84.66
       }
     ],

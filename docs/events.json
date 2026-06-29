@@ -1,6 +1,6 @@
 {
   "stats": {
-    "generated_at": "2026-06-29T05:28:22.802876+00:00",
+    "generated_at": "2026-06-29T17:16:31.736010+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
     "total_events": 103,
@@ -1887,9 +1887,9 @@
       "is_flip": true,
       "entry_date": "2026-06-15T03:00",
       "entry_price": 105.2,
-      "exit_date": "2026-06-29T04:30",
-      "exit_price": 104.25,
-      "pnl_pct": -0.9,
+      "exit_date": "2026-06-29",
+      "exit_price": 104.6,
+      "pnl_pct": -0.57,
       "outcome": "open",
       "exit_date_a": "2026-06-17T02:30",
       "exit_price_a": 105.25,
@@ -2211,8 +2211,8 @@
         "value": 82.97
       },
       {
-        "date": "2026-06-29T04:30",
-        "value": 82.22
+        "date": "2026-06-29",
+        "value": 82.49
       }
     ],
     "mode_a": [
@@ -2960,7 +2960,7 @@
       },
       {
         "date": "2026-06-29",
-        "value": 167.26
+        "value": 167.9
       }
     ]
   },
@@ -2968,17 +2968,17 @@
     {
       "hold_bars": 14,
       "win_rate": 69.4,
-      "avg_pnl_pct": 1.28,
+      "avg_pnl_pct": 1.29,
       "wins": 34,
       "losses": 13,
       "resolved": 53
     },
     {
       "hold_bars": 15,
-      "win_rate": 68.0,
-      "avg_pnl_pct": 2.48,
-      "wins": 34,
-      "losses": 13,
+      "win_rate": 66.0,
+      "avg_pnl_pct": 2.47,
+      "wins": 33,
+      "losses": 14,
       "resolved": 52
     },
     {

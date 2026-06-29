@@ -1,9 +1,9 @@
 {
   "stats": {
-    "generated_at": "2026-06-25T16:04:53.847459+00:00",
+    "generated_at": "2026-06-29T05:28:22.802876+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
-    "total_events": 99,
+    "total_events": 103,
     "total_flips": 55,
     "resolved_flips": 54,
     "open_flips": 1,
@@ -1887,9 +1887,9 @@
       "is_flip": true,
       "entry_date": "2026-06-15T03:00",
       "entry_price": 105.2,
-      "exit_date": "2026-06-25",
-      "exit_price": 107.35,
-      "pnl_pct": 2.04,
+      "exit_date": "2026-06-29T04:30",
+      "exit_price": 104.25,
+      "pnl_pct": -0.9,
       "outcome": "open",
       "exit_date_a": "2026-06-17T02:30",
       "exit_price_a": 105.25,
@@ -1931,6 +1931,58 @@
       "strength": 3,
       "strength_label": "★★★",
       "tooltip": "公園\n指標: 偏多 ▲ | 強度: ★★★\nFB 06/24 14:37 tomorrow will be fine:)  我今天抄底了，明天會漲的  應該吧 我先去公園站位置了  賺錢的...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1782448557000,
+      "date": "2026-06-26",
+      "time_utc": "2026-06-26T04:35:57+00:00",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 1,
+      "strength_label": "★☆☆",
+      "tooltip": "怕\n指標: 偏多 ▲ | 強度: ★☆☆\nFB 06/26 04:35 Hello 大家好 我們這次是食用/實用的乾爹～ BeRule 植物蛋白粉❤️～ 說真的， 我個人是植物蛋白的愛好...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1782452402000,
+      "date": "2026-06-26",
+      "time_utc": "2026-06-26T05:40:02+00:00",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "損失\n指標: 偏多 ▲ | 強度: ★★★\nFB 06/26 05:40 看來阿祖知道我現在很痛苦😩😩😩 我剛剛帳面一度三個綠燈 正二也虧了10%  怎麼損失比兩週前還要痛啊⋯⋯  正在虧...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1782488923000,
+      "date": "2026-06-26",
+      "time_utc": "2026-06-26T15:48:43+00:00",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "不懂\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/26 15:48 我說哎唷好澀喔， 我的新任小編居然說她不懂！   廣大的鄉民快教教她！",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1782582888000,
+      "date": "2026-06-27",
+      "time_utc": "2026-06-27T17:54:48+00:00",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "不懂\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/27 17:54 我不喜歡PO獲利，  一方面是我的短期投資真的都很慘烈 另一方面是覺得沒必要沒事把錢包扒開給人看還帶著大家一起fo...",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false
@@ -2159,8 +2211,8 @@
         "value": 82.97
       },
       {
-        "date": "2026-06-25",
-        "value": 84.66
+        "date": "2026-06-29T04:30",
+        "value": 82.22
       }
     ],
     "mode_a": [
@@ -2740,15 +2792,15 @@
       },
       {
         "date": "2026-04-28",
-        "value": 147.67
+        "value": 148.8
       },
       {
         "date": "2026-04-29",
-        "value": 145.59
+        "value": 145.67
       },
       {
         "date": "2026-04-30",
-        "value": 145.59
+        "value": 146.87
       },
       {
         "date": "2026-05-04",
@@ -2901,25 +2953,33 @@
       {
         "date": "2026-06-25",
         "value": 172.31
+      },
+      {
+        "date": "2026-06-26",
+        "value": 165.41
+      },
+      {
+        "date": "2026-06-29",
+        "value": 167.26
       }
     ]
   },
   "sensitivity": [
     {
       "hold_bars": 14,
-      "win_rate": 65.3,
-      "avg_pnl_pct": 1.3,
-      "wins": 32,
+      "win_rate": 69.4,
+      "avg_pnl_pct": 1.28,
+      "wins": 34,
       "losses": 13,
-      "resolved": 51
+      "resolved": 53
     },
     {
       "hold_bars": 15,
-      "win_rate": 66.0,
-      "avg_pnl_pct": 2.53,
-      "wins": 33,
+      "win_rate": 68.0,
+      "avg_pnl_pct": 2.48,
+      "wins": 34,
       "losses": 13,
-      "resolved": 51
+      "resolved": 52
     },
     {
       "hold_bars": 16,
@@ -2964,7 +3024,7 @@
     {
       "hold_bars": 21,
       "win_rate": 60.0,
-      "avg_pnl_pct": 2.59,
+      "avg_pnl_pct": 2.58,
       "wins": 30,
       "losses": 16,
       "resolved": 51
@@ -2980,7 +3040,7 @@
     {
       "hold_bars": 23,
       "win_rate": 58.8,
-      "avg_pnl_pct": 2.76,
+      "avg_pnl_pct": 2.74,
       "wins": 30,
       "losses": 17,
       "resolved": 51
@@ -3020,7 +3080,7 @@
     {
       "hold_bars": 28,
       "win_rate": 58.0,
-      "avg_pnl_pct": 3.08,
+      "avg_pnl_pct": 3.03,
       "wins": 29,
       "losses": 17,
       "resolved": 51
@@ -3028,7 +3088,7 @@
     {
       "hold_bars": 29,
       "win_rate": 58.8,
-      "avg_pnl_pct": 3.84,
+      "avg_pnl_pct": 3.88,
       "wins": 30,
       "losses": 17,
       "resolved": 51
@@ -3036,7 +3096,7 @@
     {
       "hold_bars": 30,
       "win_rate": 58.8,
-      "avg_pnl_pct": 3.21,
+      "avg_pnl_pct": 3.38,
       "wins": 30,
       "losses": 17,
       "resolved": 51
@@ -3044,7 +3104,7 @@
     {
       "hold_bars": 31,
       "win_rate": 56.9,
-      "avg_pnl_pct": 3.79,
+      "avg_pnl_pct": 3.8,
       "wins": 29,
       "losses": 18,
       "resolved": 51
@@ -3060,7 +3120,7 @@
     {
       "hold_bars": 33,
       "win_rate": 52.9,
-      "avg_pnl_pct": 3.81,
+      "avg_pnl_pct": 3.8,
       "wins": 27,
       "losses": 20,
       "resolved": 51
@@ -3076,7 +3136,7 @@
     {
       "hold_bars": 35,
       "win_rate": 52.0,
-      "avg_pnl_pct": 2.7,
+      "avg_pnl_pct": 2.72,
       "wins": 26,
       "losses": 20,
       "resolved": 51
@@ -3092,7 +3152,7 @@
     {
       "hold_bars": 37,
       "win_rate": 52.1,
-      "avg_pnl_pct": 2.8,
+      "avg_pnl_pct": 2.82,
       "wins": 25,
       "losses": 19,
       "resolved": 51
@@ -3100,106 +3160,106 @@
     {
       "hold_bars": 38,
       "win_rate": 52.1,
-      "avg_pnl_pct": 2.32,
+      "avg_pnl_pct": 2.3,
       "wins": 25,
       "losses": 19,
       "resolved": 51
     },
     {
       "hold_bars": 39,
-      "win_rate": 54.2,
-      "avg_pnl_pct": 2.75,
-      "wins": 26,
+      "win_rate": 56.2,
+      "avg_pnl_pct": 2.76,
+      "wins": 27,
       "losses": 17,
-      "resolved": 50
+      "resolved": 51
     },
     {
       "hold_bars": 40,
-      "win_rate": 58.0,
+      "win_rate": 60.0,
       "avg_pnl_pct": 2.14,
-      "wins": 29,
+      "wins": 30,
       "losses": 16,
-      "resolved": 50
+      "resolved": 51
     },
     {
       "hold_bars": 41,
-      "win_rate": 56.0,
-      "avg_pnl_pct": 2.7,
-      "wins": 28,
+      "win_rate": 58.0,
+      "avg_pnl_pct": 2.69,
+      "wins": 29,
       "losses": 17,
-      "resolved": 50
+      "resolved": 51
     },
     {
       "hold_bars": 42,
-      "win_rate": 54.2,
-      "avg_pnl_pct": 2.3,
-      "wins": 26,
+      "win_rate": 56.2,
+      "avg_pnl_pct": 2.31,
+      "wins": 27,
       "losses": 17,
-      "resolved": 50
+      "resolved": 51
     },
     {
       "hold_bars": 43,
-      "win_rate": 56.0,
-      "avg_pnl_pct": 2.33,
-      "wins": 28,
+      "win_rate": 58.0,
+      "avg_pnl_pct": 2.34,
+      "wins": 29,
       "losses": 17,
-      "resolved": 50
+      "resolved": 51
     },
     {
       "hold_bars": 44,
-      "win_rate": 55.1,
+      "win_rate": 57.1,
       "avg_pnl_pct": 2.46,
-      "wins": 27,
+      "wins": 28,
       "losses": 17,
-      "resolved": 50
+      "resolved": 51
     },
     {
       "hold_bars": 45,
-      "win_rate": 55.1,
+      "win_rate": 57.1,
       "avg_pnl_pct": 2.04,
-      "wins": 27,
+      "wins": 28,
       "losses": 17,
-      "resolved": 50
+      "resolved": 51
     },
     {
       "hold_bars": 46,
-      "win_rate": 55.1,
-      "avg_pnl_pct": 2.65,
-      "wins": 27,
+      "win_rate": 57.1,
+      "avg_pnl_pct": 2.74,
+      "wins": 28,
       "losses": 17,
-      "resolved": 50
+      "resolved": 51
     },
     {
       "hold_bars": 47,
-      "win_rate": 57.1,
-      "avg_pnl_pct": 2.97,
-      "wins": 28,
+      "win_rate": 59.2,
+      "avg_pnl_pct": 2.98,
+      "wins": 29,
       "losses": 16,
-      "resolved": 50
+      "resolved": 51
     },
     {
       "hold_bars": 48,
-      "win_rate": 53.1,
-      "avg_pnl_pct": 2.68,
-      "wins": 26,
+      "win_rate": 55.1,
+      "avg_pnl_pct": 2.74,
+      "wins": 27,
       "losses": 18,
-      "resolved": 50
+      "resolved": 51
     },
     {
       "hold_bars": 49,
-      "win_rate": 57.1,
-      "avg_pnl_pct": 3.08,
-      "wins": 28,
+      "win_rate": 59.2,
+      "avg_pnl_pct": 3.02,
+      "wins": 29,
       "losses": 16,
-      "resolved": 50
+      "resolved": 51
     },
     {
       "hold_bars": 50,
-      "win_rate": 57.1,
-      "avg_pnl_pct": 2.46,
-      "wins": 28,
+      "win_rate": 59.2,
+      "avg_pnl_pct": 2.23,
+      "wins": 29,
       "losses": 16,
-      "resolved": 50
+      "resolved": 51
     }
   ]
 }

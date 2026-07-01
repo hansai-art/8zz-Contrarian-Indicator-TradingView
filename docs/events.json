@@ -1,6 +1,6 @@
 {
   "stats": {
-    "generated_at": "2026-07-01T05:20:04.242077+00:00",
+    "generated_at": "2026-07-01T16:07:22.271691+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
     "total_events": 105,
@@ -71,7 +71,7 @@
       "wins": 35,
       "losses": 13,
       "win_rate": 68.6,
-      "avg_pnl_pct": 2.61,
+      "avg_pnl_pct": 2.62,
       "bullish_flips": 26,
       "bullish_wins": 22,
       "bullish_win_rate": 84.6,
@@ -1745,8 +1745,8 @@
       "pnl_pct": 3.07,
       "outcome": "win",
       "exit_date_a": "2026-07-01",
-      "exit_price_a": 109.55,
-      "pnl_pct_a": -5.13,
+      "exit_price_a": 109.35,
+      "pnl_pct_a": -4.94,
       "outcome_a": "loss"
     },
     {
@@ -1887,9 +1887,9 @@
       "is_flip": true,
       "entry_date": "2026-06-15T03:00",
       "entry_price": 105.2,
-      "exit_date": "2026-07-01T04:30",
-      "exit_price": 109.55,
-      "pnl_pct": 4.13,
+      "exit_date": "2026-07-01",
+      "exit_price": 109.35,
+      "pnl_pct": 3.94,
       "outcome": "open",
       "exit_date_a": "2026-06-17T02:30",
       "exit_price_a": 105.25,
@@ -2237,8 +2237,8 @@
         "value": 85.97
       },
       {
-        "date": "2026-07-01T04:30",
-        "value": 89.52
+        "date": "2026-07-01",
+        "value": 89.35
       }
     ],
     "mode_a": [
@@ -2452,7 +2452,7 @@
       },
       {
         "date": "2026-07-01",
-        "value": 262.8
+        "value": 263.33
       }
     ],
     "benchmark_0050": [
@@ -2994,7 +2994,7 @@
       },
       {
         "date": "2026-07-01",
-        "value": 175.84
+        "value": 175.52
       }
     ]
   },
@@ -3026,7 +3026,7 @@
     {
       "hold_bars": 17,
       "win_rate": 68.6,
-      "avg_pnl_pct": 2.61,
+      "avg_pnl_pct": 2.62,
       "wins": 35,
       "losses": 13,
       "resolved": 52

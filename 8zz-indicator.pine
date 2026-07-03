@@ -1,7 +1,7 @@
 // This Pine Script™ is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
 // © hansai-art / Group.G
 // 8zz 反指標 v2
-// 事件: 107筆 | 期間: 2025/12 ~ 2026/07
+// 事件: 110筆 | 期間: 2025/12 ~ 2026/07
 // 情緒解讀框架：負面情緒（被套、停損、恐慌）→ 偏多 ▲（散戶恐慌→主力拉升）
 //               正面情緒（漲停追買、過度樂觀）→ 偏空 ▼（市場過熱→崩跌機率高）
 // 免責聲明：本指標僅供娛樂參考，不構成任何投資建議。
@@ -636,6 +636,21 @@ if barstate.isfirst
     array.push(evt_dir, 1)
     array.push(evt_str, 2)
     array.push(evt_tips, "救我\n指標: 偏多 ▲ | 強度: ★★☆\nFB 07/02 15:35 誰可以⋯救救我 以前我買台股，早上才虧錢 後來我買美股，晚上也虧錢 另外我買比特吧，全天候虧錢～😩")
+    array.push(evt_ticker, "")
+    array.push(evt_time, 1783018973000)
+    array.push(evt_dir, 1)
+    array.push(evt_str, 3)
+    array.push(evt_tips, "停損\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/02 19:02 每當我閉上眼，再睜開眼 只看見跌破，哪裡有什麼突破～  黑K是真的漲是假的～沒什麼看錯 一百天前你不是你我不是我 ...")
+    array.push(evt_ticker, "")
+    array.push(evt_time, 1783041441000)
+    array.push(evt_dir, 1)
+    array.push(evt_str, 3)
+    array.push(evt_tips, "公園\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/03 01:17 早上好  請問大家，雙北有哪些好住的公園_(:_」∠)_")
+    array.push(evt_ticker, "")
+    array.push(evt_time, 1783047848000)
+    array.push(evt_dir, 1)
+    array.push(evt_str, 3)
+    array.push(evt_tips, "虧損\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/03 03:04 親愛的朋友你好 這個帳號的主人因為不堪股票虧損 已經決定今天不看盤了， 在週五的台股痛失一位戰友，是一件非常悲哀的事情")
     array.push(evt_ticker, "")
 
 var int currentDir = 0

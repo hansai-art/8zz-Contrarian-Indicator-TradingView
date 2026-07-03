@@ -1,9 +1,9 @@
 {
   "stats": {
-    "generated_at": "2026-07-02T08:10:58.395807+00:00",
+    "generated_at": "2026-07-03T08:06:47.169373+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
-    "total_events": 105,
+    "total_events": 109,
     "total_flips": 55,
     "resolved_flips": 54,
     "open_flips": 1,
@@ -1887,9 +1887,9 @@
       "is_flip": true,
       "entry_date": "2026-06-15T03:00",
       "entry_price": 105.2,
-      "exit_date": "2026-07-02T05:00",
-      "exit_price": 108.9,
-      "pnl_pct": 3.52,
+      "exit_date": "2026-07-03T05:00",
+      "exit_price": 108.4,
+      "pnl_pct": 3.04,
       "outcome": "open",
       "exit_date_a": "2026-06-17T02:30",
       "exit_price_a": 105.25,
@@ -2009,6 +2009,58 @@
       "strength": 2,
       "strength_label": "★★☆",
       "tooltip": "怎麼辦\n指標: 偏多 ▲ | 強度: ★★☆\nFB 07/01 04:21 你既然要漲就不要跌麻～～ 你要跌就不要漲咩～  最近每天這樣洗刷刷好累喔_(:_」∠)_  為什麼其他網紅跟新聞都...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1783006503000,
+      "date": "2026-07-02",
+      "time_utc": "2026-07-02T15:35:03+00:00",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "救我\n指標: 偏多 ▲ | 強度: ★★☆\nFB 07/02 15:35 誰可以⋯救救我 以前我買台股，早上才虧錢 後來我買美股，晚上也虧錢 另外我買比特吧，全天候虧錢～😩",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1783018973000,
+      "date": "2026-07-02",
+      "time_utc": "2026-07-02T19:02:53+00:00",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "停損\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/02 19:02 每當我閉上眼，再睜開眼 只看見跌破，哪裡有什麼突破～  黑K是真的漲是假的～沒什麼看錯 一百天前你不是你我不是我 ...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1783041441000,
+      "date": "2026-07-03",
+      "time_utc": "2026-07-03T01:17:21+00:00",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "公園\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/03 01:17 早上好  請問大家，雙北有哪些好住的公園_(:_」∠)_",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1783047848000,
+      "date": "2026-07-03",
+      "time_utc": "2026-07-03T03:04:08+00:00",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "虧損\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/03 03:04 親愛的朋友你好 這個帳號的主人因為不堪股票虧損 已經決定今天不看盤了， 在週五的台股痛失一位戰友，是一件非常悲哀的事情",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false
@@ -2237,8 +2289,8 @@
         "value": 85.97
       },
       {
-        "date": "2026-07-02T05:00",
-        "value": 88.99
+        "date": "2026-07-03T05:00",
+        "value": 88.58
       }
     ],
     "mode_a": [
@@ -2838,7 +2890,7 @@
       },
       {
         "date": "2026-05-05",
-        "value": 151.93
+        "value": 151.04
       },
       {
         "date": "2026-05-06",
@@ -3003,6 +3055,10 @@
       {
         "date": "2026-07-02",
         "value": 174.8
+      },
+      {
+        "date": "2026-07-03",
+        "value": 174.0
       }
     ]
   },
@@ -3026,7 +3082,7 @@
     {
       "hold_bars": 16,
       "win_rate": 75.0,
-      "avg_pnl_pct": 2.74,
+      "avg_pnl_pct": 2.91,
       "wins": 39,
       "losses": 11,
       "resolved": 53
@@ -3041,19 +3097,19 @@
     },
     {
       "hold_bars": 18,
-      "win_rate": 68.0,
-      "avg_pnl_pct": 2.95,
-      "wins": 34,
+      "win_rate": 70.0,
+      "avg_pnl_pct": 3.04,
+      "wins": 35,
       "losses": 13,
-      "resolved": 52
+      "resolved": 53
     },
     {
       "hold_bars": 19,
       "win_rate": 65.4,
-      "avg_pnl_pct": 2.73,
+      "avg_pnl_pct": 2.6,
       "wins": 34,
-      "losses": 14,
-      "resolved": 51
+      "losses": 15,
+      "resolved": 52
     },
     {
       "hold_bars": 20,
@@ -3098,7 +3154,7 @@
     {
       "hold_bars": 25,
       "win_rate": 63.5,
-      "avg_pnl_pct": 3.49,
+      "avg_pnl_pct": 3.51,
       "wins": 33,
       "losses": 15,
       "resolved": 51
@@ -3154,7 +3210,7 @@
     {
       "hold_bars": 32,
       "win_rate": 52.9,
-      "avg_pnl_pct": 3.73,
+      "avg_pnl_pct": 3.63,
       "wins": 27,
       "losses": 20,
       "resolved": 51
@@ -3162,7 +3218,7 @@
     {
       "hold_bars": 33,
       "win_rate": 52.0,
-      "avg_pnl_pct": 3.48,
+      "avg_pnl_pct": 3.46,
       "wins": 26,
       "losses": 20,
       "resolved": 51
@@ -3178,7 +3234,7 @@
     {
       "hold_bars": 35,
       "win_rate": 52.0,
-      "avg_pnl_pct": 2.95,
+      "avg_pnl_pct": 2.96,
       "wins": 26,
       "losses": 20,
       "resolved": 51
@@ -3194,7 +3250,7 @@
     {
       "hold_bars": 37,
       "win_rate": 52.1,
-      "avg_pnl_pct": 2.33,
+      "avg_pnl_pct": 2.31,
       "wins": 25,
       "losses": 19,
       "resolved": 51
@@ -3234,7 +3290,7 @@
     {
       "hold_bars": 42,
       "win_rate": 57.1,
-      "avg_pnl_pct": 2.39,
+      "avg_pnl_pct": 2.36,
       "wins": 28,
       "losses": 17,
       "resolved": 51
@@ -3290,7 +3346,7 @@
     {
       "hold_bars": 49,
       "win_rate": 59.2,
-      "avg_pnl_pct": 2.67,
+      "avg_pnl_pct": 2.72,
       "wins": 29,
       "losses": 16,
       "resolved": 51

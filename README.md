@@ -24,7 +24,7 @@
 
 **👉 [hansai-art.github.io/8zz-Contrarian-Indicator-TradingView](https://hansai-art.github.io/8zz-Contrarian-Indicator-TradingView/)**
 
-書籤這個頁面就夠了，每日自動更新，不需要手動追蹤。
+書籤這個頁面就夠了。事件目前為手動更新（scripts/manual_add_events.py），自動抓取已於 2026-07-07 停用。
 
 ### 目前戰績
 

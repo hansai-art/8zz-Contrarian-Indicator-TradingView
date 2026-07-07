@@ -1,25 +1,14 @@
 name: Fetch FB Events & Update Pine Script
 
-# ── Schedule ──────────────────────────────────────────────────────────────────
-# Taiwan Stock Exchange (UTC+8): 09:00–13:30 → UTC 01:00–05:00, every 30 min
-# US Market open (EST/EDT):     09:30 EST    → UTC 14:30, weekdays only
-#
-# Resulting triggers (UTC, weekdays only):
-#   01:00  01:30  02:00  02:30  03:00  03:30  04:00  04:30  05:00  ← TSE (9 runs)
-#   14:30                                                            ← US open (1 run)
+# ── Trigger policy ───────────────────────────────────────────────────────────
+# Auto schedule DISABLED (2026-07-07): Apify free quota exhausted (HTTP 402)
+# and scraping coverage was unreliable. Events are now added manually via
+# scripts/manual_add_events.py. This workflow remains dispatch-only as an
+# optional Apify backfill tool (costs Apify credits when run).
 # ─────────────────────────────────────────────────────────────────────────────
 
 on:
-  schedule:
-    # Taiwan Stock Exchange session – every 30 minutes, 09:00–13:30 TST
-    - cron: "0,30 1,2,3,4,5 * * 1-5"
-    # US market open – two entries to cover both EST and EDT:
-    #   UTC 14:30 = 09:30 EST  (Nov–Mar, standard time)
-    - cron: "30 14 * * 1-5"
-    #   UTC 13:30 = 09:30 EDT  (Mar–Nov, daylight saving time)
-    - cron: "30 13 * * 1-5"
-
-  # Allow manual trigger for testing
+  # Manual trigger only
   workflow_dispatch:
     inputs:
       apify_max_posts:

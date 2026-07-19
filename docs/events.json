@@ -1,98 +1,98 @@
 {
   "stats": {
-    "generated_at": "2026-07-06T05:08:13.014836+00:00",
+    "generated_at": "2026-07-19T16:41:12.164230+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
-    "total_events": 109,
-    "total_flips": 55,
-    "resolved_flips": 54,
-    "open_flips": 1,
-    "wins": 35,
-    "losses": 9,
-    "win_rate": 77.8,
+    "total_events": 149,
+    "total_flips": 76,
+    "resolved_flips": 73,
+    "open_flips": 3,
+    "wins": 42,
+    "losses": 11,
+    "win_rate": 75.0,
     "avg_pnl_pct": 0.39,
-    "bullish_flips": 27,
-    "bullish_wins": 19,
-    "bullish_win_rate": 70.4,
-    "bearish_flips": 27,
-    "bearish_wins": 16,
-    "bearish_win_rate": 59.3,
+    "bullish_flips": 37,
+    "bullish_wins": 22,
+    "bullish_win_rate": 59.5,
+    "bearish_flips": 36,
+    "bearish_wins": 20,
+    "bearish_win_rate": 55.6,
     "by_strength": {
       "1": {
-        "total": 5,
-        "wins": 3,
-        "win_rate": 60.0
+        "total": 9,
+        "wins": 4,
+        "win_rate": 44.4
       },
       "2": {
-        "total": 32,
-        "wins": 23,
-        "win_rate": 71.9
+        "total": 43,
+        "wins": 26,
+        "win_rate": 60.5
       },
       "3": {
-        "total": 17,
-        "wins": 9,
-        "win_rate": 52.9
+        "total": 21,
+        "wins": 12,
+        "win_rate": 57.1
       }
     },
     "mode_b": {
-      "resolved_flips": 54,
-      "open_flips": 1,
-      "wins": 35,
-      "losses": 9,
-      "win_rate": 77.8,
+      "resolved_flips": 73,
+      "open_flips": 3,
+      "wins": 42,
+      "losses": 11,
+      "win_rate": 75.0,
       "avg_pnl_pct": 0.39,
-      "bullish_flips": 27,
-      "bullish_wins": 19,
-      "bullish_win_rate": 70.4,
-      "bearish_flips": 27,
-      "bearish_wins": 16,
-      "bearish_win_rate": 59.3,
+      "bullish_flips": 37,
+      "bullish_wins": 22,
+      "bullish_win_rate": 59.5,
+      "bearish_flips": 36,
+      "bearish_wins": 20,
+      "bearish_win_rate": 55.6,
       "by_strength": {
         "1": {
-          "total": 5,
-          "wins": 3,
-          "win_rate": 60.0
+          "total": 9,
+          "wins": 4,
+          "win_rate": 44.4
         },
         "2": {
-          "total": 32,
-          "wins": 23,
-          "win_rate": 71.9
+          "total": 43,
+          "wins": 26,
+          "win_rate": 60.5
         },
         "3": {
-          "total": 17,
-          "wins": 9,
-          "win_rate": 52.9
+          "total": 21,
+          "wins": 12,
+          "win_rate": 57.1
         }
       }
     },
     "mode_a": {
-      "resolved_flips": 53,
-      "open_flips": 2,
-      "wins": 36,
-      "losses": 13,
-      "win_rate": 70.6,
-      "avg_pnl_pct": 2.75,
-      "bullish_flips": 27,
-      "bullish_wins": 23,
-      "bullish_win_rate": 85.2,
-      "bearish_flips": 26,
-      "bearish_wins": 13,
-      "bearish_win_rate": 50.0,
+      "resolved_flips": 73,
+      "open_flips": 3,
+      "wins": 47,
+      "losses": 19,
+      "win_rate": 68.1,
+      "avg_pnl_pct": 1.96,
+      "bullish_flips": 37,
+      "bullish_wins": 30,
+      "bullish_win_rate": 81.1,
+      "bearish_flips": 36,
+      "bearish_wins": 17,
+      "bearish_win_rate": 47.2,
       "by_strength": {
         "1": {
-          "total": 4,
-          "wins": 3,
-          "win_rate": 75.0
+          "total": 9,
+          "wins": 7,
+          "win_rate": 77.8
         },
         "2": {
-          "total": 32,
-          "wins": 22,
-          "win_rate": 68.8
+          "total": 42,
+          "wins": 27,
+          "win_rate": 64.3
         },
         "3": {
-          "total": 17,
-          "wins": 11,
-          "win_rate": 64.7
+          "total": 22,
+          "wins": 13,
+          "win_rate": 59.1
         }
       }
     }
@@ -102,6 +102,7 @@
       "unix_ms": 1764721680000,
       "date": "2025-12-03",
       "time_utc": "2025-12-03T00:28:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 1,
@@ -125,6 +126,7 @@
       "unix_ms": 1765162380000,
       "date": "2025-12-08",
       "time_utc": "2025-12-08T02:53:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -138,6 +140,7 @@
       "unix_ms": 1765422360000,
       "date": "2025-12-11",
       "time_utc": "2025-12-11T03:06:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -161,6 +164,7 @@
       "unix_ms": 1765504200000,
       "date": "2025-12-12",
       "time_utc": "2025-12-12T01:50:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -184,6 +188,7 @@
       "unix_ms": 1765599000000,
       "date": "2025-12-13",
       "time_utc": "2025-12-13T04:10:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -207,6 +212,7 @@
       "unix_ms": 1765845780000,
       "date": "2025-12-16",
       "time_utc": "2025-12-16T00:43:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 1,
@@ -220,6 +226,7 @@
       "unix_ms": 1765851240000,
       "date": "2025-12-16",
       "time_utc": "2025-12-16T02:14:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -233,6 +240,7 @@
       "unix_ms": 1766225820000,
       "date": "2025-12-20",
       "time_utc": "2025-12-20T10:17:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -256,6 +264,7 @@
       "unix_ms": 1767316140000,
       "date": "2026-01-02",
       "time_utc": "2026-01-02T01:09:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -269,6 +278,7 @@
       "unix_ms": 1767662040000,
       "date": "2026-01-06",
       "time_utc": "2026-01-06T01:14:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 1,
@@ -292,6 +302,7 @@
       "unix_ms": 1767665760000,
       "date": "2026-01-06",
       "time_utc": "2026-01-06T02:16:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -305,6 +316,7 @@
       "unix_ms": 1767750240000,
       "date": "2026-01-07",
       "time_utc": "2026-01-07T01:44:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -328,6 +340,7 @@
       "unix_ms": 1768196760000,
       "date": "2026-01-12",
       "time_utc": "2026-01-12T05:46:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -351,6 +364,7 @@
       "unix_ms": 1768266540000,
       "date": "2026-01-13",
       "time_utc": "2026-01-13T01:09:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -374,6 +388,7 @@
       "unix_ms": 1768282860000,
       "date": "2026-01-13",
       "time_utc": "2026-01-13T05:41:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -397,6 +412,7 @@
       "unix_ms": 1768478820000,
       "date": "2026-01-15",
       "time_utc": "2026-01-15T12:07:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -410,6 +426,7 @@
       "unix_ms": 1768526280000,
       "date": "2026-01-16",
       "time_utc": "2026-01-16T01:18:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -423,6 +440,7 @@
       "unix_ms": 1768802460000,
       "date": "2026-01-19",
       "time_utc": "2026-01-19T06:01:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 1,
@@ -446,6 +464,7 @@
       "unix_ms": 1768817220000,
       "date": "2026-01-19",
       "time_utc": "2026-01-19T10:07:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 3,
@@ -459,6 +478,7 @@
       "unix_ms": 1768870920000,
       "date": "2026-01-20",
       "time_utc": "2026-01-20T01:02:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -482,6 +502,7 @@
       "unix_ms": 1768912320000,
       "date": "2026-01-20",
       "time_utc": "2026-01-20T12:32:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -505,6 +526,7 @@
       "unix_ms": 1769043840000,
       "date": "2026-01-22",
       "time_utc": "2026-01-22T01:04:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -528,6 +550,7 @@
       "unix_ms": 1769070660000,
       "date": "2026-01-22",
       "time_utc": "2026-01-22T08:31:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -541,6 +564,7 @@
       "unix_ms": 1769131020000,
       "date": "2026-01-23",
       "time_utc": "2026-01-23T01:17:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -564,6 +588,7 @@
       "unix_ms": 1769391360000,
       "date": "2026-01-26",
       "time_utc": "2026-01-26T01:36:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -577,6 +602,7 @@
       "unix_ms": 1769582880000,
       "date": "2026-01-28",
       "time_utc": "2026-01-28T06:48:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -598,8 +624,9 @@
     },
     {
       "unix_ms": 1769797080000,
-      "date": "2026-01-30",
+      "date": "2026-01-31",
       "time_utc": "2026-01-30T18:18:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 3,
@@ -623,6 +650,7 @@
       "unix_ms": 1770089280000,
       "date": "2026-02-03",
       "time_utc": "2026-02-03T03:28:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -646,6 +674,7 @@
       "unix_ms": 1770108480000,
       "date": "2026-02-03",
       "time_utc": "2026-02-03T08:48:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -669,6 +698,7 @@
       "unix_ms": 1770168060000,
       "date": "2026-02-04",
       "time_utc": "2026-02-04T01:21:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -692,6 +722,7 @@
       "unix_ms": 1770600540000,
       "date": "2026-02-09",
       "time_utc": "2026-02-09T01:29:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -715,6 +746,7 @@
       "unix_ms": 1770635400000,
       "date": "2026-02-09",
       "time_utc": "2026-02-09T11:10:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -728,6 +760,7 @@
       "unix_ms": 1770775080000,
       "date": "2026-02-11",
       "time_utc": "2026-02-11T01:58:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -751,6 +784,7 @@
       "unix_ms": 1770782580000,
       "date": "2026-02-11",
       "time_utc": "2026-02-11T04:03:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -772,8 +806,9 @@
     },
     {
       "unix_ms": 1771953120000,
-      "date": "2026-02-24",
+      "date": "2026-02-25",
       "time_utc": "2026-02-24T17:12:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -797,6 +832,7 @@
       "unix_ms": 1772688720000,
       "date": "2026-03-05",
       "time_utc": "2026-03-05T05:32:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -820,6 +856,7 @@
       "unix_ms": 1773019440000,
       "date": "2026-03-09",
       "time_utc": "2026-03-09T01:24:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -843,6 +880,7 @@
       "unix_ms": 1773106080000,
       "date": "2026-03-10",
       "time_utc": "2026-03-10T01:28:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -856,6 +894,7 @@
       "unix_ms": 1773192240000,
       "date": "2026-03-11",
       "time_utc": "2026-03-11T01:24:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -877,8 +916,9 @@
     },
     {
       "unix_ms": 1773421380000,
-      "date": "2026-03-13",
+      "date": "2026-03-14",
       "time_utc": "2026-03-13T17:03:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -900,8 +940,9 @@
     },
     {
       "unix_ms": 1773592080000,
-      "date": "2026-03-15",
+      "date": "2026-03-16",
       "time_utc": "2026-03-15T16:28:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -925,6 +966,7 @@
       "unix_ms": 1773912720000,
       "date": "2026-03-19",
       "time_utc": "2026-03-19T09:32:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -948,6 +990,7 @@
       "unix_ms": 1773969420000,
       "date": "2026-03-20",
       "time_utc": "2026-03-20T01:17:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -961,6 +1004,7 @@
       "unix_ms": 1774226940000,
       "date": "2026-03-23",
       "time_utc": "2026-03-23T00:49:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -974,6 +1018,7 @@
       "unix_ms": 1774264320000,
       "date": "2026-03-23",
       "time_utc": "2026-03-23T11:12:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -987,6 +1032,7 @@
       "unix_ms": 1774399440000,
       "date": "2026-03-25",
       "time_utc": "2026-03-25T00:44:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -1000,6 +1046,7 @@
       "unix_ms": 1774401960000,
       "date": "2026-03-25",
       "time_utc": "2026-03-25T01:26:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -1023,6 +1070,7 @@
       "unix_ms": 1774490460000,
       "date": "2026-03-26",
       "time_utc": "2026-03-26T02:01:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 1,
@@ -1046,6 +1094,7 @@
       "unix_ms": 1774587180000,
       "date": "2026-03-27",
       "time_utc": "2026-03-27T04:53:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -1069,6 +1118,7 @@
       "unix_ms": 1774832640000,
       "date": "2026-03-30",
       "time_utc": "2026-03-30T01:04:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -1092,6 +1142,7 @@
       "unix_ms": 1774843560000,
       "date": "2026-03-30",
       "time_utc": "2026-03-30T04:06:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 1,
@@ -1105,6 +1156,7 @@
       "unix_ms": 1774921140000,
       "date": "2026-03-31",
       "time_utc": "2026-03-31T01:39:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -1125,32 +1177,10 @@
       "outcome_a": "win"
     },
     {
-      "unix_ms": 1774921200000,
-      "date": "2026-03-31",
-      "time_utc": "2026-03-31T01:40:00+00:00",
-      "direction": 1,
-      "dir_label": "偏多 ▲",
-      "strength": 2,
-      "strength_label": "★★☆",
-      "tooltip": "衝動(自責) | 鈦昇\n指標: 偏多 ▲ | 強度: ★★☆\nFB 03/31 09:40 我是渣女！",
-      "ticker": "8027.TWO",
-      "ticker_is_fallback": false,
-      "is_flip": true,
-      "entry_date": "2026-03-31T01:00",
-      "entry_price": 139.5,
-      "exit_date": "2026-04-02T01:00",
-      "exit_price": 148.0,
-      "pnl_pct": 6.09,
-      "outcome": "win",
-      "exit_date_a": "2026-04-07T03:00",
-      "exit_price_a": 150.5,
-      "pnl_pct_a": 7.89,
-      "outcome_a": "win"
-    },
-    {
       "unix_ms": 1774936560000,
       "date": "2026-03-31",
       "time_utc": "2026-03-31T05:56:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -1164,6 +1194,7 @@
       "unix_ms": 1775010480000,
       "date": "2026-04-01",
       "time_utc": "2026-04-01T02:28:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -1177,6 +1208,7 @@
       "unix_ms": 1775093460000,
       "date": "2026-04-02",
       "time_utc": "2026-04-02T01:31:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -1200,6 +1232,7 @@
       "unix_ms": 1775139840000,
       "date": "2026-04-02",
       "time_utc": "2026-04-02T14:24:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -1223,6 +1256,7 @@
       "unix_ms": 1775527320000,
       "date": "2026-04-07",
       "time_utc": "2026-04-07T02:02:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -1246,6 +1280,7 @@
       "unix_ms": 1775608020000,
       "date": "2026-04-08",
       "time_utc": "2026-04-08T00:27:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -1269,6 +1304,7 @@
       "unix_ms": 1775610900000,
       "date": "2026-04-08",
       "time_utc": "2026-04-08T01:15:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -1282,6 +1318,7 @@
       "unix_ms": 1775697840000,
       "date": "2026-04-09",
       "time_utc": "2026-04-09T01:24:00+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -1305,6 +1342,7 @@
       "unix_ms": 1775697900000,
       "date": "2026-04-09",
       "time_utc": "2026-04-09T01:25:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 3,
@@ -1314,43 +1352,21 @@
       "ticker_is_fallback": false,
       "is_flip": true,
       "entry_date": "2026-04-09",
-      "entry_price": 13145.0,
-      "exit_date": "2026-05-12T05:00",
-      "exit_price": 18245.0,
-      "pnl_pct": -38.8,
+      "entry_price": 11950.0,
+      "exit_date": "2026-05-11T04:00",
+      "exit_price": 16195.45,
+      "pnl_pct": -35.53,
       "outcome": "loss",
       "exit_date_a": "2026-05-06",
-      "exit_price_a": 18475.0,
+      "exit_price_a": 16795.46,
       "pnl_pct_a": -40.55,
       "outcome_a": "loss"
-    },
-    {
-      "unix_ms": 1775786640000,
-      "date": "2026-04-10",
-      "time_utc": "2026-04-10T02:04:00+00:00",
-      "direction": -1,
-      "dir_label": "偏空 ▼",
-      "strength": 3,
-      "strength_label": "★★★",
-      "tooltip": "買進 | 台光電\n指標: 偏空 ▼ | 強度: ★★★\nFB 04/10 10:04 買趨勢猛的！破除迷信！",
-      "ticker": "6139.TW",
-      "ticker_is_fallback": false,
-      "is_flip": true,
-      "entry_date": "2026-04-10T01:00",
-      "entry_price": 639.0,
-      "exit_date": "2026-05-12T05:00",
-      "exit_price": 679.0,
-      "pnl_pct": -6.26,
-      "outcome": "loss",
-      "exit_date_a": "2026-04-15T03:00",
-      "exit_price_a": 630.0,
-      "pnl_pct_a": 1.41,
-      "outcome_a": "win"
     },
     {
       "unix_ms": 1775786641000,
       "date": "2026-04-10",
       "time_utc": "2026-04-10T02:04:01+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 3,
@@ -1361,9 +1377,9 @@
       "is_flip": true,
       "entry_date": "2026-04-10T01:00",
       "entry_price": 3410.0,
-      "exit_date": "2026-05-12T05:00",
-      "exit_price": 4950.0,
-      "pnl_pct": -45.16,
+      "exit_date": "2026-05-11T04:00",
+      "exit_price": 4825.0,
+      "pnl_pct": -41.5,
       "outcome": "loss",
       "exit_date_a": "2026-04-15T03:00",
       "exit_price_a": 3810.0,
@@ -1374,6 +1390,7 @@
       "unix_ms": 1775792400000,
       "date": "2026-04-10",
       "time_utc": "2026-04-10T03:40:00+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 1,
@@ -1381,12 +1398,23 @@
       "tooltip": "持有 | 台光電\n指標: 偏空 ▼ | 強度: ★☆☆\nFB 04/10 11:40 我不是冥燈！",
       "ticker": "6139.TW",
       "ticker_is_fallback": false,
-      "is_flip": false
+      "is_flip": true,
+      "entry_date": "2026-04-10T03:00",
+      "entry_price": 639.0,
+      "exit_date": "2026-05-11T04:00",
+      "exit_price": 677.0,
+      "pnl_pct": -5.95,
+      "outcome": "loss",
+      "exit_date_a": "2026-04-15T05:00",
+      "exit_price_a": 625.0,
+      "pnl_pct_a": 2.19,
+      "outcome_a": "win"
     },
     {
       "unix_ms": 1776042564000,
       "date": "2026-04-13",
       "time_utc": "2026-04-13T01:09:24+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 1,
@@ -1400,6 +1428,7 @@
       "unix_ms": 1776389208000,
       "date": "2026-04-17",
       "time_utc": "2026-04-17T01:26:48+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 3,
@@ -1410,9 +1439,66 @@
       "is_flip": false
     },
     {
+      "unix_ms": 1777610681000,
+      "date": "2026-05-01",
+      "time_utc": "2026-05-01T04:44:41+00:00",
+      "source_url": "https://www.facebook.com/reel/1699565208147417/",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "無腦看多\n指標: 偏空 ▼ | 強度: ★★★\nFB 05/01 12:44 我發現， 今年真的就是無腦的多 什麼東西都是雜音！ 星期一又要大漲了❤️",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1777657023000,
+      "date": "2026-05-02",
+      "time_utc": "2026-05-01T17:37:03+00:00",
+      "source_url": "https://www.facebook.com/reel/2208107046397119/",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "延後停利\n指標: 偏空 ▼ | 強度: ★★☆\nFB 05/02 01:37 其實我好想全賣掉獲利了結 但是又覺得大家都在慶祝， 那乾脆一起_(:_」∠)_",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1777983718000,
+      "date": "2026-05-05",
+      "time_utc": "2026-05-05T12:21:58+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid07DKmVhjqMimXRACVkvFqdbmmj7DWwcctGSyDFr2XYm8KsjCXogndQGGkKrzw7xaCl",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "信貸投入\n指標: 偏空 ▼ | 強度: ★★★\nFB 05/05 20:21 壓力大到腦袋一直嗡嗡嗡的響～(;´༎ຶД༎ຶ`)/ 工作壓力+fomo壓力+一堆奇怪事情的壓力  對了，我的信貸下...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1778036601000,
+      "date": "2026-05-06",
+      "time_utc": "2026-05-06T03:03:21+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02ruyqYCUzTMAZrSF3WMNY41oscof3NxjL25HPUsAxGGqctg6y9XazrYMT5uj97Fbxl",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "貸款買股\n指標: 偏空 ▼ | 強度: ★★★\nFB 05/06 11:03 信貸投資之 貸款買股的第一天⋯⋯_(:_」∠)_  唯一幸運的地方是 還好他額度只給我20萬⋯",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
       "unix_ms": 1778458691000,
       "date": "2026-05-11",
       "time_utc": "2026-05-11T00:18:11+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
@@ -1426,91 +1512,155 @@
       "unix_ms": 1778475308000,
       "date": "2026-05-11",
       "time_utc": "2026-05-11T04:55:08+00:00",
-      "direction": -1,
-      "dir_label": "偏空 ▼",
-      "strength": 2,
-      "strength_label": "★★☆",
+      "source_url": "",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
       "tooltip": "買了\n指標: 偏空 ▼ | 強度: ★★☆\nFB 05/11 04:55 人生最痛苦是賣了聯發科買了聯電跟設備股⋯⋯⋯  尤其是設備股今天給我爆跌(;´༎ຶД༎ຶ`)",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
-      "is_flip": false
-    },
-    {
-      "unix_ms": 1778581914000,
-      "date": "2026-05-12",
-      "time_utc": "2026-05-12T10:31:54+00:00",
-      "direction": 1,
-      "dir_label": "偏多 ▲",
-      "strength": 2,
-      "strength_label": "★★☆",
-      "tooltip": "怎麼辦\n指標: 偏多 ▲ | 強度: ★★☆\nFB 05/12 10:31 明明沒經驗，確有人要找我主持節目耶 天啊～怎麼辦？ 要答應嗎？ Mygod😭感覺這個製作組會倒吧😆😆😆 新的一年真...",
-      "ticker": "0050.TW",
-      "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2026-05-12T05:00",
-      "entry_price": 96.85,
-      "exit_date": "2026-05-18T05:00",
-      "exit_price": 94.95,
-      "pnl_pct": -1.96,
+      "entry_date": "2026-05-11T04:00",
+      "entry_price": 97.15,
+      "exit_date": "2026-05-11",
+      "exit_price": 96.95,
+      "pnl_pct": -0.21,
       "outcome": "flat",
-      "exit_date_a": "2026-05-14T04:30",
-      "exit_price_a": 96.25,
+      "exit_date_a": "2026-05-15T01:00",
+      "exit_price_a": 96.55,
       "pnl_pct_a": -0.62,
       "outcome_a": "flat"
     },
     {
-      "unix_ms": 1778656940000,
-      "date": "2026-05-13",
-      "time_utc": "2026-05-13T07:22:20+00:00",
-      "direction": 1,
-      "dir_label": "偏多 ▲",
-      "strength": 3,
-      "strength_label": "★★★",
-      "tooltip": "跌停\n指標: 偏多 ▲ | 強度: ★★★\nFB 05/13 07:22 我， 巴逆逆 在這邊發誓， 我2026年整個年度 不會再買任何錶 一直到2027年年暑假才可以買其中一隻當生日禮物...",
-      "ticker": "0050.TW",
-      "ticker_is_fallback": true,
-      "is_flip": false
-    },
-    {
-      "unix_ms": 1778691415000,
-      "date": "2026-05-13",
-      "time_utc": "2026-05-13T16:56:55+00:00",
-      "direction": 1,
-      "dir_label": "偏多 ▲",
-      "strength": 3,
-      "strength_label": "★★★",
-      "tooltip": "損失\n指標: 偏多 ▲ | 強度: ★★★\nFB 05/13 16:56 目前應該要拍個三集， 希望暫時沒有第四集 還有兩隻Seiko跟一個about vintage 要拍 啊靠， 還有一...",
-      "ticker": "0050.TW",
-      "ticker_is_fallback": true,
-      "is_flip": false
-    },
-    {
-      "unix_ms": 1779097884000,
-      "date": "2026-05-18",
-      "time_utc": "2026-05-18T09:51:24+00:00",
+      "unix_ms": 1778520558000,
+      "date": "2026-05-12",
+      "time_utc": "2026-05-11T17:29:18+00:00",
+      "source_url": "https://www.facebook.com/reel/1748668646509568/",
       "direction": -1,
       "dir_label": "偏空 ▼",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "極度看多\n指標: 偏空 ▼ | 強度: ★★★\nFB 05/12 01:29 你會跌，我會跌，雅美也會跌 但是台股⋯不會跌 這幾天真的是做多9成勝率⋯除了台積電 我真的不知道我的腦袋到底是放什...",
+      "ticker": "2330.TW",
+      "ticker_is_fallback": false,
+      "is_flip": true,
+      "entry_date": "2026-05-11",
+      "entry_price": 2255.0,
+      "exit_date": "2026-05-14",
+      "exit_price": 2230.0,
+      "pnl_pct": 1.11,
+      "outcome": "win",
+      "exit_date_a": "2026-06-03",
+      "exit_price_a": 2430.0,
+      "pnl_pct_a": -7.76,
+      "outcome_a": "loss"
+    },
+    {
+      "unix_ms": 1778720991000,
+      "date": "2026-05-14",
+      "time_utc": "2026-05-14T01:09:51+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02ZZicwaiUctyH2dHPX8E6Cn8uPrBQpJzXfvwtAgV3LibzNGwXYzkg2pEG8FNd62sEl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
       "strength": 2,
       "strength_label": "★★☆",
-      "tooltip": "買了\n指標: 偏空 ▼ | 強度: ★★☆\nFB 05/18 09:51 車站回飯店的路上買了一個數字項鍊  銀價果然很高_(:_」∠)_",
+      "tooltip": "換股\n指標: 偏多 ▲ | 強度: ★★☆\nFB 05/14 09:09 (;´༎ຶД༎ຶ`) 那個⋯ 我正式宣告沒現金又不知道買啥了 昨天把台達賣了，換了一個今天的緩跌試搓_(:_」∠)_",
+      "ticker": "2308.TW",
+      "ticker_is_fallback": false,
+      "is_flip": true,
+      "entry_date": "2026-05-14",
+      "entry_price": 2175.0,
+      "exit_date": "2026-05-14",
+      "exit_price": 2175.0,
+      "pnl_pct": 0.0,
+      "outcome": "flat",
+      "exit_date_a": "2026-06-08",
+      "exit_price_a": 2255.0,
+      "pnl_pct_a": 3.68,
+      "outcome_a": "win"
+    },
+    {
+      "unix_ms": 1778768347000,
+      "date": "2026-05-14",
+      "time_utc": "2026-05-14T14:19:07+00:00",
+      "source_url": "https://www.facebook.com/reel/1495525735405296/",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "FOMO\n指標: 偏空 ▼ | 強度: ★★★\nFB 05/14 22:19 最近大家可能會比較少看到我買賣文章， 因為挪動的資金已經沒有了 甚至超買到證券一直打來提醒補錢(;´༎ຶД༎ຶ`)...",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2026-05-18T05:00",
-      "entry_price": 94.95,
-      "exit_date": "2026-05-20T01:00",
-      "exit_price": 92.95,
-      "pnl_pct": 2.11,
+      "entry_date": "2026-05-14",
+      "entry_price": 96.0,
+      "exit_date": "2026-05-18T03:00",
+      "exit_price": 94.6,
+      "pnl_pct": 1.46,
       "outcome": "win",
-      "exit_date_a": "2026-05-20T04:30",
-      "exit_price_a": 92.45,
-      "pnl_pct_a": 2.63,
+      "exit_date_a": "2026-06-08",
+      "exit_price_a": 101.0,
+      "pnl_pct_a": -5.21,
+      "outcome_a": "loss"
+    },
+    {
+      "unix_ms": 1779077684000,
+      "date": "2026-05-18",
+      "time_utc": "2026-05-18T04:14:44+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02ZPfuAAvK3i2SsazBfyDnEurB53ngMoDeCf8NePpVrex2WMbMBfoBYe2Qr5HhjFAGl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "減碼\n指標: 偏多 ▲ | 強度: ★★☆\nFB 05/18 12:14 反正我先減碼 現在的我學會千萬不要在開盤後一小時後恐慌  明天看情況再想哪吧：）  #冥燈消滅",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": true,
+      "entry_date": "2026-05-18T03:00",
+      "entry_price": 94.6,
+      "exit_date": "2026-05-25",
+      "exit_price": 100.75,
+      "pnl_pct": 6.5,
+      "outcome": "win",
+      "exit_date_a": "2026-05-21T05:00",
+      "exit_price_a": 95.9,
+      "pnl_pct_a": 1.37,
       "outcome_a": "win"
+    },
+    {
+      "unix_ms": 1779124580000,
+      "date": "2026-05-19",
+      "time_utc": "2026-05-18T17:16:20+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02K9PSrnbV16WPWHFuWGXxGiTdVyngP2N5wp365xknqhYTETFmn1jcazyR1vu5USmgl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "崩跌恐慌\n指標: 偏多 ▲ | 強度: ★★★\nFB 05/19 01:16 明天看到3字頭？ 不不不 明天台股休市不是嗎？  大概一個月後才會開市吧？",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1779182950000,
+      "date": "2026-05-19",
+      "time_utc": "2026-05-19T09:29:10+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid0p37G5k9XLVnFN5n3faEJFD3yyY7kGkX7DChbYwbNkJNfdCUwysByFhLq91T9VdX6l",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "貸款投資後悔\n指標: 偏多 ▲ | 強度: ★★★\nFB 05/19 17:29 貸款投資第九天 沒事不要貸款投資…………  雖然Gshock我都是買來當裝飾品 但是BZ5000金色的不香嗎  6...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
     },
     {
       "unix_ms": 1779241416000,
       "date": "2026-05-20",
       "time_utc": "2026-05-20T01:43:36+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -1518,40 +1668,32 @@
       "tooltip": "停損\n指標: 偏多 ▲ | 強度: ★★★\nFB 05/20 01:43 現在每天一早起來資產就少一隻超霸(⊙ω⊙) 我981是不是真的該賣， 然後轉去中華電 重點是我的個股今天還是崩啊啊...",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
-      "is_flip": true,
-      "entry_date": "2026-05-20T01:00",
-      "entry_price": 92.95,
-      "exit_date": "2026-06-18T04:00",
-      "exit_price": 106.75,
-      "pnl_pct": 14.85,
-      "outcome": "win",
-      "exit_date_a": "2026-05-21T05:00",
-      "exit_price_a": 95.9,
-      "pnl_pct_a": 3.17,
-      "outcome_a": "win"
+      "is_flip": false
     },
     {
       "unix_ms": 1779255886000,
       "date": "2026-05-20",
       "time_utc": "2026-05-20T05:44:46+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid0dAy1JMKveNzqPWuLseuaS6ygsdRTCPe3yx1iQxJHDxNRoBAhJMnXTEt7gHXXeJi3l",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
       "strength_label": "★★★",
-      "tooltip": "跌停\n指標: 偏多 ▲ | 強度: ★★★\nFB 05/20 05:44 那個，不好意思，跌太多心情有點差 我已經說200次了，我就這個帳號會講股票 沒有Line 沒有秘書 沒有助手 沒有...",
+      "tooltip": "跌停\n指標: 偏多 ▲ | 強度: ★★★\nFB 05/20 13:44 那個，不好意思，跌太多心情有點差 我已經說200次了，我就這個帳號會講股票 沒有Line 沒有秘書 沒有助手 沒有...",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false
     },
     {
-      "unix_ms": 1779285645000,
-      "date": "2026-05-20",
-      "time_utc": "2026-05-20T14:00:45+00:00",
+      "unix_ms": 1779321775000,
+      "date": "2026-05-21",
+      "time_utc": "2026-05-21T00:02:55+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid0ceVmVokodXKEAjx7m2zw3Ag6hrQtWcGjZeBLjKinbDU6cjxkgFEzfbTBiykhHuCsl",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
       "strength_label": "★★☆",
-      "tooltip": "不懂\n指標: 偏多 ▲ | 強度: ★★☆\nFB 05/20 14:00 追了一個月的瓜 結論是： 他沒有被fired!!   好了， 所以可以開始解決IG那完全看不懂怎麼運作的社群守則了...",
+      "tooltip": "減碼\n指標: 偏多 ▲ | 強度: ★★☆\nFB 05/21 08:02 大家早 今天是反彈賣股的好日子❤️ 雖然我的避險put就這樣炸掉了_(:_」∠)_ 每次都這樣唉  說真的，要是這...",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false
@@ -1560,6 +1702,7 @@
       "unix_ms": 1779326595000,
       "date": "2026-05-21",
       "time_utc": "2026-05-21T01:23:15+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 1,
@@ -1573,6 +1716,7 @@
       "unix_ms": 1779342310000,
       "date": "2026-05-21",
       "time_utc": "2026-05-21T05:45:10+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -1583,22 +1727,48 @@
       "is_flip": false
     },
     {
-      "unix_ms": 1779616927000,
-      "date": "2026-05-24",
-      "time_utc": "2026-05-24T10:02:07+00:00",
+      "unix_ms": 1779354266000,
+      "date": "2026-05-21",
+      "time_utc": "2026-05-21T09:04:26+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02gjbE6aPMgytmwjFSYwwf4J5hTRYP9mxAcTztKRxcB7nh7NJP3NGaGYiio8EYJ8cRl",
       "direction": 1,
       "dir_label": "偏多 ▲",
-      "strength": 2,
-      "strength_label": "★★☆",
-      "tooltip": "怎麼辦\n指標: 偏多 ▲ | 強度: ★★☆\nFB 05/24 10:02 我覺得我的粉都太寵我了 怎麼辦 看來只好買一個大大的載板回報了",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "虧損\n指標: 偏多 ▲ | 強度: ★★★\nFB 05/21 17:04 對不起大家 我不行了 負面的情緒揮不掉：） 今天賠錢只是其中一件事 一堆不好的事情一直在發生 這個世界很美好，錯的...",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false
     },
     {
+      "unix_ms": 1779616927000,
+      "date": "2026-05-24",
+      "time_utc": "2026-05-24T10:02:07+00:00",
+      "source_url": "",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "怎麼辦\n指標: 偏多 ▲ | 強度: ★★☆\nFB 05/24 10:02 我覺得我的粉都太寵我了 怎麼辦 看來只好買一個大大的載板回報了",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": true,
+      "entry_date": "2026-05-25",
+      "entry_price": 100.75,
+      "exit_date": "2026-05-25",
+      "exit_price": 100.75,
+      "pnl_pct": -0.0,
+      "outcome": "flat",
+      "exit_date_a": "2026-06-17",
+      "exit_price_a": 106.0,
+      "pnl_pct_a": -5.21,
+      "outcome_a": "loss"
+    },
+    {
       "unix_ms": 1779671744000,
       "date": "2026-05-25",
       "time_utc": "2026-05-25T01:15:44+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 1,
@@ -1606,107 +1776,147 @@
       "tooltip": "等\n指標: 偏多 ▲ | 強度: ★☆☆\nFB 05/25 01:15 你乖，不要亂漲 我等等就來接你了～～❤️",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
-      "is_flip": false
+      "is_flip": true,
+      "entry_date": "2026-05-25",
+      "entry_price": 100.75,
+      "exit_date": "2026-05-25T02:00",
+      "exit_price": 100.55,
+      "pnl_pct": -0.2,
+      "outcome": "flat",
+      "exit_date_a": "2026-06-17",
+      "exit_price_a": 106.0,
+      "pnl_pct_a": 5.21,
+      "outcome_a": "win"
     },
     {
-      "unix_ms": 1781629529000,
-      "date": "2026-06-16",
-      "time_utc": "2026-06-16T17:05:29+00:00",
-      "direction": 1,
-      "dir_label": "偏多 ▲",
-      "strength": 3,
-      "strength_label": "★★★",
-      "tooltip": "停損\n指標: 偏多 ▲ | 強度: ★★★\nFB 06/16 17:05 這兩年真的停損會覺得自己是笨蛋 年初鈦昇95停損， 聯電97停損，華崩電120停損，聯發科跌5%停利，國巨應該還在...",
-      "ticker": "0050.TW",
-      "ticker_is_fallback": true,
-      "is_flip": false
-    },
-    {
-      "unix_ms": 1781666520000,
-      "date": "2026-06-17",
-      "time_utc": "2026-06-17T03:22:00+00:00",
-      "direction": 1,
-      "dir_label": "偏多 ▲",
-      "strength": 3,
-      "strength_label": "★★★",
-      "tooltip": "停損\n指標: 偏多 ▲ | 強度: ★★★\nFB 06/17 03:22 Why... 為什麼下殺了 我剛剛買還是紅的阿阿！？ 我停損一個芭樂股轉過來，你不可以這樣耶！",
-      "ticker": "0050.TW",
-      "ticker_is_fallback": true,
-      "is_flip": false
-    },
-    {
-      "unix_ms": 1781757086000,
-      "date": "2026-06-18",
-      "time_utc": "2026-06-18T04:31:26+00:00",
+      "unix_ms": 1779677620000,
+      "date": "2026-05-25",
+      "time_utc": "2026-05-25T02:53:40+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid0WKmYc1iWKssAgVTpwHLP6oBLyXUyEdnQfKcKgjc5U1N3hBTSErCUCG62wuMFj9MBl",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
       "strength_label": "★★☆",
-      "tooltip": "多頭\n指標: 偏空 ▼ | 強度: ★★☆\nFB 06/18 04:31 來吧！ 我準備好了！ 大多頭三年總資產才漲10%不到！",
+      "tooltip": "分散買進\n指標: 偏空 ▼ | 強度: ★★☆\nFB 05/25 10:53 買一個個股 叫單押 買一堆個股， 叫ETF 所以我有買ETF 🤣🤣",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2026-06-18T04:00",
-      "entry_price": 106.75,
-      "exit_date": "2026-06-22",
-      "exit_price": 111.15,
-      "pnl_pct": -4.12,
+      "entry_date": "2026-05-25T02:00",
+      "entry_price": 100.55,
+      "exit_date": "2026-05-26T04:00",
+      "exit_price": 100.65,
+      "pnl_pct": -0.1,
       "outcome": "loss",
-      "exit_date_a": "2026-06-23T03:30",
-      "exit_price_a": 110.95,
-      "pnl_pct_a": -3.93,
+      "exit_date_a": "2026-05-27T01:30",
+      "exit_price_a": 102.9,
+      "pnl_pct_a": -2.34,
       "outcome_a": "loss"
     },
     {
-      "unix_ms": 1781854144000,
-      "date": "2026-06-19",
-      "time_utc": "2026-06-19T07:29:04+00:00",
+      "unix_ms": 1779771009000,
+      "date": "2026-05-26",
+      "time_utc": "2026-05-26T04:50:09+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02G2KNAmF9mLR88FXgH4NddfYDd9ptx1J6h2bRfwrZFNrCtiqAEt7KiX45hexgDKh7l",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 1,
       "strength_label": "★☆☆",
-      "tooltip": "等\n指標: 偏多 ▲ | 強度: ★☆☆\nFB 06/19 07:29 拿了這麼多年的公關品，終於第一次用買的 重車日誌-教士 你看看～ 我還是有在騎車的喔（笑）  只是安全帽已經退化道...",
+      "tooltip": "苦樂參半\n指標: 偏多 ▲ | 強度: ★☆☆\nFB 05/26 12:50 我的人生充滿了矛盾 這大概就是痛並快樂著🥲",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2026-06-22",
-      "entry_price": 111.15,
-      "exit_date": "2026-05-29T03:30",
-      "exit_price": 104.0,
-      "pnl_pct": -6.43,
-      "outcome": "flat",
-      "exit_date_a": null,
-      "exit_price_a": null,
-      "pnl_pct_a": null,
-      "outcome_a": "open"
+      "entry_date": "2026-05-26T04:00",
+      "entry_price": 100.65,
+      "exit_date": "2026-05-27",
+      "exit_price": 102.75,
+      "pnl_pct": 2.09,
+      "outcome": "win",
+      "exit_date_a": "2026-05-28T03:30",
+      "exit_price_a": 101.2,
+      "pnl_pct_a": 0.55,
+      "outcome_a": "win"
+    },
+    {
+      "unix_ms": 1779844693000,
+      "date": "2026-05-27",
+      "time_utc": "2026-05-27T01:18:13+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid035PVpcsbtuKSDZtJ7RdafkvX1AcBT2R6hpqUKgXJ2vHtTAiNudzfrZHQDW7AgNHbJl",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "追強勢股\n指標: 偏空 ▼ | 強度: ★★★\nFB 05/27 09:18 汰弱扶強！ 爬不起來就丟棄！   我已經不是反指標了～ 我要成為買啥漲啥的福神了～～",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": true,
+      "entry_date": "2026-05-27",
+      "entry_price": 102.75,
+      "exit_date": "2026-06-01T02:00",
+      "exit_price": 106.5,
+      "pnl_pct": -3.65,
+      "outcome": "loss",
+      "exit_date_a": "2026-06-22",
+      "exit_price_a": 111.15,
+      "pnl_pct_a": -8.18,
+      "outcome_a": "loss"
     },
     {
       "unix_ms": 1780028911000,
       "date": "2026-05-29",
       "time_utc": "2026-05-29T04:28:31+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid023ev6XSPdJigr8yPnzSvgQ1FhP6q9gaZvuLbEd1ePyGdRep2BBewUCB7zEqHkawTzl",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 2,
       "strength_label": "★★☆",
-      "tooltip": "買了\n指標: 偏空 ▼ | 強度: ★★☆\nFB 05/29 04:28 單純弔祭 買了100股 🤣🤣🤣🤣🤣🤣   號稱要下市的股票居然要掛漲停才買的到⋯ 只能說狂熱時期發生什麼都不意外了",
+      "tooltip": "漲停追買\n指標: 偏空 ▼ | 強度: ★★☆\nFB 05/29 12:28 單純弔祭 買了100股 🤣🤣🤣🤣🤣🤣   號稱要下市的股票居然要掛漲停才買的到⋯ 只能說狂熱時期發生什麼都不意外了",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1780282364000,
+      "date": "2026-06-01",
+      "time_utc": "2026-06-01T02:52:44+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02K8J72m3jiorS8a91w4ah8vEP3gwhUxd4jYHK61sfdjx3werPGg3tQgdGsXC1aPgVl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "虧損\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/01 10:52 說是這樣說 明明漲800點⋯ 為什麼我感覺是跌的(;´༎ຶД༎ຶ`)",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2026-05-29T03:30",
-      "entry_price": 104.0,
-      "exit_date": "2026-06-03T03:30",
-      "exit_price": 107.5,
-      "pnl_pct": -3.37,
-      "outcome": "loss",
-      "exit_date_a": "2026-06-02T03:00",
-      "exit_price_a": 104.4,
-      "pnl_pct_a": -0.38,
-      "outcome_a": "loss"
+      "entry_date": "2026-06-01T02:00",
+      "entry_price": 106.5,
+      "exit_date": "2026-06-04T02:00",
+      "exit_price": 106.45,
+      "pnl_pct": -0.05,
+      "outcome": "flat",
+      "exit_date_a": "2026-06-03T01:30",
+      "exit_price_a": 107.65,
+      "pnl_pct_a": 1.08,
+      "outcome_a": "win"
+    },
+    {
+      "unix_ms": 1780361335000,
+      "date": "2026-06-02",
+      "time_utc": "2026-06-02T00:48:55+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02uq38ghB1jVGDCdjQ48XNqZAxBEwAQD7S16jU2wYjCa6KjYBuNeWu8FxkfVUnkaUTl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "體感下跌\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/02 08:48 今天應該是拉積盤 權值股穩了⋯  希望不會是體感-500點_(:_」∠)_",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
     },
     {
       "unix_ms": 1780459661000,
       "date": "2026-06-03",
       "time_utc": "2026-06-03T04:07:41+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -1714,22 +1924,61 @@
       "tooltip": "停損\n指標: 偏多 ▲ | 強度: ★★★\nFB 06/03 04:07 你哭著對我說 比特幣都是騙人的～ 這不可能，還不想停損 也許你不會懂 從我買以太以後 我的天空～早就都塌了～ 🫠 ...",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1780540786000,
+      "date": "2026-06-04",
+      "time_utc": "2026-06-04T02:39:46+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid06YfTyxZciUj6B4r32Cse8k12NDuuksGjb1QxnAo4hAUrdEKbKHSEeBWjX6TxcrVWl",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "追買\n指標: 偏空 ▼ | 強度: ★★★\nFB 06/04 10:39 前進美光 人生發光～\\\\(⊙ω⊙)/",
+      "ticker": "MU",
+      "ticker_is_fallback": false,
       "is_flip": true,
-      "entry_date": "2026-06-03T03:30",
-      "entry_price": 107.5,
+      "entry_date": "2026-06-03T19:30",
+      "entry_price": 1079.0,
+      "exit_date": "2026-06-04T17:00",
+      "exit_price": 1021.33,
+      "pnl_pct": 5.35,
+      "outcome": "win",
+      "exit_date_a": "2026-06-05T15:00",
+      "exit_price_a": 926.72,
+      "pnl_pct_a": 14.11,
+      "outcome_a": "win"
+    },
+    {
+      "unix_ms": 1780594671000,
+      "date": "2026-06-05",
+      "time_utc": "2026-06-04T17:37:51+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid03mUCxpaGSUih9aA1mbmGpg8qjV1Adr7p71Gg4vckiMJE4WF1BtV5gwtQS5xmrtSNl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 1,
+      "strength_label": "★☆☆",
+      "tooltip": "中小型股弱勢\n指標: 偏多 ▲ | 強度: ★☆☆\nFB 06/05 01:37 明天又是拉積盤 滿手中小的我表示⋯",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": true,
+      "entry_date": "2026-06-04",
+      "entry_price": 106.1,
       "exit_date": "2026-06-05",
       "exit_price": 104.2,
-      "pnl_pct": -3.07,
+      "pnl_pct": -1.79,
       "outcome": "flat",
-      "exit_date_a": "2026-06-05T03:00",
-      "exit_price_a": 104.65,
-      "pnl_pct_a": -2.65,
-      "outcome_a": "flat"
+      "exit_date_a": "2026-06-30",
+      "exit_price_a": 108.05,
+      "pnl_pct_a": 1.84,
+      "outcome_a": "win"
     },
     {
       "unix_ms": 1780621139000,
       "date": "2026-06-05",
       "time_utc": "2026-06-05T00:58:59+00:00",
+      "source_url": "",
       "direction": -1,
       "dir_label": "偏空 ▼",
       "strength": 3,
@@ -1740,19 +1989,44 @@
       "is_flip": true,
       "entry_date": "2026-06-05",
       "entry_price": 104.2,
-      "exit_date": "2026-06-08",
-      "exit_price": 101.0,
-      "pnl_pct": 3.07,
-      "outcome": "win",
+      "exit_date": "2026-06-05",
+      "exit_price": 104.2,
+      "pnl_pct": -0.0,
+      "outcome": "flat",
       "exit_date_a": "2026-07-01",
       "exit_price_a": 109.35,
       "pnl_pct_a": -4.94,
       "outcome_a": "loss"
     },
     {
+      "unix_ms": 1780669430000,
+      "date": "2026-06-05",
+      "time_utc": "2026-06-05T14:23:50+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02ms5YreHSZpiWGQrvEqt1Srf8d4R4EUHVhVFSEjbXWrrbd8f4vLWkSPKDQxADQV5Kl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "美股恐慌\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/05 22:23 正想著最近總算小賺可以買一隻錶的時候 看到美股⋯  完了，又要36000見了_(:_」∠)_",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": true,
+      "entry_date": "2026-06-05",
+      "entry_price": 104.2,
+      "exit_date": "2026-06-10T01:00",
+      "exit_price": 102.55,
+      "pnl_pct": -1.58,
+      "outcome": "flat",
+      "exit_date_a": "2026-07-01",
+      "exit_price_a": 109.35,
+      "pnl_pct_a": 4.94,
+      "outcome_a": "win"
+    },
+    {
       "unix_ms": 1780723179000,
       "date": "2026-06-06",
       "time_utc": "2026-06-06T05:19:39+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -1760,22 +2034,13 @@
       "tooltip": "不懂\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/06 05:19 誰可以救救我  這次至少20%回檔～ 我已經All in 腳麻了啊啊 看不懂的可以google用圖片搜尋",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
-      "is_flip": true,
-      "entry_date": "2026-06-08",
-      "entry_price": 101.0,
-      "exit_date": "2026-06-15",
-      "exit_price": 105.15,
-      "pnl_pct": 4.11,
-      "outcome": "win",
-      "exit_date_a": "2026-07-02",
-      "exit_price_a": 108.9,
-      "pnl_pct_a": 7.82,
-      "outcome_a": "win"
+      "is_flip": false
     },
     {
       "unix_ms": 1780807005000,
       "date": "2026-06-07",
       "time_utc": "2026-06-07T04:36:45+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -1789,11 +2054,26 @@
       "unix_ms": 1780827953000,
       "date": "2026-06-07",
       "time_utc": "2026-06-07T10:25:53+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02GhrKJtpTzjXwaJ77zRpn1jUZeQMx16eB8Awpx8x8deZjS4vMDgA2sEKhivhigKEgl",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
       "strength_label": "★★☆",
-      "tooltip": "賣出\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/07 10:25 持續賣出_(:_」∠)_ 好痛苦啊啊啊啊啊啊啊 痛苦到好想買東西",
+      "tooltip": "賣出\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/07 18:25 持續賣出_(:_」∠)_ 好痛苦啊啊啊啊啊啊啊 痛苦到好想買東西",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1780881857000,
+      "date": "2026-06-08",
+      "time_utc": "2026-06-08T01:24:17+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02ctuo86qnuVLJ1LW1JFndRgeruETuQZkf7qdMkYTui7n4jNv8CshgmcWZFumMhPECl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "持股重挫\n指標: 偏多 ▲ | 強度: ★★★\nFB 06/08 09:24 開群組 50檔有49檔綠的 唯一紅的是反一  持股4個綠燈⋯再一燈就晉級了",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false
@@ -1802,6 +2082,7 @@
       "unix_ms": 1780891024000,
       "date": "2026-06-08",
       "time_utc": "2026-06-08T03:57:04+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -1815,6 +2096,7 @@
       "unix_ms": 1780914810000,
       "date": "2026-06-08",
       "time_utc": "2026-06-08T10:33:30+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -1825,9 +2107,34 @@
       "is_flip": false
     },
     {
+      "unix_ms": 1781055132000,
+      "date": "2026-06-10",
+      "time_utc": "2026-06-10T01:32:12+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid0Sut2Q1myxdYM78RZ4TE4QxsZCDtZ4GxWyYbuCs5CEwKQcpL4hP2mGQcfoexd9VNRl",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "換股加碼\n指標: 偏空 ▼ | 強度: ★★☆\nFB 06/10 09:32 萬元股沒啥動力，還是賣了～ 想轉鈦昇⋯發現買不起_(:_」∠)_⋯而且漲停也排不到 轉買正二  今天沒有想像中恐慌...",
+      "ticker": "00631L.TW",
+      "ticker_is_fallback": false,
+      "is_flip": true,
+      "entry_date": "2026-06-10T01:00",
+      "entry_price": 34.88,
+      "exit_date": "2026-06-11",
+      "exit_price": 33.28,
+      "pnl_pct": 4.59,
+      "outcome": "win",
+      "exit_date_a": "2026-06-11T05:00",
+      "exit_price_a": 33.28,
+      "pnl_pct_a": 4.59,
+      "outcome_a": "win"
+    },
+    {
       "unix_ms": 1781137527000,
       "date": "2026-06-11",
       "time_utc": "2026-06-11T00:25:27+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -1835,12 +2142,23 @@
       "tooltip": "住套房\n指標: 偏多 ▲ | 強度: ★★★\nFB 06/11 00:25 中文翻譯：  你怎麼做都沒意義 你以為可以把錢錢拿回來 但是股市不是這樣運作 我知道這很不健康，但是我就是停不下來...",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
-      "is_flip": false
+      "is_flip": true,
+      "entry_date": "2026-06-11",
+      "entry_price": 99.8,
+      "exit_date": "2026-06-12T05:00",
+      "exit_price": 101.9,
+      "pnl_pct": 2.1,
+      "outcome": "win",
+      "exit_date_a": "2026-07-07",
+      "exit_price_a": 106.2,
+      "pnl_pct_a": 6.41,
+      "outcome_a": "win"
     },
     {
       "unix_ms": 1781224933000,
       "date": "2026-06-12",
       "time_utc": "2026-06-12T00:42:13+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -1851,32 +2169,58 @@
       "is_flip": false
     },
     {
-      "unix_ms": 1781484518000,
-      "date": "2026-06-15",
-      "time_utc": "2026-06-15T00:48:38+00:00",
+      "unix_ms": 1781266787000,
+      "date": "2026-06-12",
+      "time_utc": "2026-06-12T12:19:47+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid0waH1T2MMbndJukMnkHSrKTrFrKYDMKsJHro4ZW6KYydsmdqPN3XP45Cj3mWbi6bjl",
       "direction": -1,
       "dir_label": "偏空 ▼",
-      "strength": 2,
-      "strength_label": "★★☆",
-      "tooltip": "加碼\n指標: 偏空 ▼ | 強度: ★★☆\nFB 06/15 00:48 今天的問題不是會不會漲 而是漲多少 不過我不敢加碼⋯頂多把0050換正二了_(:_」∠)_ 總覺得回檔還沒完",
+      "strength": 1,
+      "strength_label": "★☆☆",
+      "tooltip": "回血\n指標: 偏空 ▼ | 強度: ★☆☆\nFB 06/12 20:19 今天回血了 可以買36mmDJ了 但是我好像沒排隊的資格～  還是買卡西歐好了……",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2026-06-15",
-      "entry_price": 105.15,
-      "exit_date": "2026-06-15T03:00",
-      "exit_price": 105.2,
-      "pnl_pct": -0.05,
+      "entry_date": "2026-06-12T05:00",
+      "entry_price": 101.9,
+      "exit_date": "2026-06-15",
+      "exit_price": 105.15,
+      "pnl_pct": -3.19,
       "outcome": "loss",
-      "exit_date_a": null,
-      "exit_price_a": null,
-      "pnl_pct_a": null,
-      "outcome_a": "open"
+      "exit_date_a": "2026-06-16T04:30",
+      "exit_price_a": 105.85,
+      "pnl_pct_a": -3.88,
+      "outcome_a": "loss"
+    },
+    {
+      "unix_ms": 1781484518000,
+      "date": "2026-06-15",
+      "time_utc": "2026-06-15T00:48:38+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid0KDYCsiB5iE9vk8VNfFD3Fiy5Pbzvm6YSmakbBCRNGq69z7JXUxDCcosTsVcN4RuAl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "不敢加碼\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/15 08:48 今天的問題不是會不會漲 而是漲多少 不過我不敢加碼⋯頂多把0050換正二了_(:_」∠)_ 總覺得回檔還沒完",
+      "ticker": "00631L.TW",
+      "ticker_is_fallback": false,
+      "is_flip": true,
+      "entry_date": "2026-06-15",
+      "entry_price": 36.99,
+      "exit_date": "2026-06-15",
+      "exit_price": 36.99,
+      "pnl_pct": 0.0,
+      "outcome": "flat",
+      "exit_date_a": "2026-07-09",
+      "exit_price_a": 36.88,
+      "pnl_pct_a": -0.3,
+      "outcome_a": "flat"
     },
     {
       "unix_ms": 1781494684000,
       "date": "2026-06-15",
       "time_utc": "2026-06-15T03:38:04+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -1884,27 +2228,118 @@
       "tooltip": "怎麼辦\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/15 03:38 長成這樣是要買什麼啦！！！😭😭😭😭 我覺得每個都好高了⋯ 怎麼辦？！？！  是不是應該等過前高再買， 反正也沒差幾點了",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1781536492000,
+      "date": "2026-06-15",
+      "time_utc": "2026-06-15T15:14:52+00:00",
+      "source_url": "https://www.facebook.com/reel/1669701244263278/",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "多軍勝出\n指標: 偏空 ▼ | 強度: ★★☆\nFB 06/15 23:14 這樣不會無聊了吧！保潔你怎麼看！  明天是不是還是由多軍持續勝出， 或是空軍的逆轉勝  目前年度賽事已經不知不覺由...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
       "is_flip": true,
-      "entry_date": "2026-06-15T03:00",
-      "entry_price": 105.2,
-      "exit_date": "2026-07-06T04:30",
-      "exit_price": 108.7,
-      "pnl_pct": 3.33,
-      "outcome": "open",
-      "exit_date_a": "2026-06-17T02:30",
-      "exit_price_a": 105.25,
-      "pnl_pct_a": 0.05,
-      "outcome_a": "win"
+      "entry_date": "2026-06-15",
+      "entry_price": 105.15,
+      "exit_date": "2026-06-15",
+      "exit_price": 105.15,
+      "pnl_pct": -0.0,
+      "outcome": "flat",
+      "exit_date_a": "2026-07-09",
+      "exit_price_a": 105.95,
+      "pnl_pct_a": -0.76,
+      "outcome_a": "loss"
     },
     {
       "unix_ms": 1781541959000,
-      "date": "2026-06-15",
+      "date": "2026-06-16",
       "time_utc": "2026-06-15T16:45:59+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
       "strength_label": "★★☆",
       "tooltip": "停利\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/15 16:45 這是今天美股的顏色 也是石油的顏色  難道我的理論錯了嗎？難道真的不是反彈嗎？  很多人說；啊那個巴逆逆，你不是有...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": true,
+      "entry_date": "2026-06-15",
+      "entry_price": 105.15,
+      "exit_date": "2026-06-18T01:00",
+      "exit_price": 107.05,
+      "pnl_pct": 1.81,
+      "outcome": "win",
+      "exit_date_a": "2026-07-09",
+      "exit_price_a": 105.95,
+      "pnl_pct_a": 0.76,
+      "outcome_a": "win"
+    },
+    {
+      "unix_ms": 1781629529000,
+      "date": "2026-06-17",
+      "time_utc": "2026-06-16T17:05:29+00:00",
+      "source_url": "",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "停損\n指標: 偏多 ▲ | 強度: ★★★\nFB 06/16 17:05 這兩年真的停損會覺得自己是笨蛋 年初鈦昇95停損， 聯電97停損，華崩電120停損，聯發科跌5%停利，國巨應該還在...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1781666520000,
+      "date": "2026-06-17",
+      "time_utc": "2026-06-17T03:22:00+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02qxcQTSqFmoQ2RuduK4DkLzYUUaFxJx2mU4YjpJE6MgDzQcjU4umnc9VDxVErag9Fl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "停損\n指標: 偏多 ▲ | 強度: ★★★\nFB 06/17 11:22 Why... 為什麼下殺了 我剛剛買還是紅的阿阿！？ 我停損一個芭樂股轉過來，你不可以這樣耶！",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1781746867000,
+      "date": "2026-06-18",
+      "time_utc": "2026-06-18T01:41:07+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid0g4AeNdpsyoit1pZHPNvFHTFcrVbWvpZkgMLFwg8iWtdGJMVURZF3gHXnzboUCBvcl",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "看多\n指標: 偏空 ▼ | 強度: ★★☆\nFB 06/18 09:41 那個⋯起床囉_(:_」∠)_ 大家都往上跑了喔⋯",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": true,
+      "entry_date": "2026-06-18T01:00",
+      "entry_price": 107.05,
+      "exit_date": "2026-06-22",
+      "exit_price": 111.15,
+      "pnl_pct": -3.83,
+      "outcome": "loss",
+      "exit_date_a": "2026-06-22T05:00",
+      "exit_price_a": 111.15,
+      "pnl_pct_a": -3.83,
+      "outcome_a": "loss"
+    },
+    {
+      "unix_ms": 1781757086000,
+      "date": "2026-06-18",
+      "time_utc": "2026-06-18T04:31:26+00:00",
+      "source_url": "",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "多頭\n指標: 偏空 ▼ | 強度: ★★☆\nFB 06/18 04:31 來吧！ 我準備好了！ 大多頭三年總資產才漲10%不到！",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false
@@ -1913,11 +2348,74 @@
       "unix_ms": 1782091636000,
       "date": "2026-06-22",
       "time_utc": "2026-06-22T01:27:16+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
       "strength_label": "★★☆",
       "tooltip": "怎麼辦\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/22 01:27 ：）  我不敢追 怎麼辦",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": true,
+      "entry_date": "2026-06-22",
+      "entry_price": 111.15,
+      "exit_date": "2026-06-25T03:00",
+      "exit_price": 107.05,
+      "pnl_pct": -3.69,
+      "outcome": "flat",
+      "exit_date_a": "2026-07-16",
+      "exit_price_a": 106.4,
+      "pnl_pct_a": -4.27,
+      "outcome_a": "flat"
+    },
+    {
+      "unix_ms": 1782094511000,
+      "date": "2026-06-22",
+      "time_utc": "2026-06-22T02:15:11+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02QgMcvRm7Up2sMbq2EXxT1sCyDpErDdevrEER3t6bJydsfy9JgbP7jxcsYcw2yNhwl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "本金耗盡\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/22 10:15 愛你越久我越被動 只因我的錢不再為你揮霍 是我讓我的心失去自由 卻再也沒有本金放縱～～",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1782179300000,
+      "date": "2026-06-23",
+      "time_utc": "2026-06-23T01:48:20+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid022TEtJ8sR1Q7edQy6gxJNCTzTVioTfwV1dKGXBL55BGRXSUDnNdPcQon6ANzcUtN2l",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "被套\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/23 09:48 愛普掰～～  洗到脫皮了",
+      "ticker": "6531.TW",
+      "ticker_is_fallback": false,
+      "is_flip": true,
+      "entry_date": "2026-06-23T01:00",
+      "entry_price": 1115.0,
+      "exit_date": "2026-06-25T03:00",
+      "exit_price": 1090.0,
+      "pnl_pct": -2.24,
+      "outcome": "flat",
+      "exit_date_a": "2026-06-24T05:00",
+      "exit_price_a": 1070.0,
+      "pnl_pct_a": -4.04,
+      "outcome_a": "flat"
+    },
+    {
+      "unix_ms": 1782261401000,
+      "date": "2026-06-24",
+      "time_utc": "2026-06-24T00:36:41+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid0ZyXZJDncGtNAjTckypB8VVdiEEoBBP2zjb1FLZwWKZsKZLBHw65u5nTako9A5Sg1l",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "刪 App\n指標: 偏多 ▲ | 強度: ★★★\nFB 06/24 08:36 就 今天又是刪app的好日子",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false
@@ -1926,19 +2424,69 @@
       "unix_ms": 1782311867000,
       "date": "2026-06-24",
       "time_utc": "2026-06-24T14:37:47+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02g9QdH99u7HwoiSAJxsgLhexEnsP4VQ337c6fnRhgFQ6FEHB4XexZWYzgvfkQCgKrl",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
       "strength_label": "★★★",
-      "tooltip": "公園\n指標: 偏多 ▲ | 強度: ★★★\nFB 06/24 14:37 tomorrow will be fine:)  我今天抄底了，明天會漲的  應該吧 我先去公園站位置了  賺錢的...",
+      "tooltip": "抄底恐慌\n指標: 偏多 ▲ | 強度: ★★★\nFB 06/24 22:37 tomorrow will be fine:)  我今天抄底了，明天會漲的  應該吧 我先去公園站位置了  賺錢的...",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false
     },
     {
+      "unix_ms": 1782359737000,
+      "date": "2026-06-25",
+      "time_utc": "2026-06-25T03:55:37+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid031xxGgRVd8PnUcf9RQXcumtKdpTWb53dffK2DZAbWkHkFmeyb3EsEG4gaGrD3J1Mvl",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "看多\n指標: 偏空 ▼ | 強度: ★★☆\nFB 06/25 11:55 故事不是這樣演的啊！ 昨天希望今天能漲，但是不是這種不健康的漲 應該是外資空單減碼啊～～  然後開始無限箱型整理⋯...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": true,
+      "entry_date": "2026-06-25T03:00",
+      "entry_price": 107.05,
+      "exit_date": "2026-06-26",
+      "exit_price": 103.05,
+      "pnl_pct": 3.74,
+      "outcome": "win",
+      "exit_date_a": "2026-06-29T02:30",
+      "exit_price_a": 104.7,
+      "pnl_pct_a": 2.2,
+      "outcome_a": "win"
+    },
+    {
+      "unix_ms": 1782436889000,
+      "date": "2026-06-26",
+      "time_utc": "2026-06-26T01:21:29+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid0uk1qypzeJBJVBYG8gWMaktKSa6ZQhLwz84ntiDaFB4y5vCdPaWSZbLp1afCBeTm9l",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "準備抄底\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/26 09:21 準備現金抄底！  應該還會跌幾天～",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": true,
+      "entry_date": "2026-06-26",
+      "entry_price": 103.05,
+      "exit_date": "2026-07-06T01:00",
+      "exit_price": 108.85,
+      "pnl_pct": 5.63,
+      "outcome": "win",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
+    },
+    {
       "unix_ms": 1782448557000,
       "date": "2026-06-26",
       "time_utc": "2026-06-26T04:35:57+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 1,
@@ -1952,6 +2500,7 @@
       "unix_ms": 1782452402000,
       "date": "2026-06-26",
       "time_utc": "2026-06-26T05:40:02+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -1962,22 +2511,10 @@
       "is_flip": false
     },
     {
-      "unix_ms": 1782488923000,
-      "date": "2026-06-26",
-      "time_utc": "2026-06-26T15:48:43+00:00",
-      "direction": 1,
-      "dir_label": "偏多 ▲",
-      "strength": 2,
-      "strength_label": "★★☆",
-      "tooltip": "不懂\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/26 15:48 我說哎唷好澀喔， 我的新任小編居然說她不懂！   廣大的鄉民快教教她！",
-      "ticker": "0050.TW",
-      "ticker_is_fallback": true,
-      "is_flip": false
-    },
-    {
       "unix_ms": 1782582888000,
-      "date": "2026-06-27",
+      "date": "2026-06-28",
       "time_utc": "2026-06-27T17:54:48+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
@@ -1988,9 +2525,48 @@
       "is_flip": false
     },
     {
+      "unix_ms": 1782695513000,
+      "date": "2026-06-29",
+      "time_utc": "2026-06-29T01:11:53+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02wXKveL5H72heB1AJHJJKfFdGNMS9bv4ff8iY3n5ogRfRcvZ99qpuSskATjwVhgGFl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "逃命\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/29 09:11 人道走廊",
+      "ticker": "2327.TW",
+      "ticker_is_fallback": false,
+      "is_flip": true,
+      "entry_date": "2026-06-29",
+      "entry_price": 1040.0,
+      "exit_date": "2026-07-06T01:00",
+      "exit_price": 989.0,
+      "pnl_pct": -4.9,
+      "outcome": "flat",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
+    },
+    {
+      "unix_ms": 1782794738000,
+      "date": "2026-06-30",
+      "time_utc": "2026-06-30T04:45:38+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid03Vxkc3QGcV4TrerqAzqdQLQpu15V4gn23RLGm8YEGqDmfMHdkafwujDpXtpk7hmhl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "誘多恐懼\n指標: 偏多 ▲ | 強度: ★★☆\nFB 06/30 12:45 我這次不會再被騙了! 這一定是誘多!! 不買不賣~看狀況 但是如果明天我一看到鈦爛跌, 我一定馬上出!!  回到4...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
       "unix_ms": 1782868563000,
       "date": "2026-07-01",
       "time_utc": "2026-07-01T01:16:03+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 1,
@@ -2004,11 +2580,26 @@
       "unix_ms": 1782879666000,
       "date": "2026-07-01",
       "time_utc": "2026-07-01T04:21:06+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid05DEXaGTQW2vfUjqMtbaBJ8WBYjHuy45ce5SUy2eGafq4Prxs6WV3z8EuHgSZcmDPl",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
       "strength_label": "★★☆",
-      "tooltip": "怎麼辦\n指標: 偏多 ▲ | 強度: ★★☆\nFB 07/01 04:21 你既然要漲就不要跌麻～～ 你要跌就不要漲咩～  最近每天這樣洗刷刷好累喔_(:_」∠)_  為什麼其他網紅跟新聞都...",
+      "tooltip": "怎麼辦\n指標: 偏多 ▲ | 強度: ★★☆\nFB 07/01 12:21 你既然要漲就不要跌麻～～ 你要跌就不要漲咩～  最近每天這樣洗刷刷好累喔_(:_」∠)_  為什麼其他網紅跟新聞都...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1782953194000,
+      "date": "2026-07-02",
+      "time_utc": "2026-07-02T00:46:34+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid03MfL5QQJDW8XNDTnua9edqQfbWV2tQgQEp4tBxk1fu1m9vjtv3UQsFMeby1xkFhnl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "崩跌\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/02 08:46 這不用說了吧⋯ 今天真的毀了_(:_」∠)_   說好的台股50000點呢？",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false
@@ -2017,19 +2608,21 @@
       "unix_ms": 1783006503000,
       "date": "2026-07-02",
       "time_utc": "2026-07-02T15:35:03+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02e4d1tzRALCGhXwbk9mtu92j3NKQxs7K4Y4jx9o7qBdTvw5fea78J9TcbbnnJPdz3l",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 2,
       "strength_label": "★★☆",
-      "tooltip": "救我\n指標: 偏多 ▲ | 強度: ★★☆\nFB 07/02 15:35 誰可以⋯救救我 以前我買台股，早上才虧錢 後來我買美股，晚上也虧錢 另外我買比特吧，全天候虧錢～😩",
+      "tooltip": "虧損\n指標: 偏多 ▲ | 強度: ★★☆\nFB 07/02 23:35 誰可以⋯救救我 以前我買台股，早上才虧錢 後來我買美股，晚上也虧錢 另外我買比特吧，全天候虧錢～😩",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false
     },
     {
       "unix_ms": 1783018973000,
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "time_utc": "2026-07-02T19:02:53+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -2043,6 +2636,7 @@
       "unix_ms": 1783041441000,
       "date": "2026-07-03",
       "time_utc": "2026-07-03T01:17:21+00:00",
+      "source_url": "",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
@@ -2056,11 +2650,296 @@
       "unix_ms": 1783047848000,
       "date": "2026-07-03",
       "time_utc": "2026-07-03T03:04:08+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid0o3mp7LuqwijTqhVqQKEZySts5vTiBGH39CTVy45Pnzf5DYzQkA4zvk7Mq9yYD3a4l",
       "direction": 1,
       "dir_label": "偏多 ▲",
       "strength": 3,
       "strength_label": "★★★",
-      "tooltip": "虧損\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/03 03:04 親愛的朋友你好 這個帳號的主人因為不堪股票虧損 已經決定今天不看盤了， 在週五的台股痛失一位戰友，是一件非常悲哀的事情",
+      "tooltip": "虧損\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/03 11:04 親愛的朋友你好 這個帳號的主人因為不堪股票虧損 已經決定今天不看盤了， 在週五的台股痛失一位戰友，是一件非常悲哀的事情",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1783301437000,
+      "date": "2026-07-06",
+      "time_utc": "2026-07-06T01:30:37+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02M2Gc5cRgkU4U6Ao8crDHtV8Mon7273GQGKhm8fd4tUDzCaeqer5wSSiJDEMDNeNJl",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "追買\n指標: 偏空 ▼ | 強度: ★★☆\nFB 07/06 09:30 有這麼怕嗎⋯ 直接不給我買嗎？   沒關係， 你就別給我下來！ 修度唉丟！",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": true,
+      "entry_date": "2026-07-06T01:00",
+      "entry_price": 108.85,
+      "exit_date": "2026-07-07T03:30",
+      "exit_price": 107.05,
+      "pnl_pct": 1.65,
+      "outcome": "win",
+      "exit_date_a": "2026-07-07T05:00",
+      "exit_price_a": 106.2,
+      "pnl_pct_a": 2.43,
+      "outcome_a": "win"
+    },
+    {
+      "unix_ms": 1783398079000,
+      "date": "2026-07-07",
+      "time_utc": "2026-07-07T04:21:19+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid032ZuDBH1WCqnQdFffSgT1mjkGPMTSiZobHKBcJdAq6GeNuP9gpuYz2qdvi5vnnMwTl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "停損\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/07 12:21 請問今天是跌2000點還是3000點？ 台半你也太誇張了吧～  哪有這樣的 早上想賣掉， 發現迪迪落迪迪落⋯ 賣不...",
+      "ticker": "5425.TWO",
+      "ticker_is_fallback": false,
+      "is_flip": true,
+      "entry_date": "2026-07-07T03:30",
+      "entry_price": 131.0,
+      "exit_date": "2026-07-09T02:30",
+      "exit_price": 133.0,
+      "pnl_pct": 1.53,
+      "outcome": "win",
+      "exit_date_a": "2026-07-09T03:00",
+      "exit_price_a": 131.5,
+      "pnl_pct_a": 0.38,
+      "outcome_a": "win"
+    },
+    {
+      "unix_ms": 1783437130000,
+      "date": "2026-07-07",
+      "time_utc": "2026-07-07T15:12:10+00:00",
+      "source_url": "https://www.facebook.com/reel/1688851309070306/",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "恐慌\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/07 23:12 剛剛看了一下美股  完了完了完了～ 這次我真的屎定了～ 這次不是開玩笑的～😩😩 明天不知道會有幾隻庫存亮燈_(:_...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1783503900000,
+      "date": "2026-07-08",
+      "time_utc": "2026-07-08T09:45:00+00:00",
+      "source_url": "",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "公園\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/08 09:45 第一次希望有颱風假不是因為我想放假 是希望證交所放假_(:_」∠)_   颱風要來了，大家做好防颱準備⋯ 不要選河...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1783515242000,
+      "date": "2026-07-08",
+      "time_utc": "2026-07-08T12:54:02+00:00",
+      "source_url": "https://www.facebook.com/reel/1424514153064230/",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "停損\n指標: 偏多 ▲ | 強度: ★★☆\nFB 07/08 20:54 停損？停損有什麼難的  玩股票要活得久， 就是學會停損 雖然再大牛市真的蠻蠢的，但是等真的發生什麼大事的時候你會感...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1783567680000,
+      "date": "2026-07-09",
+      "time_utc": "2026-07-09T03:28:00+00:00",
+      "source_url": "",
+      "direction": -1,
+      "dir_label": "偏空 ▼",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "會漲\n指標: 偏空 ▼ | 強度: ★★☆\nFB 07/09 03:28 破除迷信，雖然我覺得不可能會漲了 看來股市要開始走弱了～  高點下來已經燒掉110萬， 這個星期已經蒸發60了（對...",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": true,
+      "entry_date": "2026-07-09T02:30",
+      "entry_price": 105.7,
+      "exit_date": "2026-07-09T05:00",
+      "exit_price": 105.95,
+      "pnl_pct": -0.24,
+      "outcome": "loss",
+      "exit_date_a": "2026-07-14T02:00",
+      "exit_price_a": 102.95,
+      "pnl_pct_a": 2.6,
+      "outcome_a": "win"
+    },
+    {
+      "unix_ms": 1783599900000,
+      "date": "2026-07-09",
+      "time_utc": "2026-07-09T12:25:00+00:00",
+      "source_url": "",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "買了\n指標: 偏空 ▼ | 強度: ★★☆\nFB 07/09 12:25 反一買了就真的止跌了（笑）",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": true,
+      "entry_date": "2026-07-09T05:00",
+      "entry_price": 105.95,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "open",
+      "exit_date_a": "2026-07-14T04:30",
+      "exit_price_a": 104.05,
+      "pnl_pct_a": -1.79,
+      "outcome_a": "flat"
+    },
+    {
+      "unix_ms": 1783916179000,
+      "date": "2026-07-13",
+      "time_utc": "2026-07-13T04:16:19+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02UQUyVWP6j6iVTR4cXpYyMvdqicEU5gCLWCzbi8bLd9yiyBdoiXrYvmkVt5M9QK6ol",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "虧損\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/13 12:16 今天繼續蒸發30萬_(:_」∠)_ 反一的避險效益真的是搞笑  早上一度是多空都虧得狀態  不少我的持股明明指數不...",
+      "ticker": "2303.TW",
+      "ticker_is_fallback": false,
+      "is_flip": true,
+      "entry_date": "2026-07-13T03:30",
+      "entry_price": 154.0,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "open",
+      "exit_date_a": "2026-07-15T03:00",
+      "exit_price_a": 164.0,
+      "pnl_pct_a": 6.49,
+      "outcome_a": "win"
+    },
+    {
+      "unix_ms": 1783992006000,
+      "date": "2026-07-14",
+      "time_utc": "2026-07-14T01:20:06+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid0jLJTqUpWGj3Cv1tNFyAe1tQHo6WUQdJyPK4TGBHNtL5vs9zzycnB2fef6ugMXqF1l",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "被套\n指標: 偏多 ▲ | 強度: ★★☆\nFB 07/14 09:20 合晶⋯ 你不能這樣對我啊_(:_」∠)_ 故事不能這麼針對我啊啊啊啊",
+      "ticker": "6182.TWO",
+      "ticker_is_fallback": false,
+      "is_flip": true,
+      "entry_date": "2026-07-14",
+      "entry_price": 185.5,
+      "exit_date": null,
+      "exit_price": null,
+      "pnl_pct": null,
+      "outcome": "open",
+      "exit_date_a": null,
+      "exit_price_a": null,
+      "pnl_pct_a": null,
+      "outcome_a": "open"
+    },
+    {
+      "unix_ms": 1784005500000,
+      "date": "2026-07-14",
+      "time_utc": "2026-07-14T05:05:00+00:00",
+      "source_url": "",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "停損\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/14 05:05 停損了啦 隨便了啦 股票就是騙人的爛東西 今天應該繼續探底",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1784025548000,
+      "date": "2026-07-14",
+      "time_utc": "2026-07-14T10:39:08+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02hm7Mj2iXem9SuiTg1ZurfwzpS9CBCNxTg7HcXDMmZucsyohX93nHkRHKpsgzwwvEl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 1,
+      "strength_label": "★☆☆",
+      "tooltip": "盯盤疲憊\n指標: 偏多 ▲ | 強度: ★☆☆\nFB 07/14 18:39 這兩天玩股票有一點耗螢幕_(:_」∠)_",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1784081143000,
+      "date": "2026-07-15",
+      "time_utc": "2026-07-15T02:05:43+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid0vgwwXmdHGRhV7RtHRqEvD8Pq7zryBEcHMpv8nAiZ9CQ62ENXfjoaKh32rkwyzVLrl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "加碼反一\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/15 10:05 今天是給你逃命的啊啊啊 我才不會進場啊啊啊！  我不會被騙的！ 我加碼反一跟你說！",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1784126619000,
+      "date": "2026-07-15",
+      "time_utc": "2026-07-15T14:43:39+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid0X7CbHZKrNGTwj4iPsf4t2VQGoHk7F5gGnrzUKCyjkyqhzaVBbdbuotmRJiND5njtl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "虧損\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/15 22:43 可以教一下美國人怎麼救記憶體嗎⋯⋯  我快不行了⋯⋯ 我期待今天會破千的啊⋯_(:_」∠)_ 早知道拿去買東西啦啦啦",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1784182015000,
+      "date": "2026-07-16",
+      "time_utc": "2026-07-16T06:06:55+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid0274ux7e5vboxSYYUMjmiusBSWK5e8sDeoiq5RqvfFxLTuCCr4XnvQqHQBc9ZjMSHal",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "死貓反彈\n指標: 偏多 ▲ | 強度: ★★☆\nFB 07/16 14:06 你這樣讓我好混亂啊_(:_」∠)_  死貓吧！ 是死貓跳吧！ 明天應該繼續跌吧？！",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1784251340000,
+      "date": "2026-07-17",
+      "time_utc": "2026-07-17T01:22:20+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid02CjdsnuUeqED9aVzyTdhduEGa1Hqt4L1zu6Sbwe9Hrn8qumrEHuwNVbKiQnDyyp9Yl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 1,
+      "strength_label": "★☆☆",
+      "tooltip": "轉向非AI\n指標: 偏多 ▲ | 強度: ★☆☆\nFB 07/17 09:22 看來要把眼光看到AI以外的了_(:_」∠)_",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1784393816000,
+      "date": "2026-07-19",
+      "time_utc": "2026-07-18T16:56:56+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/pfbid023FetZ2zXit3c6eHLoTBJy6mynJZHYVH5PZri2DcLWabsVefADQaT1VhmZcyC2pJnl",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 2,
+      "strength_label": "★★☆",
+      "tooltip": "看空\n指標: 偏多 ▲ | 強度: ★★☆\nFB 07/19 00:56 想到星期一還要繼續跌就好煩喔 漲了八成也是跌多反彈",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false
@@ -2213,84 +3092,156 @@
         "value": 252.02
       },
       {
-        "date": "2026-04-02T01:00",
-        "value": 267.37
-      },
-      {
         "date": "2026-04-02T13:30",
-        "value": 270.15
+        "value": 254.64
       },
       {
         "date": "2026-04-06T19:30",
-        "value": 286.47
+        "value": 270.02
       },
       {
         "date": "2026-04-07T20:00",
-        "value": 297.9
+        "value": 280.8
       },
       {
         "date": "2026-04-09T00:00",
-        "value": 263.7
+        "value": 248.56
       },
       {
         "date": "2026-04-09",
-        "value": 263.7
+        "value": 248.56
       },
       {
-        "date": "2026-05-12T05:00",
-        "value": 161.38
+        "date": "2026-05-11T04:00",
+        "value": 160.25
       },
       {
-        "date": "2026-05-12T05:00",
-        "value": 151.28
+        "date": "2026-05-11T04:00",
+        "value": 93.74
       },
       {
-        "date": "2026-05-12T05:00",
-        "value": 82.96
+        "date": "2026-05-11T04:00",
+        "value": 88.17
       },
       {
-        "date": "2026-05-18T05:00",
-        "value": 81.34
+        "date": "2026-05-11",
+        "value": 87.98
       },
       {
-        "date": "2026-05-20T01:00",
-        "value": 83.05
+        "date": "2026-05-14",
+        "value": 88.96
       },
       {
-        "date": "2026-06-18T04:00",
-        "value": 95.39
+        "date": "2026-05-14",
+        "value": 88.96
       },
       {
-        "date": "2026-06-22",
-        "value": 91.46
+        "date": "2026-05-18T03:00",
+        "value": 90.26
       },
       {
-        "date": "2026-05-29T03:30",
-        "value": 85.58
+        "date": "2026-05-25",
+        "value": 96.12
       },
       {
-        "date": "2026-06-03T03:30",
-        "value": 82.69
+        "date": "2026-05-25",
+        "value": 96.12
+      },
+      {
+        "date": "2026-05-25T02:00",
+        "value": 95.93
+      },
+      {
+        "date": "2026-05-26T04:00",
+        "value": 95.84
+      },
+      {
+        "date": "2026-05-27",
+        "value": 97.84
+      },
+      {
+        "date": "2026-06-01T02:00",
+        "value": 94.27
+      },
+      {
+        "date": "2026-06-04T02:00",
+        "value": 94.22
+      },
+      {
+        "date": "2026-06-04T17:00",
+        "value": 99.26
       },
       {
         "date": "2026-06-05",
-        "value": 80.15
+        "value": 97.48
       },
       {
-        "date": "2026-06-08",
-        "value": 82.61
+        "date": "2026-06-05",
+        "value": 97.48
+      },
+      {
+        "date": "2026-06-10T01:00",
+        "value": 95.94
+      },
+      {
+        "date": "2026-06-11",
+        "value": 100.35
+      },
+      {
+        "date": "2026-06-12T05:00",
+        "value": 102.46
       },
       {
         "date": "2026-06-15",
-        "value": 86.01
+        "value": 99.19
       },
       {
-        "date": "2026-06-15T03:00",
-        "value": 85.97
+        "date": "2026-06-15",
+        "value": 99.19
       },
       {
-        "date": "2026-07-06T04:30",
-        "value": 88.83
+        "date": "2026-06-15",
+        "value": 99.19
+      },
+      {
+        "date": "2026-06-18T01:00",
+        "value": 100.98
+      },
+      {
+        "date": "2026-06-22",
+        "value": 97.11
+      },
+      {
+        "date": "2026-06-25T03:00",
+        "value": 93.53
+      },
+      {
+        "date": "2026-06-25T03:00",
+        "value": 91.44
+      },
+      {
+        "date": "2026-06-26",
+        "value": 94.86
+      },
+      {
+        "date": "2026-07-06T01:00",
+        "value": 100.2
+      },
+      {
+        "date": "2026-07-06T01:00",
+        "value": 95.29
+      },
+      {
+        "date": "2026-07-07T03:30",
+        "value": 96.86
+      },
+      {
+        "date": "2026-07-09T02:30",
+        "value": 98.34
+      },
+      {
+        "date": "2026-07-09T05:00",
+        "value": 98.1
       }
     ],
     "mode_a": [
@@ -2427,88 +3378,168 @@
         "value": 393.11
       },
       {
-        "date": "2026-04-07T03:00",
-        "value": 424.13
-      },
-      {
         "date": "2026-04-07T15:30",
-        "value": 424.04
+        "value": 393.03
       },
       {
         "date": "2026-04-07T16:30",
-        "value": 446.56
+        "value": 413.9
       },
       {
         "date": "2026-04-07T18:00",
-        "value": 445.8
+        "value": 413.2
       },
       {
         "date": "2026-04-08T16:00",
-        "value": 381.47
+        "value": 353.58
       },
       {
         "date": "2026-04-09",
-        "value": 397.27
+        "value": 368.21
       },
       {
         "date": "2026-04-10",
-        "value": 480.73
+        "value": 445.58
       },
       {
         "date": "2026-04-15T03:00",
-        "value": 487.51
+        "value": 393.31
       },
       {
-        "date": "2026-04-15T03:00",
-        "value": 430.32
+        "date": "2026-04-15T05:00",
+        "value": 401.92
       },
       {
         "date": "2026-04-22",
-        "value": 375.54
+        "value": 350.76
       },
       {
         "date": "2026-05-06",
-        "value": 490.72
+        "value": 458.34
       },
       {
         "date": "2026-05-06",
-        "value": 291.74
+        "value": 272.48
       },
       {
-        "date": "2026-05-14T04:30",
-        "value": 289.93
-      },
-      {
-        "date": "2026-05-20T04:30",
-        "value": 297.55
+        "date": "2026-05-15T01:00",
+        "value": 270.79
       },
       {
         "date": "2026-05-21T05:00",
-        "value": 306.98
+        "value": 274.5
       },
       {
-        "date": "2026-06-02T03:00",
-        "value": 305.82
+        "date": "2026-05-27T01:30",
+        "value": 268.08
       },
       {
-        "date": "2026-06-05T03:00",
-        "value": 297.71
+        "date": "2026-05-28T03:30",
+        "value": 269.55
       },
       {
-        "date": "2026-06-17T02:30",
-        "value": 297.86
+        "date": "2026-06-03",
+        "value": 248.63
       },
       {
-        "date": "2026-06-23T03:30",
-        "value": 286.16
+        "date": "2026-06-03T01:30",
+        "value": 251.32
+      },
+      {
+        "date": "2026-06-05T15:00",
+        "value": 286.78
+      },
+      {
+        "date": "2026-06-08",
+        "value": 297.33
+      },
+      {
+        "date": "2026-06-08",
+        "value": 281.84
+      },
+      {
+        "date": "2026-06-11T05:00",
+        "value": 294.78
+      },
+      {
+        "date": "2026-06-16T04:30",
+        "value": 283.34
+      },
+      {
+        "date": "2026-06-17",
+        "value": 268.58
+      },
+      {
+        "date": "2026-06-17",
+        "value": 282.57
+      },
+      {
+        "date": "2026-06-22",
+        "value": 259.46
+      },
+      {
+        "date": "2026-06-22T05:00",
+        "value": 249.52
+      },
+      {
+        "date": "2026-06-24T05:00",
+        "value": 239.44
+      },
+      {
+        "date": "2026-06-29T02:30",
+        "value": 244.71
+      },
+      {
+        "date": "2026-06-30",
+        "value": 249.21
       },
       {
         "date": "2026-07-01",
-        "value": 272.02
+        "value": 236.9
       },
       {
-        "date": "2026-07-02",
-        "value": 293.29
+        "date": "2026-07-01",
+        "value": 248.6
+      },
+      {
+        "date": "2026-07-07",
+        "value": 264.54
+      },
+      {
+        "date": "2026-07-07T05:00",
+        "value": 270.97
+      },
+      {
+        "date": "2026-07-09",
+        "value": 270.15
+      },
+      {
+        "date": "2026-07-09",
+        "value": 268.1
+      },
+      {
+        "date": "2026-07-09",
+        "value": 270.14
+      },
+      {
+        "date": "2026-07-09T03:00",
+        "value": 271.17
+      },
+      {
+        "date": "2026-07-14T02:00",
+        "value": 278.22
+      },
+      {
+        "date": "2026-07-14T04:30",
+        "value": 273.24
+      },
+      {
+        "date": "2026-07-15T03:00",
+        "value": 290.97
+      },
+      {
+        "date": "2026-07-16",
+        "value": 278.54
       }
     ],
     "benchmark_0050": [
@@ -2906,39 +3937,39 @@
       },
       {
         "date": "2026-05-11",
-        "value": 155.7
+        "value": 155.62
       },
       {
         "date": "2026-05-12",
-        "value": 155.46
+        "value": 154.09
       },
       {
         "date": "2026-05-13",
-        "value": 153.61
+        "value": 153.13
       },
       {
         "date": "2026-05-14",
-        "value": 154.01
+        "value": 154.09
       },
       {
         "date": "2026-05-15",
-        "value": 152.89
+        "value": 154.98
       },
       {
         "date": "2026-05-18",
-        "value": 152.41
+        "value": 151.28
       },
       {
         "date": "2026-05-19",
-        "value": 149.6
+        "value": 151.12
       },
       {
         "date": "2026-05-20",
-        "value": 148.72
+        "value": 149.6
       },
       {
         "date": "2026-05-21",
-        "value": 153.93
+        "value": 153.29
       },
       {
         "date": "2026-05-22",
@@ -3062,306 +4093,338 @@
       },
       {
         "date": "2026-07-06",
-        "value": 174.48
+        "value": 173.76
+      },
+      {
+        "date": "2026-07-07",
+        "value": 170.47
+      },
+      {
+        "date": "2026-07-08",
+        "value": 170.14
+      },
+      {
+        "date": "2026-07-09",
+        "value": 170.06
+      },
+      {
+        "date": "2026-07-13",
+        "value": 170.3
+      },
+      {
+        "date": "2026-07-14",
+        "value": 167.74
+      },
+      {
+        "date": "2026-07-15",
+        "value": 170.55
+      },
+      {
+        "date": "2026-07-16",
+        "value": 170.79
+      },
+      {
+        "date": "2026-07-17",
+        "value": 160.75
       }
     ]
   },
   "sensitivity": [
     {
       "hold_bars": 14,
-      "win_rate": 69.4,
-      "avg_pnl_pct": 1.38,
-      "wins": 34,
-      "losses": 14,
-      "resolved": 54
+      "win_rate": 66.2,
+      "avg_pnl_pct": 1.09,
+      "wins": 43,
+      "losses": 20,
+      "resolved": 74
     },
     {
       "hold_bars": 15,
-      "win_rate": 68.6,
-      "avg_pnl_pct": 2.8,
-      "wins": 35,
-      "losses": 14,
-      "resolved": 53
+      "win_rate": 67.6,
+      "avg_pnl_pct": 2.07,
+      "wins": 46,
+      "losses": 19,
+      "resolved": 73
     },
     {
       "hold_bars": 16,
-      "win_rate": 75.0,
-      "avg_pnl_pct": 2.91,
-      "wins": 39,
-      "losses": 11,
-      "resolved": 53
+      "win_rate": 71.0,
+      "avg_pnl_pct": 2.04,
+      "wins": 49,
+      "losses": 17,
+      "resolved": 73
     },
     {
       "hold_bars": 17,
-      "win_rate": 70.6,
-      "avg_pnl_pct": 2.75,
-      "wins": 36,
-      "losses": 13,
-      "resolved": 53
+      "win_rate": 68.1,
+      "avg_pnl_pct": 1.96,
+      "wins": 47,
+      "losses": 19,
+      "resolved": 73
     },
     {
       "hold_bars": 18,
-      "win_rate": 70.0,
-      "avg_pnl_pct": 2.97,
-      "wins": 35,
-      "losses": 13,
-      "resolved": 53
+      "win_rate": 67.6,
+      "avg_pnl_pct": 2.18,
+      "wins": 48,
+      "losses": 20,
+      "resolved": 73
     },
     {
       "hold_bars": 19,
-      "win_rate": 67.3,
-      "avg_pnl_pct": 2.6,
-      "wins": 35,
-      "losses": 15,
-      "resolved": 53
+      "win_rate": 63.8,
+      "avg_pnl_pct": 1.99,
+      "wins": 44,
+      "losses": 21,
+      "resolved": 72
     },
     {
       "hold_bars": 20,
-      "win_rate": 62.0,
-      "avg_pnl_pct": 2.52,
-      "wins": 31,
-      "losses": 16,
-      "resolved": 52
+      "win_rate": 63.8,
+      "avg_pnl_pct": 2.13,
+      "wins": 44,
+      "losses": 21,
+      "resolved": 72
     },
     {
       "hold_bars": 21,
-      "win_rate": 60.0,
-      "avg_pnl_pct": 2.81,
-      "wins": 30,
-      "losses": 16,
-      "resolved": 51
+      "win_rate": 61.4,
+      "avg_pnl_pct": 2.24,
+      "wins": 43,
+      "losses": 23,
+      "resolved": 72
     },
     {
       "hold_bars": 22,
-      "win_rate": 60.0,
-      "avg_pnl_pct": 2.62,
-      "wins": 30,
-      "losses": 16,
-      "resolved": 51
+      "win_rate": 63.2,
+      "avg_pnl_pct": 1.8,
+      "wins": 43,
+      "losses": 21,
+      "resolved": 72
     },
     {
       "hold_bars": 23,
-      "win_rate": 58.8,
-      "avg_pnl_pct": 2.54,
-      "wins": 30,
-      "losses": 17,
-      "resolved": 51
+      "win_rate": 58.6,
+      "avg_pnl_pct": 1.98,
+      "wins": 41,
+      "losses": 22,
+      "resolved": 69
     },
     {
       "hold_bars": 24,
-      "win_rate": 64.7,
-      "avg_pnl_pct": 2.3,
-      "wins": 33,
-      "losses": 14,
-      "resolved": 51
+      "win_rate": 57.7,
+      "avg_pnl_pct": 1.79,
+      "wins": 41,
+      "losses": 23,
+      "resolved": 69
     },
     {
       "hold_bars": 25,
-      "win_rate": 63.5,
-      "avg_pnl_pct": 3.51,
-      "wins": 33,
-      "losses": 15,
-      "resolved": 51
+      "win_rate": 55.7,
+      "avg_pnl_pct": 2.27,
+      "wins": 39,
+      "losses": 23,
+      "resolved": 68
     },
     {
       "hold_bars": 26,
-      "win_rate": 59.6,
-      "avg_pnl_pct": 3.58,
-      "wins": 31,
-      "losses": 17,
-      "resolved": 51
+      "win_rate": 55.1,
+      "avg_pnl_pct": 2.47,
+      "wins": 38,
+      "losses": 23,
+      "resolved": 68
     },
     {
       "hold_bars": 27,
-      "win_rate": 58.8,
-      "avg_pnl_pct": 3.37,
-      "wins": 30,
-      "losses": 17,
-      "resolved": 51
+      "win_rate": 52.2,
+      "avg_pnl_pct": 2.11,
+      "wins": 36,
+      "losses": 25,
+      "resolved": 68
     },
     {
       "hold_bars": 28,
-      "win_rate": 58.0,
-      "avg_pnl_pct": 3.31,
-      "wins": 29,
-      "losses": 17,
-      "resolved": 51
+      "win_rate": 51.5,
+      "avg_pnl_pct": 2.08,
+      "wins": 34,
+      "losses": 24,
+      "resolved": 68
     },
     {
       "hold_bars": 29,
-      "win_rate": 58.8,
-      "avg_pnl_pct": 4.13,
-      "wins": 30,
-      "losses": 17,
-      "resolved": 51
+      "win_rate": 50.0,
+      "avg_pnl_pct": 2.39,
+      "wins": 34,
+      "losses": 24,
+      "resolved": 66
     },
     {
       "hold_bars": 30,
-      "win_rate": 58.8,
-      "avg_pnl_pct": 3.83,
-      "wins": 30,
-      "losses": 17,
-      "resolved": 51
+      "win_rate": 50.7,
+      "avg_pnl_pct": 2.27,
+      "wins": 35,
+      "losses": 23,
+      "resolved": 65
     },
     {
       "hold_bars": 31,
-      "win_rate": 56.9,
-      "avg_pnl_pct": 3.9,
-      "wins": 29,
-      "losses": 18,
-      "resolved": 51
+      "win_rate": 49.3,
+      "avg_pnl_pct": 2.06,
+      "wins": 34,
+      "losses": 24,
+      "resolved": 65
     },
     {
       "hold_bars": 32,
-      "win_rate": 52.9,
-      "avg_pnl_pct": 3.63,
-      "wins": 27,
-      "losses": 20,
-      "resolved": 51
+      "win_rate": 47.8,
+      "avg_pnl_pct": 1.78,
+      "wins": 33,
+      "losses": 25,
+      "resolved": 65
     },
     {
       "hold_bars": 33,
-      "win_rate": 52.0,
-      "avg_pnl_pct": 3.47,
-      "wins": 26,
-      "losses": 20,
-      "resolved": 51
+      "win_rate": 46.3,
+      "avg_pnl_pct": 1.67,
+      "wins": 31,
+      "losses": 25,
+      "resolved": 65
     },
     {
       "hold_bars": 34,
-      "win_rate": 56.9,
-      "avg_pnl_pct": 2.96,
-      "wins": 29,
-      "losses": 18,
-      "resolved": 51
+      "win_rate": 48.5,
+      "avg_pnl_pct": 1.18,
+      "wins": 33,
+      "losses": 24,
+      "resolved": 65
     },
     {
       "hold_bars": 35,
-      "win_rate": 52.0,
-      "avg_pnl_pct": 2.96,
-      "wins": 26,
-      "losses": 20,
-      "resolved": 51
+      "win_rate": 46.3,
+      "avg_pnl_pct": 1.3,
+      "wins": 31,
+      "losses": 25,
+      "resolved": 65
     },
     {
       "hold_bars": 36,
-      "win_rate": 54.2,
-      "avg_pnl_pct": 2.8,
-      "wins": 26,
-      "losses": 18,
-      "resolved": 51
+      "win_rate": 44.6,
+      "avg_pnl_pct": 1.09,
+      "wins": 29,
+      "losses": 24,
+      "resolved": 64
     },
     {
       "hold_bars": 37,
-      "win_rate": 52.1,
-      "avg_pnl_pct": 2.31,
-      "wins": 25,
-      "losses": 19,
-      "resolved": 51
+      "win_rate": 42.9,
+      "avg_pnl_pct": 0.7,
+      "wins": 27,
+      "losses": 24,
+      "resolved": 64
     },
     {
       "hold_bars": 38,
-      "win_rate": 52.1,
-      "avg_pnl_pct": 2.67,
-      "wins": 25,
-      "losses": 19,
-      "resolved": 51
+      "win_rate": 42.2,
+      "avg_pnl_pct": 0.93,
+      "wins": 27,
+      "losses": 23,
+      "resolved": 62
     },
     {
       "hold_bars": 39,
-      "win_rate": 57.1,
-      "avg_pnl_pct": 2.64,
+      "win_rate": 43.1,
+      "avg_pnl_pct": 1.0,
       "wins": 28,
-      "losses": 17,
-      "resolved": 51
+      "losses": 23,
+      "resolved": 62
     },
     {
       "hold_bars": 40,
-      "win_rate": 60.0,
-      "avg_pnl_pct": 2.4,
-      "wins": 30,
-      "losses": 16,
-      "resolved": 51
+      "win_rate": 43.3,
+      "avg_pnl_pct": 0.88,
+      "wins": 29,
+      "losses": 23,
+      "resolved": 61
     },
     {
       "hold_bars": 41,
-      "win_rate": 57.1,
-      "avg_pnl_pct": 2.72,
+      "win_rate": 42.4,
+      "avg_pnl_pct": 1.03,
       "wins": 28,
-      "losses": 17,
-      "resolved": 51
+      "losses": 23,
+      "resolved": 61
     },
     {
       "hold_bars": 42,
-      "win_rate": 57.1,
-      "avg_pnl_pct": 2.36,
-      "wins": 28,
-      "losses": 17,
-      "resolved": 51
+      "win_rate": 45.5,
+      "avg_pnl_pct": 0.92,
+      "wins": 30,
+      "losses": 21,
+      "resolved": 61
     },
     {
       "hold_bars": 43,
-      "win_rate": 58.0,
-      "avg_pnl_pct": 3.07,
-      "wins": 29,
-      "losses": 17,
-      "resolved": 51
+      "win_rate": 44.8,
+      "avg_pnl_pct": 1.28,
+      "wins": 30,
+      "losses": 22,
+      "resolved": 61
     },
     {
       "hold_bars": 44,
-      "win_rate": 57.1,
-      "avg_pnl_pct": 2.15,
-      "wins": 28,
-      "losses": 17,
-      "resolved": 51
+      "win_rate": 43.9,
+      "avg_pnl_pct": 0.69,
+      "wins": 29,
+      "losses": 22,
+      "resolved": 61
     },
     {
       "hold_bars": 45,
-      "win_rate": 57.1,
-      "avg_pnl_pct": 2.51,
-      "wins": 28,
-      "losses": 17,
-      "resolved": 51
+      "win_rate": 44.8,
+      "avg_pnl_pct": 1.45,
+      "wins": 30,
+      "losses": 20,
+      "resolved": 59
     },
     {
       "hold_bars": 46,
-      "win_rate": 57.1,
-      "avg_pnl_pct": 3.03,
-      "wins": 28,
-      "losses": 17,
-      "resolved": 51
+      "win_rate": 44.1,
+      "avg_pnl_pct": 2.15,
+      "wins": 30,
+      "losses": 20,
+      "resolved": 58
     },
     {
       "hold_bars": 47,
-      "win_rate": 59.2,
-      "avg_pnl_pct": 3.38,
-      "wins": 29,
-      "losses": 16,
-      "resolved": 51
+      "win_rate": 45.6,
+      "avg_pnl_pct": 2.63,
+      "wins": 31,
+      "losses": 19,
+      "resolved": 58
     },
     {
       "hold_bars": 48,
-      "win_rate": 55.1,
-      "avg_pnl_pct": 2.61,
-      "wins": 27,
-      "losses": 18,
-      "resolved": 51
+      "win_rate": 42.6,
+      "avg_pnl_pct": 2.21,
+      "wins": 29,
+      "losses": 20,
+      "resolved": 57
     },
     {
       "hold_bars": 49,
-      "win_rate": 59.2,
-      "avg_pnl_pct": 2.72,
-      "wins": 29,
-      "losses": 16,
-      "resolved": 51
+      "win_rate": 44.9,
+      "avg_pnl_pct": 2.02,
+      "wins": 31,
+      "losses": 19,
+      "resolved": 57
     },
     {
       "hold_bars": 50,
-      "win_rate": 59.2,
-      "avg_pnl_pct": 2.24,
-      "wins": 29,
-      "losses": 16,
-      "resolved": 51
+      "win_rate": 44.9,
+      "avg_pnl_pct": 1.69,
+      "wins": 31,
+      "losses": 19,
+      "resolved": 57
     }
   ]
 }

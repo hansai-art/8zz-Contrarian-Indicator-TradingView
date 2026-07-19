@@ -41,11 +41,24 @@ on:
         description: "Apify actor memory in MB"
         required: false
         default: "256"
+      skip_fb_fetch:
+        description: "Skip Apify/Gemini and rebuild dashboard data only"
+        required: false
+        type: boolean
+        default: false
+      runner:
+        description: "Runner for market-data rebuild (use macOS if Yahoo rate-limits Ubuntu)"
+        required: false
+        type: choice
+        options:
+          - ubuntu-latest
+          - macos-latest
+        default: ubuntu-latest
 
 jobs:
   update-pine:
     name: Fetch & Inject FB Events
-    runs-on: ubuntu-latest
+    runs-on: ${{ inputs.runner || 'ubuntu-latest' }}
     permissions:
       contents: write   # needed to commit & push the updated .pine file
 
@@ -69,6 +82,7 @@ jobs:
 
       # ── 3. Scrape & classify ─────────────────────────────────────────────────
       - name: Fetch and classify FB posts
+        if: ${{ !inputs.skip_fb_fetch }}
         env:
           APIFY_TOKEN:    ${{ secrets.APIFY_TOKEN }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}

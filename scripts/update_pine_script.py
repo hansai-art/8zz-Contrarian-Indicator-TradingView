@@ -20,6 +20,7 @@ Usage:
 import json
 import re
 import sys
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -36,6 +37,15 @@ LAST_PUSH_PATTERN = re.compile(r"^\s+array\.push\(evt_ticker,")
 # Header comment pattern (matches the 事件: NNN筆 line)
 HEADER_COUNT_PATTERN = re.compile(
     r"(// 事件: )(\d+)(筆 \| 期間: \d{4}/\d{2} ~ )(\d{4}/\d{2})"
+)
+
+EVENT_PATTERN = re.compile(
+    r"array\.push\(evt_time,\s*(\d+)\)\s*"
+    r"array\.push\(evt_dir,\s*(-?\d+)\)\s*"
+    r"array\.push\(evt_str,\s*(\d+)\)\s*"
+    r'array\.push\(evt_tips,\s*"((?:[^"\\]|\\.)*)"\)\s*'
+    r'array\.push\(evt_ticker,\s*"([^"]*)"\)',
+    re.DOTALL,
 )
 
 
@@ -55,6 +65,42 @@ def extract_existing_timestamps(pine_text: str) -> set[int]:
     """Return all unix-ms timestamps already embedded in the .pine file."""
     pattern = re.compile(r"array\.push\(evt_time,\s*(\d+)\)")
     return {int(m.group(1)) for m in pattern.finditer(pine_text)}
+
+
+def extract_existing_events(pine_text: str) -> list[dict]:
+    """Return the fields needed for timestamp and content-based deduplication."""
+    return [
+        {
+            "unix_ms": int(match.group(1)),
+            "tooltip": match.group(4).replace("\\n", "\n"),
+        }
+        for match in EVENT_PATTERN.finditer(pine_text)
+    ]
+
+
+def normalize_post_excerpt(tooltip: str) -> str:
+    """Normalize the FB post excerpt embedded after the tooltip metadata."""
+    lines = tooltip.replace("\\n", "\n").splitlines()
+    post_text = " ".join(lines[2:] if len(lines) >= 3 else lines)
+    post_text = re.sub(r"^FB\s+\d{2}/\d{2}\s+\d{2}:\d{2}\s+", "", post_text)
+    post_text = post_text.removesuffix("...")
+    post_text = unicodedata.normalize("NFKC", post_text)
+    return re.sub(r"\s+", "", post_text).strip()
+
+
+def is_duplicate_event(candidate: dict, existing_events: list[dict]) -> bool:
+    """Detect the same post even when one source rounded away its seconds."""
+    candidate_ts = int(candidate["unix_ms"])
+    candidate_excerpt = normalize_post_excerpt(candidate.get("tooltip", ""))
+    for existing in existing_events:
+        if candidate_ts == int(existing["unix_ms"]):
+            return True
+        existing_excerpt = normalize_post_excerpt(existing.get("tooltip", ""))
+        if min(len(candidate_excerpt), len(existing_excerpt)) < 12:
+            continue
+        if candidate_excerpt.startswith(existing_excerpt) or existing_excerpt.startswith(candidate_excerpt):
+            return True
+    return False
 
 
 def escape_pine_string(text: str) -> str:
@@ -131,10 +177,16 @@ def main() -> None:
         return
 
     pine_text = PINE_FILE.read_text(encoding="utf-8")
-    existing_timestamps = extract_existing_timestamps(pine_text)
+    existing_events = extract_existing_events(pine_text)
 
-    # Filter out events already present in the file
-    to_insert = [e for e in new_events if e["unix_ms"] not in existing_timestamps]
+    # Manual backfills have minute precision while Facebook carries seconds, so
+    # timestamp-only deduplication can insert the same post twice.
+    to_insert = []
+    for event in new_events:
+        if is_duplicate_event(event, existing_events):
+            continue
+        to_insert.append(event)
+        existing_events.append(event)
     if not to_insert:
         print("ℹ️  All events already present in the .pine file. Nothing to update.")
         return

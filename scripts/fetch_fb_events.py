@@ -24,7 +24,7 @@ import json
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import urllib.request
@@ -38,6 +38,7 @@ OUTPUT_FILE = ROOT / "data" / "new_events.json"
 # ── Configuration ─────────────────────────────────────────────────────────────
 APIFY_TOKEN: str    = os.environ.get("APIFY_TOKEN", "")
 GOOGLE_API_KEY: str = os.environ.get("GOOGLE_API_KEY", "")
+TAIPEI = timezone(timedelta(hours=8))
 
 # Apify actor for Facebook Posts Scraper
 APIFY_ACTOR_ID   = "apify~facebook-posts-scraper"
@@ -328,7 +329,7 @@ def build_tooltip(post_text: str, direction: int, strength: int, action: str, dt
     snippet = post_text.replace("\n", " ").strip()
     if len(snippet) > 60:
         snippet = snippet[:57] + "..."
-    date_str = dt.astimezone(timezone.utc).strftime("FB %m/%d %H:%M")
+    date_str = dt.astimezone(TAIPEI).strftime("FB %m/%d %H:%M")
     return (
         f"{action or '貼文'}\n"
         f"指標: {dir_label} | 強度: {stars}\n"

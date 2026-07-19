@@ -250,6 +250,11 @@
       color: var(--muted);
       font-size: 12px;
     }
+    .tooltip-cell a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .tooltip-cell a:hover { color: var(--blue); text-decoration: underline; }
     .ticker-cell {
       font-size: 12px;
       font-family: monospace;
@@ -703,7 +708,13 @@
     filtered.forEach((e, idx) => {
       const dirClass = e.direction === 1 ? 'dir-bull' : 'dir-bear';
       const flipMark = e.is_flip ? '🔄' : '';
-      const tip = (e.tooltip || '').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+      const escapeHtml = value => String(value || '').replace(/[&<>"']/g, char => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      })[char]);
+      const tip = escapeHtml(e.tooltip);
+      const tipHtml = e.source_url
+        ? `<a href="${escapeHtml(e.source_url)}" target="_blank" rel="noopener noreferrer" title="開啟 Facebook 原文">${tip}</a>`
+        : tip;
       const tickerCls = e.ticker_is_fallback ? 'ticker-cell ticker-fallback' : 'ticker-cell';
       const tickerLabel = e.ticker || '—';
       const outcome = getOutcome(e, currentMode);
@@ -714,7 +725,7 @@
           <td class="${dirClass}">${e.dir_label}</td>
           <td>${e.strength_label}</td>
           <td class="${tickerCls}">${tickerLabel}</td>
-          <td class="tooltip-cell">${tip}</td>
+          <td class="tooltip-cell">${tipHtml}</td>
           <td style="text-align:center">${flipMark}</td>
           <td class="hide-mobile" style="white-space:nowrap">${formatBarKey(e.entry_date)}</td>
           <td class="col-mode-b hide-mobile" style="white-space:nowrap;${showA?'display:none':''}">

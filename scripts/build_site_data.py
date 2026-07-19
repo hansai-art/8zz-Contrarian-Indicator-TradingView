@@ -36,8 +36,10 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent.parent
 PINE_FILE = ROOT / "8zz-indicator.pine"
 OUTPUT_FILE = ROOT / "docs" / "events.json"
+POST_ARCHIVE_GLOB = "facebook_posts_*.json"
 
 FALLBACK_TICKER = "0050.TW"
+TAIPEI = timezone(timedelta(hours=8))
 # Number of K bars for Mode A fixed-bar exit (uses 30m bars when available, 1h next, daily fallback)
 # 17 × 30m bars ≈ 8.5 h ≈ 2 Taiwan trading sessions — highest win rate from sensitivity analysis
 MODE_A_HOLD_BARS = 17
@@ -48,6 +50,22 @@ SENSITIVITY_RANGE = range(14, 51)  # 14 to 50 inclusive
 # ── Helpers ───────────────────────────────────────────────────────────────────
 def stars(strength: int) -> str:
     return {1: "★☆☆", 2: "★★☆", 3: "★★★"}.get(strength, "?")
+
+
+def load_post_sources() -> dict[int, str]:
+    """Load timestamp → public Facebook permalink mappings from scan archives."""
+    sources: dict[int, str] = {}
+    for path in sorted((ROOT / "data").glob(POST_ARCHIVE_GLOB)):
+        try:
+            archive = json.loads(path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError) as exc:
+            print(f"WARNING: could not load post archive {path.name}: {exc}")
+            continue
+        for post in archive.get("posts", []):
+            if not post.get("investment_related") or not post.get("permalink_url"):
+                continue
+            sources[int(post["unix_ms"])] = str(post["permalink_url"])
+    return sources
 
 
 def parse_events(pine_text: str) -> list[dict]:
@@ -65,6 +83,7 @@ def parse_events(pine_text: str) -> list[dict]:
         re.DOTALL,
     )
     events = []
+    post_sources = load_post_sources()
     for m in pattern.finditer(pine_text):
         unix_ms = int(m.group(1))
         direction = int(m.group(2))
@@ -75,11 +94,13 @@ def parse_events(pine_text: str) -> list[dict]:
         raw_ticker = m.group(5).strip()
         ticker = raw_ticker if raw_ticker else FALLBACK_TICKER
         dt = datetime.fromtimestamp(unix_ms / 1000, tz=timezone.utc)
+        dt_taipei = dt.astimezone(TAIPEI)
         events.append(
             {
                 "unix_ms": unix_ms,
-                "date": dt.strftime("%Y-%m-%d"),
+                "date": dt_taipei.strftime("%Y-%m-%d"),
                 "time_utc": dt.isoformat(),
+                "source_url": post_sources.get(unix_ms, ""),
                 "direction": direction,
                 "dir_label": "偏多 ▲" if direction == 1 else "偏空 ▼",
                 "strength": strength,

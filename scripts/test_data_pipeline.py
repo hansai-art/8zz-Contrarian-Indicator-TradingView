@@ -10,12 +10,19 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from build_site_data import parse_events  # noqa: E402
+from build_site_data import _parse_chart_proxy_payload, parse_events  # noqa: E402
 from fetch_fb_events import build_tooltip  # noqa: E402
 from update_pine_script import is_duplicate_event  # noqa: E402
 
 
 class DataPipelineTests(unittest.TestCase):
+    def test_chart_proxy_payload_parser(self) -> None:
+        payload = (
+            "Title: \n\nURL Source: http://example.test\n\nMarkdown Content:\n"
+            '{"chart":{"result":[{"timestamp":[100,200],"indicators":{"quote":[{"close":[10.5,null]}]}}],"error":null}}'
+        )
+        self.assertEqual(_parse_chart_proxy_payload(payload), [(100, 10.5)])
+
     def test_tooltip_uses_taipei_time(self) -> None:
         tooltip = build_tooltip(
             "測試貼文",

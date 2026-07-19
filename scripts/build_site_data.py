@@ -23,8 +23,12 @@ import json
 import math
 import re
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from urllib.parse import quote
+
+import requests
 
 try:
     import yfinance as yf
@@ -40,6 +44,7 @@ POST_ARCHIVE_GLOB = "facebook_posts_*.json"
 
 FALLBACK_TICKER = "0050.TW"
 TAIPEI = timezone(timedelta(hours=8))
+YAHOO_CHART_PROXY = "https://r.jina.ai/http://query1.finance.yahoo.com/v8/finance/chart"
 # Number of K bars for Mode A fixed-bar exit (uses 30m bars when available, 1h next, daily fallback)
 # 17 × 30m bars ≈ 8.5 h ≈ 2 Taiwan trading sessions — highest win rate from sensitivity analysis
 MODE_A_HOLD_BARS = 17
@@ -288,6 +293,70 @@ def _populate_daily_prices(all_prices: dict[str, dict[str, float]], tickers: lis
             prices[idx.strftime("%Y-%m-%d")] = close
 
 
+def _parse_chart_proxy_payload(text: str) -> list[tuple[int, float]]:
+    """Parse Yahoo chart JSON returned through the read-only Jina proxy."""
+    marker = "Markdown Content:"
+    payload = text.split(marker, 1)[1].strip() if marker in text else text.strip()
+    chart = json.loads(payload).get("chart", {})
+    if chart.get("error"):
+        raise ValueError(f"Yahoo chart error: {chart['error']}")
+    result = (chart.get("result") or [None])[0]
+    if not result:
+        return []
+    timestamps = result.get("timestamp") or []
+    closes = (((result.get("indicators") or {}).get("quote") or [{}])[0].get("close") or [])
+    rows = []
+    for timestamp, close in zip(timestamps, closes):
+        finite_close = _finite_float(close)
+        if finite_close is not None:
+            rows.append((int(timestamp), finite_close))
+    return rows
+
+
+def _fetch_chart_proxy_rows(ticker: str, start: datetime, end: datetime, interval: str) -> list[tuple[int, float]]:
+    """Fetch Yahoo chart JSON through different egress when Yahoo blocks the runner IP."""
+    encoded_ticker = quote(ticker, safe="")
+    url = (
+        f"{YAHOO_CHART_PROXY}/{encoded_ticker}"
+        f"?period1={int(start.timestamp())}&period2={int(end.timestamp())}&interval={interval}"
+    )
+    response = requests.get(url, timeout=45, headers={"User-Agent": "8zz-dashboard-builder/1.0"})
+    response.raise_for_status()
+    return _parse_chart_proxy_payload(response.text)
+
+
+def _populate_proxy_prices(
+    all_prices: dict[str, dict[str, float]],
+    tickers: list[str],
+    start: datetime,
+    end: datetime,
+    interval: str,
+) -> None:
+    """Populate Yahoo prices through Jina in parallel; failures remain visible and non-fatal."""
+    if not tickers:
+        return
+    print(f"  Yahoo direct data missing for {len(tickers)} ticker(s); trying proxy {interval} …")
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        futures = {
+            executor.submit(_fetch_chart_proxy_rows, ticker, start, end, interval): ticker
+            for ticker in tickers
+        }
+        for future in as_completed(futures):
+            ticker = futures[future]
+            try:
+                rows = future.result()
+            except Exception as exc:  # noqa: BLE001
+                print(f"  WARNING: Proxy {interval} failed for {ticker}: {exc}")
+                continue
+            prices = all_prices.setdefault(ticker, {})
+            for timestamp, close in rows:
+                dt_utc = datetime.fromtimestamp(timestamp, timezone.utc)
+                if interval == "1d":
+                    prices[dt_utc.strftime("%Y-%m-%d")] = close
+                else:
+                    _store_bar(dt_utc, close, prices, "%Y-%m-%dT%H:%M")
+
+
 def fetch_all_prices(events: list[dict], first_dt: datetime, last_dt: datetime) -> dict[str, dict[str, float]]:
     """
     Download price history for every unique ticker referenced by events.
@@ -306,10 +375,31 @@ def fetch_all_prices(events: list[dict], first_dt: datetime, last_dt: datetime) 
     _populate_30m_prices(all_prices, tickers, thirty_m_start, end_padded)
     _populate_1h_prices(all_prices, tickers, first_dt, end_padded)
 
-    missing_daily = [ticker for ticker, prices in all_prices.items() if not prices]
+    # Yahoo frequently blocks datacenter IPs with HTTP 429. Detect tickers that
+    # still lack coverage near the start of the event range, then fetch the same
+    # Yahoo chart payload through a read-only proxy instead of emitting empty data.
+    coverage_cutoff = (first_dt + timedelta(days=7)).strftime("%Y-%m-%d")
+    missing_history = [
+        ticker
+        for ticker, prices in all_prices.items()
+        if not any(key[:10] <= coverage_cutoff for key in prices)
+    ]
+    _populate_proxy_prices(all_prices, missing_history, first_dt, end_padded, "60m")
+
+    missing_daily = [
+        ticker
+        for ticker, prices in all_prices.items()
+        if not any(key[:10] <= coverage_cutoff for key in prices)
+    ]
     if missing_daily:
         print(f"  Daily fallback for {len(missing_daily)} ticker(s) …")
         _populate_daily_prices(all_prices, missing_daily, first_dt, end_padded)
+        missing_daily = [
+            ticker
+            for ticker in missing_daily
+            if not any(key[:10] <= coverage_cutoff for key in all_prices[ticker])
+        ]
+        _populate_proxy_prices(all_prices, missing_daily, first_dt, end_padded, "1d")
 
     fallback_prices = all_prices.get(FALLBACK_TICKER, {})
     if not fallback_prices and FALLBACK_TICKER in tickers:

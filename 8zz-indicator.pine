@@ -524,9 +524,9 @@ if barstate.isfirst
     array.push(evt_ticker, "")
 
     array.push(evt_time, 1779671744000)
-    array.push(evt_dir, -1)
-    array.push(evt_str, 2)
-    array.push(evt_tips, "準備買進\n指標: 偏空 ▼ | 強度: ★★☆\nFB 05/25 09:15 你乖，不要亂漲 我等等就來接你了～～❤️")
+    array.push(evt_dir, 1)
+    array.push(evt_str, 1)
+    array.push(evt_tips, "等待買進\n指標: 偏多 ▲ | 強度: ★☆☆\nFB 05/25 09:15 你乖，不要亂漲 我等等就來接你了～～❤️")
     array.push(evt_ticker, "")
     array.push(evt_time, 1779677620000)
     array.push(evt_dir, -1)

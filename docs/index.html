@@ -117,6 +117,13 @@
     }
     .stat-card .lbl { color: var(--muted); font-size: 12px; margin-top: 4px; }
 
+    /* Keep all seven KPIs on one row when the desktop has enough room. */
+    @media (min-width: 1000px) {
+      .stats-grid { grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 10px; }
+      .stat-card { min-width: 0; padding: 14px 8px; }
+      .stat-card-secondary .val { color: var(--muted); font-size: 22px; font-weight: 600; }
+    }
+
     /* ── Charts row ── */
     .charts-row {
       display: grid;
@@ -158,9 +165,9 @@
       }
 
       /* 3 cards per row on mobile */
-      .stats-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 16px; }
-      .stat-card { padding: 10px 4px; }
-      .stat-card .val { font-size: 20px; }
+      .stats-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-bottom: 16px; }
+      .stat-card { min-width: 0; overflow: hidden; padding: 10px 4px; }
+      .stat-card .val { font-size: 20px; overflow-wrap: anywhere; }
       .stat-card .lbl { font-size: 10px; }
 
       /* Chart */
@@ -336,7 +343,7 @@
         <div class="val" id="s-total" style="color:var(--muted)">—</div>
         <div class="lbl">總事件數</div>
       </div>
-      <div class="stat-card">
+      <div class="stat-card stat-card-secondary">
         <div class="val"><span id="busuanzi_site_uv">—</span></div>
         <div class="lbl">累計訪客數</div>
       </div>

@@ -1,9 +1,9 @@
 {
   "stats": {
-    "generated_at": "2026-07-20T00:49:09.359935+00:00",
+    "generated_at": "2026-07-20T02:15:12.538261+00:00",
     "fallback_ticker": "0050.TW",
     "mode_a_hold_bars": 17,
-    "total_events": 148,
+    "total_events": 149,
     "total_flips": 72,
     "resolved_flips": 69,
     "open_flips": 3,
@@ -2886,6 +2886,20 @@
       "strength": 2,
       "strength_label": "★★☆",
       "tooltip": "看空\n指標: 偏多 ▲ | 強度: ★★☆\nFB 07/19 00:56 想到星期一還要繼續跌就好煩喔 漲了八成也是跌多反彈",
+      "ticker": "0050.TW",
+      "ticker_is_fallback": true,
+      "is_flip": false
+    },
+    {
+      "unix_ms": 1784512756000,
+      "date": "2026-07-20",
+      "time_utc": "2026-07-20T01:59:16+00:00",
+      "source_url": "https://www.facebook.com/DieWithoutBang/posts/1604359591048630",
+      "direction": 1,
+      "dir_label": "偏多 ▲",
+      "strength": 3,
+      "strength_label": "★★★",
+      "tooltip": "虧損\n指標: 偏多 ▲ | 強度: ★★★\nFB 07/20 09:59 投的錢是3月的2倍 但是拿回來的錢只有3月的8成 怎麼可以天天跌⋯(;´༎ຶД༎ຶ`)",
       "ticker": "0050.TW",
       "ticker_is_fallback": true,
       "is_flip": false

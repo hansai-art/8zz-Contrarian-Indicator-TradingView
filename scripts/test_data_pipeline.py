@@ -10,12 +10,29 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from build_site_data import _parse_chart_proxy_payload, parse_events  # noqa: E402
+from build_site_data import _parse_chart_proxy_payload, load_price_cache, parse_events, save_price_cache  # noqa: E402
 from fetch_fb_events import build_tooltip  # noqa: E402
 from update_pine_script import is_duplicate_event  # noqa: E402
 
 
 class DataPipelineTests(unittest.TestCase):
+    def test_price_cache_round_trip_filters_invalid_values(self) -> None:
+        from tempfile import TemporaryDirectory
+
+        with TemporaryDirectory() as directory:
+            path = Path(directory) / "prices.json"
+            save_price_cache({"0050.TW": {"2026-07-01": 100.5}}, path)
+            unchanged = path.read_text(encoding="utf-8")
+            save_price_cache({"0050.TW": {"2026-07-01": 100.5}}, path)
+            self.assertEqual(path.read_text(encoding="utf-8"), unchanged)
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            payload["prices"]["0050.TW"]["bad"] = None
+            path.write_text(json.dumps(payload), encoding="utf-8")
+            self.assertEqual(
+                load_price_cache(["0050.TW", "MU"], path),
+                {"0050.TW": {"2026-07-01": 100.5}, "MU": {}},
+            )
+
     def test_chart_proxy_payload_parser(self) -> None:
         payload = (
             "Title: \n\nURL Source: http://example.test\n\nMarkdown Content:\n"

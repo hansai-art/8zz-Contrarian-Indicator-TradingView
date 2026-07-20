@@ -23,6 +23,7 @@ import json
 import math
 import re
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -40,6 +41,7 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent.parent
 PINE_FILE = ROOT / "8zz-indicator.pine"
 OUTPUT_FILE = ROOT / "docs" / "events.json"
+PRICE_CACHE_FILE = ROOT / "data" / "market_prices_cache.json"
 POST_ARCHIVE_GLOB = "facebook_posts_*.json"
 
 FALLBACK_TICKER = "0050.TW"
@@ -320,9 +322,13 @@ def _fetch_chart_proxy_rows(ticker: str, start: datetime, end: datetime, interva
         f"{YAHOO_CHART_PROXY}/{encoded_ticker}"
         f"?period1={int(start.timestamp())}&period2={int(end.timestamp())}&interval={interval}"
     )
-    response = requests.get(url, timeout=45, headers={"User-Agent": "8zz-dashboard-builder/1.0"})
-    response.raise_for_status()
-    return _parse_chart_proxy_payload(response.text)
+    for attempt in range(3):
+        response = requests.get(url, timeout=45, headers={"User-Agent": "8zz-dashboard-builder/1.0"})
+        if response.status_code != 429 or attempt == 2:
+            response.raise_for_status()
+            return _parse_chart_proxy_payload(response.text)
+        time.sleep(2 ** attempt)
+    return []  # unreachable, keeps the return type explicit
 
 
 def _populate_proxy_prices(
@@ -336,7 +342,7 @@ def _populate_proxy_prices(
     if not tickers:
         return
     print(f"  Yahoo direct data missing for {len(tickers)} ticker(s); trying proxy {interval} …")
-    with ThreadPoolExecutor(max_workers=4) as executor:
+    with ThreadPoolExecutor(max_workers=2) as executor:
         futures = {
             executor.submit(_fetch_chart_proxy_rows, ticker, start, end, interval): ticker
             for ticker in tickers
@@ -353,8 +359,57 @@ def _populate_proxy_prices(
                 dt_utc = datetime.fromtimestamp(timestamp, timezone.utc)
                 if interval == "1d":
                     prices[dt_utc.strftime("%Y-%m-%d")] = close
+                elif interval == "60m":
+                    hourly_key = dt_utc.strftime("%Y-%m-%dT%H:%M")
+                    daily_key = dt_utc.strftime("%Y-%m-%d")
+                    if hourly_key not in prices:
+                        prices[hourly_key] = close
+                    if daily_key not in prices:
+                        prices[daily_key] = close
                 else:
                     _store_bar(dt_utc, close, prices, "%Y-%m-%dT%H:%M")
+
+
+def load_price_cache(tickers: list[str], path: Path = PRICE_CACHE_FILE) -> dict[str, dict[str, float]]:
+    """Load versioned prices so builds remain reproducible during provider outages."""
+    cached: dict[str, dict[str, float]] = {}
+    if path.exists():
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            cached = payload.get("prices", payload)
+        except (json.JSONDecodeError, OSError, AttributeError) as exc:
+            print(f"WARNING: could not load price cache {path.name}: {exc}")
+    result: dict[str, dict[str, float]] = {}
+    for ticker in tickers:
+        rows = cached.get(ticker, {}) if isinstance(cached, dict) else {}
+        result[ticker] = {
+            str(key): value
+            for key, raw_value in rows.items()
+            if (value := _finite_float(raw_value)) is not None
+        }
+    return result
+
+
+def save_price_cache(all_prices: dict[str, dict[str, float]], path: Path = PRICE_CACHE_FILE) -> None:
+    """Persist real provider bars before per-ticker fallback substitution occurs."""
+    prices_payload = {
+        ticker: dict(sorted(prices.items()))
+        for ticker, prices in sorted(all_prices.items())
+        if prices
+    }
+    if path.exists():
+        try:
+            existing = json.loads(path.read_text(encoding="utf-8"))
+            if existing.get("prices") == prices_payload:
+                return
+        except (json.JSONDecodeError, OSError, AttributeError):
+            pass
+    payload = {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "prices": prices_payload,
+    }
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
 def fetch_all_prices(events: list[dict], first_dt: datetime, last_dt: datetime) -> dict[str, dict[str, float]]:
@@ -365,7 +420,7 @@ def fetch_all_prices(events: list[dict], first_dt: datetime, last_dt: datetime) 
     Falls back to FALLBACK_TICKER data when a ticker yields no data.
     """
     tickers = sorted({e["ticker"] for e in events} | {FALLBACK_TICKER})
-    all_prices: dict[str, dict[str, float]] = {ticker: {} for ticker in tickers}
+    all_prices = load_price_cache(tickers)
     end_padded = last_dt + timedelta(days=5)
 
     for ticker in tickers:
@@ -373,6 +428,13 @@ def fetch_all_prices(events: list[dict], first_dt: datetime, last_dt: datetime) 
 
     thirty_m_start = max(first_dt, last_dt - timedelta(days=59))
     _populate_30m_prices(all_prices, tickers, thirty_m_start, end_padded)
+    recent_cutoff = thirty_m_start.strftime("%Y-%m-%d")
+    missing_30m = [
+        ticker
+        for ticker, prices in all_prices.items()
+        if not any(len(key) == 16 and key[:10] >= recent_cutoff for key in prices)
+    ]
+    _populate_proxy_prices(all_prices, missing_30m, thirty_m_start, end_padded, "30m")
     _populate_1h_prices(all_prices, tickers, first_dt, end_padded)
 
     # Yahoo frequently blocks datacenter IPs with HTTP 429. Detect tickers that
@@ -406,6 +468,8 @@ def fetch_all_prices(events: list[dict], first_dt: datetime, last_dt: datetime) 
         print(f"  Retrying fallback ticker {FALLBACK_TICKER} with daily download …")
         _populate_daily_prices(all_prices, [FALLBACK_TICKER], first_dt, end_padded)
         fallback_prices = all_prices.get(FALLBACK_TICKER, {})
+
+    save_price_cache(all_prices)
 
     for ticker in tickers:
         if all_prices[ticker]:

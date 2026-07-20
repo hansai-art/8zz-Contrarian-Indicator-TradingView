@@ -392,10 +392,10 @@
         <option value="open">進行中</option>
       </select>
 
-      <label>僅翻轉訊號</label>
+      <label>事件範圍</label>
       <select id="f-flip">
-        <option value="flip">僅翻轉</option>
-        <option value="all">所有事件</option>
+        <option value="all" selected>所有事件（含同向訊號）</option>
+        <option value="flip">僅翻轉訊號</option>
       </select>
 
       <input type="text" id="f-search" placeholder="關鍵字搜尋…" style="min-width:160px" />
@@ -499,7 +499,13 @@
   $('footer-hold-bars').textContent = holdBars;
 
   const gen = new Date(stats.generated_at);
-  $('generated-at').textContent = '更新時間：' + gen.toLocaleString('zh-TW', { timeZone: 'Asia/Taipei' });
+  const latestEvent = allEvents[0];
+  const latestEventTime = latestEvent
+    ? new Date(latestEvent.unix_ms).toLocaleString('zh-TW', { timeZone: 'Asia/Taipei' })
+    : '—';
+  $('generated-at').textContent =
+    '資料產生：' + gen.toLocaleString('zh-TW', { timeZone: 'Asia/Taipei' }) +
+    ' · 最新事件：' + latestEventTime;
   $('s-total').textContent = stats.total_events;
 
   // ── Mode switching ──────────────────────────────────────────────────────────
